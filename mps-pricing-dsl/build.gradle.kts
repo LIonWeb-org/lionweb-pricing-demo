@@ -9,6 +9,7 @@ repositories {
 }
 
 dependencies {
-    "mps"("com.jetbrains:mps:2021.1.4")
-    "generation"("de.itemis.mps:extensions:2021.1.+")
+    mps("com.jetbrains:mps:2021.1.4")
+    generation("de.itemis.mps:extensions:2021.1.+")
+    generation("io.lionweb.lionweb-mps:lionweb-mps:0.0.8-SNAPSHOT")
 }
