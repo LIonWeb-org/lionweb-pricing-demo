@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="ded39f0a-4290-489a-84fc-2da608d119da" name="Pricing" version="0" />
+    <use id="97ef2b8d-23e1-433e-8d23-48f916dd314d" name="io.lionweb.mps.converter.lang" version="0" />
   </languages>
   <imports />
   <registry>
@@ -38,6 +39,18 @@
         <child id="5487645678964274048" name="amount" index="3vXRGF" />
       </concept>
     </language>
+    <language id="97ef2b8d-23e1-433e-8d23-48f916dd314d" name="io.lionweb.mps.converter.lang">
+      <concept id="3631234780355719700" name="io.lionweb.mps.converter.lang.structure.NodeRef" flags="ng" index="pgsVv">
+        <reference id="3631234780355720143" name="target" index="pgsW4" />
+      </concept>
+      <concept id="3631234780355716573" name="io.lionweb.mps.converter.lang.structure.ExportInstanceToJson" flags="ng" index="pgt$m">
+        <property id="3631234780355961878" name="scope" index="pjpzt" />
+        <child id="3631234780355719074" name="instances" index="pgtdD" />
+      </concept>
+      <concept id="5028875375328515028" name="io.lionweb.mps.converter.lang.structure.APathConverter" flags="ng" index="VS7hm">
+        <property id="5028875375328515031" name="path" index="VS7hl" />
+      </concept>
+    </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -70,6 +83,17 @@
           <property role="3vMqFs" value="10" />
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="pgt$m" id="4KC2aIjTopx">
+    <property role="TrG5h" value="LionWebExporter" />
+    <property role="VS7hl" value="/Users/ftomassetti/repos/lionweb-pricing-demo/mps-pricing-dsl/build/strategies.json" />
+    <property role="pjpzt" value="39$JcGFainl/descendants" />
+    <node concept="pgsVv" id="4KC2aIjTopy" role="pgtdD">
+      <ref role="pgsW4" node="4KC2aIjSj1U" resolve="NoDiscounts" />
+    </node>
+    <node concept="pgsVv" id="4KC2aIjTop$" role="pgtdD">
+      <ref role="pgsW4" node="4KC2aIjSj1X" resolve="SummerSeason" />
     </node>
   </node>
 </model>

@@ -13,6 +13,7 @@
   <sourcePath />
   <languageVersions>
     <language slang="l:ded39f0a-4290-489a-84fc-2da608d119da:Pricing" version="0" />
+    <language slang="l:97ef2b8d-23e1-433e-8d23-48f916dd314d:io.lionweb.mps.converter.lang" version="0" />
     <language slang="l:ceab5195-25ea-4f22-9b92-103b95ca8c0c:jetbrains.mps.lang.core" version="2" />
   </languageVersions>
   <dependencyVersions>
