@@ -1,0 +1,6887 @@
+{
+  "serializationFormatVersion": "1",
+  "metamodels": [
+    {
+      "version": "1",
+      "key": "LIonCore_M3"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRh",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Metamodel"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Metamodel_name"
+          },
+          "value": "Pricing"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "version"
+          },
+          "value": "0"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRh"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "elements"
+          },
+          "children": [
+            "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzQ",
+            "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzY",
+            "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzk",
+            "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwNDk",
+            "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwNTA",
+            "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQ0MTcwNTQ",
+            "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQ0MTcwNjY",
+            "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQ0MTcwNjc",
+            "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQ0MTcxMjQ",
+            "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQ1NDgzOTg",
+            "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwNDA"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "dependsOn"
+          },
+          "targets": [
+            {
+              "resolveInfo": "jetbrains.mps.lang.core",
+              "reference": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj"
+            }
+          ]
+        }
+      ],
+      "parent": null
+    },
+    {
+      "id": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzQ",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Concept"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "abstract"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "PricingStrategy"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "Pricing.PricingStrategy"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzQ"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": [
+            "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzQvNTQ4NzY0NTY3ODk2NDM4Nzk2Ng",
+            "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzQvNTQ4NzY0NTY3ODk2NDI3NDA1NA",
+            "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzQvNTQ4NzY0NTY3ODk2NDI3NDA1NQ"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Concept_extends"
+          },
+          "targets": [
+            {
+              "resolveInfo": "BaseConcept",
+              "reference": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExMzM5MjA2NDE2MjY"
+            }
+          ]
+        },
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "implements"
+          },
+          "targets": [
+            {
+              "resolveInfo": "INamedConcept",
+              "reference": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExNjkxOTQ2NTg0Njg"
+            }
+          ]
+        }
+      ],
+      "parent": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRh"
+    },
+    {
+      "id": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzQvNTQ4NzY0NTY3ODk2NDM4Nzk2Ng",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Reference"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "multiple"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "optional"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "derived"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "sameBasePricesAs"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "Pricing.PricingStrategy.sameBasePricesAs"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzQvNTQ4NzY0NTY3ODk2NDM4Nzk2Ng"
+        }
+      ],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Link_type"
+          },
+          "targets": [
+            {
+              "resolveInfo": "PricingStrategy",
+              "reference": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzQ"
+            }
+          ]
+        }
+      ],
+      "parent": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzQ"
+    },
+    {
+      "id": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzQvNTQ4NzY0NTY3ODk2NDI3NDA1NA",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Containment"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "multiple"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "optional"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "derived"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "basePrices"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "Pricing.PricingStrategy.basePrices"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzQvNTQ4NzY0NTY3ODk2NDI3NDA1NA"
+        }
+      ],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Link_type"
+          },
+          "targets": [
+            {
+              "resolveInfo": "BasePrice",
+              "reference": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzY"
+            }
+          ]
+        }
+      ],
+      "parent": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzQ"
+    },
+    {
+      "id": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzQvNTQ4NzY0NTY3ODk2NDI3NDA1NQ",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Containment"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "multiple"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "optional"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "derived"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "discountPolicies"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "Pricing.PricingStrategy.discountPolicies"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzQvNTQ4NzY0NTY3ODk2NDI3NDA1NQ"
+        }
+      ],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Link_type"
+          },
+          "targets": [
+            {
+              "resolveInfo": "DiscountPolicy",
+              "reference": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwNDk"
+            }
+          ]
+        }
+      ],
+      "parent": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzQ"
+    },
+    {
+      "id": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzY",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Concept"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "abstract"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "BasePrice"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "Pricing.BasePrice"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzY"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": [
+            "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzYvNTQ4NzY0NTY3ODk2NDI3NDAzNw",
+            "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzYvNTQ4NzY0NTY3ODk2NDI3NDA0OA"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Concept_extends"
+          },
+          "targets": [
+            {
+              "resolveInfo": "BaseConcept",
+              "reference": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExMzM5MjA2NDE2MjY"
+            }
+          ]
+        },
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "implements"
+          },
+          "targets": []
+        }
+      ],
+      "parent": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRh"
+    },
+    {
+      "id": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzYvNTQ4NzY0NTY3ODk2NDI3NDAzNw",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Property"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "optional"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "derived"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "itemID"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "Pricing.BasePrice.itemID"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzYvNTQ4NzY0NTY3ODk2NDI3NDAzNw"
+        }
+      ],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Property_type"
+          },
+          "targets": [
+            {
+              "resolveInfo": "String",
+              "reference": "LIonCore_M3_String"
+            }
+          ]
+        }
+      ],
+      "parent": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzY"
+    },
+    {
+      "id": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzYvNTQ4NzY0NTY3ODk2NDI3NDA0OA",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Containment"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "multiple"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "optional"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "derived"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "amount"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "Pricing.BasePrice.amount"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzYvNTQ4NzY0NTY3ODk2NDI3NDA0OA"
+        }
+      ],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Link_type"
+          },
+          "targets": [
+            {
+              "resolveInfo": "Amount",
+              "reference": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzk"
+            }
+          ]
+        }
+      ],
+      "parent": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzY"
+    },
+    {
+      "id": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzk",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Concept"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "abstract"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "Amount"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "Pricing.Amount"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzk"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": [
+            "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzkvNTQ4NzY0NTY3ODk2NDI3NDA0NA",
+            "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzkvNTQ4NzY0NTY3ODk2NDI3NDA0NQ",
+            "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzkvNTQ4NzY0NTY3ODk2NDI3NDA0Ng"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Concept_extends"
+          },
+          "targets": [
+            {
+              "resolveInfo": "BaseConcept",
+              "reference": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExMzM5MjA2NDE2MjY"
+            }
+          ]
+        },
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "implements"
+          },
+          "targets": []
+        }
+      ],
+      "parent": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRh"
+    },
+    {
+      "id": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzkvNTQ4NzY0NTY3ODk2NDI3NDA0NA",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Property"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "optional"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "derived"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "currencey"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "Pricing.Amount.currencey"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzkvNTQ4NzY0NTY3ODk2NDI3NDA0NA"
+        }
+      ],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Property_type"
+          },
+          "targets": [
+            {
+              "resolveInfo": "Currency",
+              "reference": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwNDA"
+            }
+          ]
+        }
+      ],
+      "parent": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzk"
+    },
+    {
+      "id": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzkvNTQ4NzY0NTY3ODk2NDI3NDA0NQ",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Property"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "optional"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "derived"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "integerPart"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "Pricing.Amount.integerPart"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzkvNTQ4NzY0NTY3ODk2NDI3NDA0NQ"
+        }
+      ],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Property_type"
+          },
+          "targets": [
+            {
+              "resolveInfo": "Integer",
+              "reference": "LIonCore_M3_Integer"
+            }
+          ]
+        }
+      ],
+      "parent": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzk"
+    },
+    {
+      "id": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzkvNTQ4NzY0NTY3ODk2NDI3NDA0Ng",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Property"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "optional"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "derived"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "decimalPart"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "Pricing.Amount.decimalPart"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzkvNTQ4NzY0NTY3ODk2NDI3NDA0Ng"
+        }
+      ],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Property_type"
+          },
+          "targets": [
+            {
+              "resolveInfo": "Integer",
+              "reference": "LIonCore_M3_Integer"
+            }
+          ]
+        }
+      ],
+      "parent": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzk"
+    },
+    {
+      "id": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwNDk",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Concept"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "abstract"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "DiscountPolicy"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "Pricing.DiscountPolicy"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwNDk"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": [
+            "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwNDkvNTQ4NzY0NTY3ODk2NDI3NDA1Mg",
+            "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwNDkvNTQ4NzY0NTY3ODk2NDI3NDA1Mw"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Concept_extends"
+          },
+          "targets": [
+            {
+              "resolveInfo": "BaseConcept",
+              "reference": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExMzM5MjA2NDE2MjY"
+            }
+          ]
+        },
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "implements"
+          },
+          "targets": []
+        }
+      ],
+      "parent": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRh"
+    },
+    {
+      "id": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwNDkvNTQ4NzY0NTY3ODk2NDI3NDA1Mg",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Containment"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "multiple"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "optional"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "derived"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "condition"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "Pricing.DiscountPolicy.condition"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwNDkvNTQ4NzY0NTY3ODk2NDI3NDA1Mg"
+        }
+      ],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Link_type"
+          },
+          "targets": [
+            {
+              "resolveInfo": "Expression",
+              "reference": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwNTA"
+            }
+          ]
+        }
+      ],
+      "parent": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwNDk"
+    },
+    {
+      "id": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwNDkvNTQ4NzY0NTY3ODk2NDI3NDA1Mw",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Containment"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "multiple"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "optional"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "derived"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "discount"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "Pricing.DiscountPolicy.discount"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwNDkvNTQ4NzY0NTY3ODk2NDI3NDA1Mw"
+        }
+      ],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Link_type"
+          },
+          "targets": [
+            {
+              "resolveInfo": "Expression",
+              "reference": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwNTA"
+            }
+          ]
+        }
+      ],
+      "parent": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwNDk"
+    },
+    {
+      "id": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwNTA",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Concept"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "abstract"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "Expression"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "Pricing.Expression"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwNTA"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": []
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Concept_extends"
+          },
+          "targets": [
+            {
+              "resolveInfo": "BaseConcept",
+              "reference": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExMzM5MjA2NDE2MjY"
+            }
+          ]
+        },
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "implements"
+          },
+          "targets": []
+        }
+      ],
+      "parent": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRh"
+    },
+    {
+      "id": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQ0MTcwNTQ",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Concept"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "abstract"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "ItemQuantity"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "Pricing.ItemQuantity"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQ0MTcwNTQ"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": []
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Concept_extends"
+          },
+          "targets": [
+            {
+              "resolveInfo": "Expression",
+              "reference": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwNTA"
+            }
+          ]
+        },
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "implements"
+          },
+          "targets": []
+        }
+      ],
+      "parent": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRh"
+    },
+    {
+      "id": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQ0MTcwNjY",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Concept"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "abstract"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "GreaterThan"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "Pricing.GreaterThan"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQ0MTcwNjY"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": []
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Concept_extends"
+          },
+          "targets": [
+            {
+              "resolveInfo": "BinaryExpression",
+              "reference": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQ0MTcwNjc"
+            }
+          ]
+        },
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "implements"
+          },
+          "targets": []
+        }
+      ],
+      "parent": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRh"
+    },
+    {
+      "id": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQ0MTcwNjc",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Concept"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "abstract"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "BinaryExpression"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "Pricing.BinaryExpression"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQ0MTcwNjc"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": [
+            "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQ0MTcwNjcvNTQ4NzY0NTY3ODk2NDQxNzA2OQ",
+            "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQ0MTcwNjcvNTQ4NzY0NTY3ODk2NDQxNzA3MA"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Concept_extends"
+          },
+          "targets": [
+            {
+              "resolveInfo": "Expression",
+              "reference": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwNTA"
+            }
+          ]
+        },
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "implements"
+          },
+          "targets": []
+        }
+      ],
+      "parent": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRh"
+    },
+    {
+      "id": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQ0MTcwNjcvNTQ4NzY0NTY3ODk2NDQxNzA2OQ",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Containment"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "multiple"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "optional"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "derived"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "left"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "Pricing.BinaryExpression.left"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQ0MTcwNjcvNTQ4NzY0NTY3ODk2NDQxNzA2OQ"
+        }
+      ],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Link_type"
+          },
+          "targets": [
+            {
+              "resolveInfo": "Expression",
+              "reference": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwNTA"
+            }
+          ]
+        }
+      ],
+      "parent": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQ0MTcwNjc"
+    },
+    {
+      "id": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQ0MTcwNjcvNTQ4NzY0NTY3ODk2NDQxNzA3MA",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Containment"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "multiple"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "optional"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "derived"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "right"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "Pricing.BinaryExpression.right"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQ0MTcwNjcvNTQ4NzY0NTY3ODk2NDQxNzA3MA"
+        }
+      ],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Link_type"
+          },
+          "targets": [
+            {
+              "resolveInfo": "Expression",
+              "reference": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwNTA"
+            }
+          ]
+        }
+      ],
+      "parent": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQ0MTcwNjc"
+    },
+    {
+      "id": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQ0MTcxMjQ",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Concept"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "abstract"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "IntLiteral"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "Pricing.IntLiteral"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQ0MTcxMjQ"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": [
+            "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQ0MTcxMjQvNTQ4NzY0NTY3ODk2NDQxNzE0Mw"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Concept_extends"
+          },
+          "targets": [
+            {
+              "resolveInfo": "Expression",
+              "reference": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwNTA"
+            }
+          ]
+        },
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "implements"
+          },
+          "targets": []
+        }
+      ],
+      "parent": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRh"
+    },
+    {
+      "id": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQ0MTcxMjQvNTQ4NzY0NTY3ODk2NDQxNzE0Mw",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Property"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "optional"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "derived"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "value"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "Pricing.IntLiteral.value"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQ0MTcxMjQvNTQ4NzY0NTY3ODk2NDQxNzE0Mw"
+        }
+      ],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Property_type"
+          },
+          "targets": [
+            {
+              "resolveInfo": "String",
+              "reference": "LIonCore_M3_String"
+            }
+          ]
+        }
+      ],
+      "parent": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQ0MTcxMjQ"
+    },
+    {
+      "id": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQ1NDgzOTg",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Concept"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "abstract"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "Percentage"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "Pricing.Percentage"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQ1NDgzOTg"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": [
+            "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQ1NDgzOTgvNTQ4NzY0NTY3ODk2NDU0ODM5OQ"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Concept_extends"
+          },
+          "targets": [
+            {
+              "resolveInfo": "Expression",
+              "reference": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwNTA"
+            }
+          ]
+        },
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "implements"
+          },
+          "targets": []
+        }
+      ],
+      "parent": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRh"
+    },
+    {
+      "id": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQ1NDgzOTgvNTQ4NzY0NTY3ODk2NDU0ODM5OQ",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Containment"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "multiple"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "optional"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "derived"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "base"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "Pricing.Percentage.base"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQ1NDgzOTgvNTQ4NzY0NTY3ODk2NDU0ODM5OQ"
+        }
+      ],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Link_type"
+          },
+          "targets": [
+            {
+              "resolveInfo": "Expression",
+              "reference": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwNTA"
+            }
+          ]
+        }
+      ],
+      "parent": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQ1NDgzOTg"
+    },
+    {
+      "id": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwNDA",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Enumeration"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "Currency"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "Pricing.Currency"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwNDA"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "literals"
+          },
+          "children": [
+            "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwNDAvNTQ4NzY0NTY3ODk2NDI3NDA0MQ",
+            "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwNDAvNTQ4NzY0NTY3ODk2NDI3NDA0Mg",
+            "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwNDAvNTQ4NzY0NTY3ODk2NDI3NDA0Mw"
+          ]
+        }
+      ],
+      "references": [],
+      "parent": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRh"
+    },
+    {
+      "id": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwNDAvNTQ4NzY0NTY3ODk2NDI3NDA0MQ",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "EnumerationLiteral"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "EUR"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": null
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": null
+        }
+      ],
+      "children": [],
+      "references": [],
+      "parent": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwNDA"
+    },
+    {
+      "id": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwNDAvNTQ4NzY0NTY3ODk2NDI3NDA0Mg",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "EnumerationLiteral"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "USD"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": null
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": null
+        }
+      ],
+      "children": [],
+      "references": [],
+      "parent": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwNDA"
+    },
+    {
+      "id": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwNDAvNTQ4NzY0NTY3ODk2NDI3NDA0Mw",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "EnumerationLiteral"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "YEN"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": null
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": null
+        }
+      ],
+      "children": [],
+      "references": [],
+      "parent": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwNDA"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Metamodel"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Metamodel_name"
+          },
+          "value": "jetbrains.mps.lang.core"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "version"
+          },
+          "value": "2"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "elements"
+          },
+          "children": [
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExMzM5MjA2NDE2MjY",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzUxNjk5OTU1ODMxODQ1OTExNjE",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzNjQ2NjA2MzgwNDgwNDk3NDU",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzNjQ2NjA2MzgwNDgwNDk3NDg",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzNjQ2NjA2MzgwNDgwNDk3NTA",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzQyMjIzMTg4MDY4MDI0MjUyOTg",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzc3OTEyODQ5Mjg1MzM2OTE2NQ",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzQ0NTI5NjE5MDgyMDI1NTY5MDc",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzcwOTc0NjkzNjAyNjQ2NjM5NA",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzI0ODI2MTEwNzQzNDY2NjEwNjU",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzM3MTczMDExNTYxOTc2MjYyNzk",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzg3MDMxNzk0MzY5Nzg2Njg5NDU",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzg3MDMxNzk0MzY5NzkzNTkyMzg",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzUyNTk2MzA5MjM1MDU3NzA2NjU",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExNjkxOTQ2NTg0Njg",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExOTY5Nzg2MzAyMTQ",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzEyMjE2NDcwOTM4MTI",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzEyMjQ2MDg4MzQ0NDU",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzEyMzMxNjAyOTY1OTc",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzEyMzQ5NzEzNTg0NTA",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzIwMTUzNzM2Nzg4MTA3MTkzMA",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzM3MzQxMTYyMTMxMjk3OTI0OTk",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzEwNDc0MDg4MjI0MDk2MDE2NDc",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzOTMxNjUxMjE4NDYwOTE1ODY",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzOTMxNjUxMjE4NDYwOTE1ODc",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzE4MzU2MjEwNjIxOTA2NjM4MTk",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzNjE0NzUzNzUxNTc0NjY1NTg",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzEzMTk3MjgyNzQ3ODMwNzc3MTk",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzEzMTk3MjgyNzQ3ODMxNTE0Nzk",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzEzMTk3MjgyNzQ3ODQ5NzMwOTY",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzY5OTk3MzgyODg3Mzg0MjcxOTA",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzE1NTA4NzU0MjAyNzQ0NzYyMQ",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzU4MzE4ODc2MTUyOTk0NTcwOTE",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzIyMTY3NjA0NjQxOTk1MDI0MjI",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzQxMjMxMjA3MzA5MzU0ODg0MzI",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzcwOTQ5MjYxOTIyMzQwMzYxODQ",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzI0ODI2MTEwNzQzNDc2MTQ5MjA",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzQwNTgxNzc1NjkzNzUxNTAwMzg",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzg3MDMxNzk0MzY5NzkzNTkyNTE",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzc3OTEyODQ5Mjg1MzcwMDA3Ng",
+            "LIonCore_M3_String",
+            "LIonCore_M3_Integer",
+            "LIonCore_M3_Boolean"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "dependsOn"
+          },
+          "targets": []
+        }
+      ],
+      "parent": null
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExMzM5MjA2NDE2MjY",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Concept"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "abstract"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "BaseConcept"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.BaseConcept"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExMzM5MjA2NDE2MjY"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": [
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExMzM5MjA2NDE2MjYvMTE1NjIzNDk2NjM4OA",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExMzM5MjA2NDE2MjYvMTE5MzY3NjM5NjQ0Nw",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExMzM5MjA2NDE2MjYvNTE2OTk5NTU4MzE4NDU5MTE3MA"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Concept_extends"
+          },
+          "targets": []
+        },
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "implements"
+          },
+          "targets": []
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExMzM5MjA2NDE2MjYvMTE1NjIzNDk2NjM4OA",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Property"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "optional"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "derived"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "shortDescription"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.BaseConcept.shortDescription"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExMzM5MjA2NDE2MjYvMTE1NjIzNDk2NjM4OA"
+        }
+      ],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Property_type"
+          },
+          "targets": [
+            {
+              "resolveInfo": "String",
+              "reference": "LIonCore_M3_String"
+            }
+          ]
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExMzM5MjA2NDE2MjY"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExMzM5MjA2NDE2MjYvMTE5MzY3NjM5NjQ0Nw",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Property"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "optional"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "derived"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "virtualPackage"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.BaseConcept.virtualPackage"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExMzM5MjA2NDE2MjYvMTE5MzY3NjM5NjQ0Nw"
+        }
+      ],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Property_type"
+          },
+          "targets": [
+            {
+              "resolveInfo": "String",
+              "reference": "LIonCore_M3_String"
+            }
+          ]
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExMzM5MjA2NDE2MjY"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExMzM5MjA2NDE2MjYvNTE2OTk5NTU4MzE4NDU5MTE3MA",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Containment"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "multiple"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "optional"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "derived"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "smodelAttribute"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.BaseConcept.smodelAttribute"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExMzM5MjA2NDE2MjYvNTE2OTk5NTU4MzE4NDU5MTE3MA"
+        }
+      ],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Link_type"
+          },
+          "targets": [
+            {
+              "resolveInfo": "Attribute",
+              "reference": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzUxNjk5OTU1ODMxODQ1OTExNjE"
+            }
+          ]
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExMzM5MjA2NDE2MjY"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzUxNjk5OTU1ODMxODQ1OTExNjE",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Concept"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "abstract"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "Attribute"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.Attribute"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzUxNjk5OTU1ODMxODQ1OTExNjE"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": []
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Concept_extends"
+          },
+          "targets": [
+            {
+              "resolveInfo": "BaseConcept",
+              "reference": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExMzM5MjA2NDE2MjY"
+            }
+          ]
+        },
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "implements"
+          },
+          "targets": []
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzNjQ2NjA2MzgwNDgwNDk3NDU",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Concept"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "abstract"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "LinkAttribute"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.LinkAttribute"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzNjQ2NjA2MzgwNDgwNDk3NDU"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": [
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzNjQ2NjA2MzgwNDgwNDk3NDUvMTc1NzY5OTQ3NjY5MTIzNjExNg",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzNjQ2NjA2MzgwNDgwNDk3NDUvMTM0MTg2MDkwMDQ4ODAxOTAzNg"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Concept_extends"
+          },
+          "targets": [
+            {
+              "resolveInfo": "Attribute",
+              "reference": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzUxNjk5OTU1ODMxODQ1OTExNjE"
+            }
+          ]
+        },
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "implements"
+          },
+          "targets": []
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzNjQ2NjA2MzgwNDgwNDk3NDUvMTc1NzY5OTQ3NjY5MTIzNjExNg",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Property"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "optional"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "derived"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "role_DebugInfo"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.LinkAttribute.role_DebugInfo"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzNjQ2NjA2MzgwNDgwNDk3NDUvMTc1NzY5OTQ3NjY5MTIzNjExNg"
+        }
+      ],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Property_type"
+          },
+          "targets": [
+            {
+              "resolveInfo": "String",
+              "reference": "LIonCore_M3_String"
+            }
+          ]
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzNjQ2NjA2MzgwNDgwNDk3NDU"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzNjQ2NjA2MzgwNDgwNDk3NDUvMTM0MTg2MDkwMDQ4ODAxOTAzNg",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Property"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "optional"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "derived"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "linkId"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.LinkAttribute.linkId"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzNjQ2NjA2MzgwNDgwNDk3NDUvMTM0MTg2MDkwMDQ4ODAxOTAzNg"
+        }
+      ],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Property_type"
+          },
+          "targets": [
+            {
+              "resolveInfo": "String",
+              "reference": "LIonCore_M3_String"
+            }
+          ]
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzNjQ2NjA2MzgwNDgwNDk3NDU"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzNjQ2NjA2MzgwNDgwNDk3NDg",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Concept"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "abstract"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "NodeAttribute"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.NodeAttribute"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzNjQ2NjA2MzgwNDgwNDk3NDg"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": []
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Concept_extends"
+          },
+          "targets": [
+            {
+              "resolveInfo": "Attribute",
+              "reference": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzUxNjk5OTU1ODMxODQ1OTExNjE"
+            }
+          ]
+        },
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "implements"
+          },
+          "targets": []
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzNjQ2NjA2MzgwNDgwNDk3NTA",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Concept"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "abstract"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "PropertyAttribute"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.PropertyAttribute"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzNjQ2NjA2MzgwNDgwNDk3NTA"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": [
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzNjQ2NjA2MzgwNDgwNDk3NTAvMTc1NzY5OTQ3NjY5MTIzNjExNw",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzNjQ2NjA2MzgwNDgwNDk3NTAvMTM0MTg2MDkwMDQ4NzY0ODYyMQ",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzNjQ2NjA2MzgwNDgwNDk3NTAvMTE4OTQyNDQ1NTI1NDYzMzAwNw"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Concept_extends"
+          },
+          "targets": [
+            {
+              "resolveInfo": "Attribute",
+              "reference": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzUxNjk5OTU1ODMxODQ1OTExNjE"
+            }
+          ]
+        },
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "implements"
+          },
+          "targets": []
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzNjQ2NjA2MzgwNDgwNDk3NTAvMTc1NzY5OTQ3NjY5MTIzNjExNw",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Property"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "optional"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "derived"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "name_DebugInfo"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.PropertyAttribute.name_DebugInfo"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzNjQ2NjA2MzgwNDgwNDk3NTAvMTc1NzY5OTQ3NjY5MTIzNjExNw"
+        }
+      ],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Property_type"
+          },
+          "targets": [
+            {
+              "resolveInfo": "String",
+              "reference": "LIonCore_M3_String"
+            }
+          ]
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzNjQ2NjA2MzgwNDgwNDk3NTA"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzNjQ2NjA2MzgwNDgwNDk3NTAvMTM0MTg2MDkwMDQ4NzY0ODYyMQ",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Property"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "optional"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "derived"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "propertyId"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.PropertyAttribute.propertyId"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzNjQ2NjA2MzgwNDgwNDk3NTAvMTM0MTg2MDkwMDQ4NzY0ODYyMQ"
+        }
+      ],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Property_type"
+          },
+          "targets": [
+            {
+              "resolveInfo": "String",
+              "reference": "LIonCore_M3_String"
+            }
+          ]
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzNjQ2NjA2MzgwNDgwNDk3NTA"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzNjQ2NjA2MzgwNDgwNDk3NTAvMTE4OTQyNDQ1NTI1NDYzMzAwNw",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Property"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "optional"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "derived"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "enumUsageMigrated"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.PropertyAttribute.enumUsageMigrated"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzNjQ2NjA2MzgwNDgwNDk3NTAvMTE4OTQyNDQ1NTI1NDYzMzAwNw"
+        }
+      ],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Property_type"
+          },
+          "targets": [
+            {
+              "resolveInfo": "Boolean",
+              "reference": "LIonCore_M3_Boolean"
+            }
+          ]
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzNjQ2NjA2MzgwNDgwNDk3NTA"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzQyMjIzMTg4MDY4MDI0MjUyOTg",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Concept"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "abstract"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "SuppressErrorsAnnotation"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.SuppressErrorsAnnotation"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzQyMjIzMTg4MDY4MDI0MjUyOTg"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": [
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzQyMjIzMTg4MDY4MDI0MjUyOTgvMjQyMzQxNzM0NTY2OTc1NTYyOQ",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzQyMjIzMTg4MDY4MDI0MjUyOTgvODU3NTMyODM1MDU0MzQ5MzM2NQ",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzQyMjIzMTg4MDY4MDI0MjUyOTgvODU3NTMyODM1MDU0MzQ5MzM3MQ"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Concept_extends"
+          },
+          "targets": [
+            {
+              "resolveInfo": "NodeAttribute",
+              "reference": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzNjQ2NjA2MzgwNDgwNDk3NDg"
+            }
+          ]
+        },
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "implements"
+          },
+          "targets": [
+            {
+              "resolveInfo": "ISuppressErrors",
+              "reference": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzOTMxNjUxMjE4NDYwOTE1ODc"
+            }
+          ]
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzQyMjIzMTg4MDY4MDI0MjUyOTgvMjQyMzQxNzM0NTY2OTc1NTYyOQ",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Property"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "optional"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "derived"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "filter"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.SuppressErrorsAnnotation.filter"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzQyMjIzMTg4MDY4MDI0MjUyOTgvMjQyMzQxNzM0NTY2OTc1NTYyOQ"
+        }
+      ],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Property_type"
+          },
+          "targets": [
+            {
+              "resolveInfo": "String",
+              "reference": "LIonCore_M3_String"
+            }
+          ]
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzQyMjIzMTg4MDY4MDI0MjUyOTg"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzQyMjIzMTg4MDY4MDI0MjUyOTgvODU3NTMyODM1MDU0MzQ5MzM2NQ",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Property"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "optional"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "derived"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "message"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.SuppressErrorsAnnotation.message"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzQyMjIzMTg4MDY4MDI0MjUyOTgvODU3NTMyODM1MDU0MzQ5MzM2NQ"
+        }
+      ],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Property_type"
+          },
+          "targets": [
+            {
+              "resolveInfo": "String",
+              "reference": "LIonCore_M3_String"
+            }
+          ]
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzQyMjIzMTg4MDY4MDI0MjUyOTg"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzQyMjIzMTg4MDY4MDI0MjUyOTgvODU3NTMyODM1MDU0MzQ5MzM3MQ",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Property"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "optional"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "derived"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "comment"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.SuppressErrorsAnnotation.comment"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzQyMjIzMTg4MDY4MDI0MjUyOTgvODU3NTMyODM1MDU0MzQ5MzM3MQ"
+        }
+      ],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Property_type"
+          },
+          "targets": [
+            {
+              "resolveInfo": "String",
+              "reference": "LIonCore_M3_String"
+            }
+          ]
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzQyMjIzMTg4MDY4MDI0MjUyOTg"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzc3OTEyODQ5Mjg1MzM2OTE2NQ",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Concept"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "abstract"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "SideTransformInfo"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.SideTransformInfo"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzc3OTEyODQ5Mjg1MzM2OTE2NQ"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": [
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzc3OTEyODQ5Mjg1MzM2OTE2NS83NzkxMjg0OTI4NTM2OTkzNjE",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzc3OTEyODQ5Mjg1MzM2OTE2NS83NzkxMjg0OTI4NTM5MzQ1MjM",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzc3OTEyODQ5Mjg1MzM2OTE2NS83NzkxMjg0OTI4NTM5MzU5NjA"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Concept_extends"
+          },
+          "targets": [
+            {
+              "resolveInfo": "NodeAttribute",
+              "reference": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzNjQ2NjA2MzgwNDgwNDk3NDg"
+            }
+          ]
+        },
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "implements"
+          },
+          "targets": []
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzc3OTEyODQ5Mjg1MzM2OTE2NS83NzkxMjg0OTI4NTM2OTkzNjE",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Property"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "optional"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "derived"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "side"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.SideTransformInfo.side"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzc3OTEyODQ5Mjg1MzM2OTE2NS83NzkxMjg0OTI4NTM2OTkzNjE"
+        }
+      ],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Property_type"
+          },
+          "targets": [
+            {
+              "resolveInfo": "SideTransformSide",
+              "reference": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzc3OTEyODQ5Mjg1MzcwMDA3Ng"
+            }
+          ]
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzc3OTEyODQ5Mjg1MzM2OTE2NQ"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzc3OTEyODQ5Mjg1MzM2OTE2NS83NzkxMjg0OTI4NTM5MzQ1MjM",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Property"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "optional"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "derived"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "cellId"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.SideTransformInfo.cellId"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzc3OTEyODQ5Mjg1MzM2OTE2NS83NzkxMjg0OTI4NTM5MzQ1MjM"
+        }
+      ],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Property_type"
+          },
+          "targets": [
+            {
+              "resolveInfo": "String",
+              "reference": "LIonCore_M3_String"
+            }
+          ]
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzc3OTEyODQ5Mjg1MzM2OTE2NQ"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzc3OTEyODQ5Mjg1MzM2OTE2NS83NzkxMjg0OTI4NTM5MzU5NjA",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Property"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "optional"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "derived"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "anchorTag"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.SideTransformInfo.anchorTag"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzc3OTEyODQ5Mjg1MzM2OTE2NS83NzkxMjg0OTI4NTM5MzU5NjA"
+        }
+      ],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Property_type"
+          },
+          "targets": [
+            {
+              "resolveInfo": "String",
+              "reference": "LIonCore_M3_String"
+            }
+          ]
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzc3OTEyODQ5Mjg1MzM2OTE2NQ"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzQ0NTI5NjE5MDgyMDI1NTY5MDc",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Concept"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "abstract"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "BaseCommentAttribute"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.BaseCommentAttribute"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzQ0NTI5NjE5MDgyMDI1NTY5MDc"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": [
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzQ0NTI5NjE5MDgyMDI1NTY5MDcvMzA3ODY2NjY5OTA0MzAzOTM4OQ"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Concept_extends"
+          },
+          "targets": [
+            {
+              "resolveInfo": "ChildAttribute",
+              "reference": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzcwOTc0NjkzNjAyNjQ2NjM5NA"
+            }
+          ]
+        },
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "implements"
+          },
+          "targets": [
+            {
+              "resolveInfo": "ISkipConstraintsChecking",
+              "reference": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzU4MzE4ODc2MTUyOTk0NTcwOTE"
+            },
+            {
+              "resolveInfo": "IDontApplyTypesystemRules",
+              "reference": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzIyMTY3NjA0NjQxOTk1MDI0MjI"
+            },
+            {
+              "resolveInfo": "ISuppressErrors",
+              "reference": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzOTMxNjUxMjE4NDYwOTE1ODc"
+            }
+          ]
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzQ0NTI5NjE5MDgyMDI1NTY5MDcvMzA3ODY2NjY5OTA0MzAzOTM4OQ",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Containment"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "multiple"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "optional"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "derived"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "commentedNode"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.BaseCommentAttribute.commentedNode"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzQ0NTI5NjE5MDgyMDI1NTY5MDcvMzA3ODY2NjY5OTA0MzAzOTM4OQ"
+        }
+      ],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Link_type"
+          },
+          "targets": [
+            {
+              "resolveInfo": "BaseConcept",
+              "reference": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExMzM5MjA2NDE2MjY"
+            }
+          ]
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzQ0NTI5NjE5MDgyMDI1NTY5MDc"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzcwOTc0NjkzNjAyNjQ2NjM5NA",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Concept"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "abstract"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "ChildAttribute"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.ChildAttribute"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzcwOTc0NjkzNjAyNjQ2NjM5NA"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": [
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzcwOTc0NjkzNjAyNjQ2NjM5NC83MDk3NDY5MzYwMjY2MDkwMjk",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzcwOTc0NjkzNjAyNjQ2NjM5NC83MDk3NDY5MzYwMjY2MDkwMzE"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Concept_extends"
+          },
+          "targets": [
+            {
+              "resolveInfo": "Attribute",
+              "reference": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzUxNjk5OTU1ODMxODQ1OTExNjE"
+            }
+          ]
+        },
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "implements"
+          },
+          "targets": []
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzcwOTc0NjkzNjAyNjQ2NjM5NC83MDk3NDY5MzYwMjY2MDkwMjk",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Property"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "optional"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "derived"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "role_DebugInfo"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.ChildAttribute.role_DebugInfo"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzcwOTc0NjkzNjAyNjQ2NjM5NC83MDk3NDY5MzYwMjY2MDkwMjk"
+        }
+      ],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Property_type"
+          },
+          "targets": [
+            {
+              "resolveInfo": "String",
+              "reference": "LIonCore_M3_String"
+            }
+          ]
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzcwOTc0NjkzNjAyNjQ2NjM5NA"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzcwOTc0NjkzNjAyNjQ2NjM5NC83MDk3NDY5MzYwMjY2MDkwMzE",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Property"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "optional"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "derived"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "linkId"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.ChildAttribute.linkId"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzcwOTc0NjkzNjAyNjQ2NjM5NC83MDk3NDY5MzYwMjY2MDkwMzE"
+        }
+      ],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Property_type"
+          },
+          "targets": [
+            {
+              "resolveInfo": "String",
+              "reference": "LIonCore_M3_String"
+            }
+          ]
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzcwOTc0NjkzNjAyNjQ2NjM5NA"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzI0ODI2MTEwNzQzNDY2NjEwNjU",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Concept"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "abstract"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "ReviewMigration_old"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.ReviewMigration_old"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzI0ODI2MTEwNzQzNDY2NjEwNjU"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": [
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzI0ODI2MTEwNzQzNDY2NjEwNjUvMjQ4MjYxMTA3NDM0NjY2MTA3OA",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzI0ODI2MTEwNzQzNDY2NjEwNjUvMjQ4MjYxMTA3NDM0NjY2MTA3Mw",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzI0ODI2MTEwNzQzNDY2NjEwNjUvMjQ4MjYxMTA3NDM0NzE2OTUxNA"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Concept_extends"
+          },
+          "targets": [
+            {
+              "resolveInfo": "NodeAttribute",
+              "reference": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzNjQ2NjA2MzgwNDgwNDk3NDg"
+            }
+          ]
+        },
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "implements"
+          },
+          "targets": [
+            {
+              "resolveInfo": "MigrationAnnotation_old",
+              "reference": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzI0ODI2MTEwNzQzNDc2MTQ5MjA"
+            }
+          ]
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzI0ODI2MTEwNzQzNDY2NjEwNjUvMjQ4MjYxMTA3NDM0NjY2MTA3OA",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Property"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "optional"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "derived"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "reasonShort"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.ReviewMigration_old.reasonShort"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzI0ODI2MTEwNzQzNDY2NjEwNjUvMjQ4MjYxMTA3NDM0NjY2MTA3OA"
+        }
+      ],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Property_type"
+          },
+          "targets": [
+            {
+              "resolveInfo": "String",
+              "reference": "LIonCore_M3_String"
+            }
+          ]
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzI0ODI2MTEwNzQzNDY2NjEwNjU"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzI0ODI2MTEwNzQzNDY2NjEwNjUvMjQ4MjYxMTA3NDM0NjY2MTA3Mw",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Property"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "optional"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "derived"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "todo"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.ReviewMigration_old.todo"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzI0ODI2MTEwNzQzNDY2NjEwNjUvMjQ4MjYxMTA3NDM0NjY2MTA3Mw"
+        }
+      ],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Property_type"
+          },
+          "targets": [
+            {
+              "resolveInfo": "String",
+              "reference": "LIonCore_M3_String"
+            }
+          ]
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzI0ODI2MTEwNzQzNDY2NjEwNjU"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzI0ODI2MTEwNzQzNDY2NjEwNjUvMjQ4MjYxMTA3NDM0NzE2OTUxNA",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Property"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "optional"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "derived"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "readableId"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.ReviewMigration_old.readableId"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzI0ODI2MTEwNzQzNDY2NjEwNjUvMjQ4MjYxMTA3NDM0NzE2OTUxNA"
+        }
+      ],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Property_type"
+          },
+          "targets": [
+            {
+              "resolveInfo": "String",
+              "reference": "LIonCore_M3_String"
+            }
+          ]
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzI0ODI2MTEwNzQzNDY2NjEwNjU"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzM3MTczMDExNTYxOTc2MjYyNzk",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Concept"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "abstract"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "BasePlaceholder"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.BasePlaceholder"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzM3MTczMDExNTYxOTc2MjYyNzk"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": [
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzM3MTczMDExNTYxOTc2MjYyNzkvMzcxNzMwMTE1NjE5NzYyNjMwMQ"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Concept_extends"
+          },
+          "targets": [
+            {
+              "resolveInfo": "ChildAttribute",
+              "reference": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzcwOTc0NjkzNjAyNjQ2NjM5NA"
+            }
+          ]
+        },
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "implements"
+          },
+          "targets": []
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzM3MTczMDExNTYxOTc2MjYyNzkvMzcxNzMwMTE1NjE5NzYyNjMwMQ",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Containment"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "multiple"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "optional"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "derived"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "content"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.BasePlaceholder.content"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzM3MTczMDExNTYxOTc2MjYyNzkvMzcxNzMwMTE1NjE5NzYyNjMwMQ"
+        }
+      ],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Link_type"
+          },
+          "targets": [
+            {
+              "resolveInfo": "IPlaceholderContent",
+              "reference": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzQwNTgxNzc1NjkzNzUxNTAwMzg"
+            }
+          ]
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzM3MTczMDExNTYxOTc2MjYyNzk"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzg3MDMxNzk0MzY5Nzg2Njg5NDU",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Concept"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "abstract"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "MigrationDataAnnotation"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.MigrationDataAnnotation"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzg3MDMxNzk0MzY5Nzg2Njg5NDU"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": [
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzg3MDMxNzk0MzY5Nzg2Njg5NDUvNjgwNzkzMzQ0ODQ3MDMzMDU3NA"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Concept_extends"
+          },
+          "targets": [
+            {
+              "resolveInfo": "NodeAttribute",
+              "reference": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzNjQ2NjA2MzgwNDgwNDk3NDg"
+            }
+          ]
+        },
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "implements"
+          },
+          "targets": [
+            {
+              "resolveInfo": "MigrationAnnotation",
+              "reference": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzg3MDMxNzk0MzY5NzkzNTkyNTE"
+            }
+          ]
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzg3MDMxNzk0MzY5Nzg2Njg5NDUvNjgwNzkzMzQ0ODQ3MDMzMDU3NA",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Containment"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "multiple"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "optional"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "derived"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "dataNode"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.MigrationDataAnnotation.dataNode"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzg3MDMxNzk0MzY5Nzg2Njg5NDUvNjgwNzkzMzQ0ODQ3MDMzMDU3NA"
+        }
+      ],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Link_type"
+          },
+          "targets": [
+            {
+              "resolveInfo": "BaseConcept",
+              "reference": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExMzM5MjA2NDE2MjY"
+            }
+          ]
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzg3MDMxNzk0MzY5Nzg2Njg5NDU"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzg3MDMxNzk0MzY5NzkzNTkyMzg",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Concept"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "abstract"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "ReviewMigration"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.ReviewMigration"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzg3MDMxNzk0MzY5NzkzNTkyMzg"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": [
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzg3MDMxNzk0MzY5NzkzNTkyMzgvODcwMzE3OTQzNjk3OTM1OTIzOQ",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzg3MDMxNzk0MzY5NzkzNTkyMzgvODcwMzE3OTQzNjk3OTM1OTI0MA",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzg3MDMxNzk0MzY5NzkzNTkyMzgvODcwMzE3OTQzNjk3OTM1OTI0MQ"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Concept_extends"
+          },
+          "targets": [
+            {
+              "resolveInfo": "NodeAttribute",
+              "reference": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzNjQ2NjA2MzgwNDgwNDk3NDg"
+            }
+          ]
+        },
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "implements"
+          },
+          "targets": [
+            {
+              "resolveInfo": "MigrationAnnotation",
+              "reference": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzg3MDMxNzk0MzY5NzkzNTkyNTE"
+            }
+          ]
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzg3MDMxNzk0MzY5NzkzNTkyMzgvODcwMzE3OTQzNjk3OTM1OTIzOQ",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Property"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "optional"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "derived"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "reasonShort"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.ReviewMigration.reasonShort"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzg3MDMxNzk0MzY5NzkzNTkyMzgvODcwMzE3OTQzNjk3OTM1OTIzOQ"
+        }
+      ],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Property_type"
+          },
+          "targets": [
+            {
+              "resolveInfo": "String",
+              "reference": "LIonCore_M3_String"
+            }
+          ]
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzg3MDMxNzk0MzY5NzkzNTkyMzg"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzg3MDMxNzk0MzY5NzkzNTkyMzgvODcwMzE3OTQzNjk3OTM1OTI0MA",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Property"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "optional"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "derived"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "todo"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.ReviewMigration.todo"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzg3MDMxNzk0MzY5NzkzNTkyMzgvODcwMzE3OTQzNjk3OTM1OTI0MA"
+        }
+      ],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Property_type"
+          },
+          "targets": [
+            {
+              "resolveInfo": "String",
+              "reference": "LIonCore_M3_String"
+            }
+          ]
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzg3MDMxNzk0MzY5NzkzNTkyMzg"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzg3MDMxNzk0MzY5NzkzNTkyMzgvODcwMzE3OTQzNjk3OTM1OTI0MQ",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Property"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "optional"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "derived"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "readableId"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.ReviewMigration.readableId"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzg3MDMxNzk0MzY5NzkzNTkyMzgvODcwMzE3OTQzNjk3OTM1OTI0MQ"
+        }
+      ],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Property_type"
+          },
+          "targets": [
+            {
+              "resolveInfo": "String",
+              "reference": "LIonCore_M3_String"
+            }
+          ]
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzg3MDMxNzk0MzY5NzkzNTkyMzg"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzUyNTk2MzA5MjM1MDU3NzA2NjU",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Concept"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "abstract"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "TypeAnnotated"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.TypeAnnotated"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzUyNTk2MzA5MjM1MDU3NzA2NjU"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": [
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzUyNTk2MzA5MjM1MDU3NzA2NjUvNTI1OTYzMDkyMzUwNTc3MDY2Ng"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Concept_extends"
+          },
+          "targets": [
+            {
+              "resolveInfo": "BaseConcept",
+              "reference": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExMzM5MjA2NDE2MjY"
+            }
+          ]
+        },
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "implements"
+          },
+          "targets": []
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzUyNTk2MzA5MjM1MDU3NzA2NjUvNTI1OTYzMDkyMzUwNTc3MDY2Ng",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Containment"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "multiple"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "optional"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "derived"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "annotation"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.TypeAnnotated.annotation"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzUyNTk2MzA5MjM1MDU3NzA2NjUvNTI1OTYzMDkyMzUwNTc3MDY2Ng"
+        }
+      ],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Link_type"
+          },
+          "targets": [
+            {
+              "resolveInfo": "BaseConcept",
+              "reference": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExMzM5MjA2NDE2MjY"
+            }
+          ]
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzUyNTk2MzA5MjM1MDU3NzA2NjU"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExNjkxOTQ2NTg0Njg",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "ConceptInterface"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "INamedConcept"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.INamedConcept"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExNjkxOTQ2NTg0Njg"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": [
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExNjkxOTQ2NTg0NjgvMTE2OTE5NDY2NDAwMQ"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "ConceptInterface_extends"
+          },
+          "targets": []
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExNjkxOTQ2NTg0NjgvMTE2OTE5NDY2NDAwMQ",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Property"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "optional"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "derived"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "name"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.INamedConcept.name"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExNjkxOTQ2NTg0NjgvMTE2OTE5NDY2NDAwMQ"
+        }
+      ],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Property_type"
+          },
+          "targets": [
+            {
+              "resolveInfo": "String",
+              "reference": "LIonCore_M3_String"
+            }
+          ]
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExNjkxOTQ2NTg0Njg"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExOTY5Nzg2MzAyMTQ",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "ConceptInterface"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "IResolveInfo"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.IResolveInfo"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExOTY5Nzg2MzAyMTQ"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": [
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExOTY5Nzg2MzAyMTQvMTE5Njk3ODY1NjI3Nw"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "ConceptInterface_extends"
+          },
+          "targets": []
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExOTY5Nzg2MzAyMTQvMTE5Njk3ODY1NjI3Nw",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Property"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "optional"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "derived"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "resolveInfo"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.IResolveInfo.resolveInfo"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExOTY5Nzg2MzAyMTQvMTE5Njk3ODY1NjI3Nw"
+        }
+      ],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Property_type"
+          },
+          "targets": [
+            {
+              "resolveInfo": "String",
+              "reference": "LIonCore_M3_String"
+            }
+          ]
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzExOTY5Nzg2MzAyMTQ"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzEyMjE2NDcwOTM4MTI",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "ConceptInterface"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "IWrapper"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.IWrapper"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzEyMjE2NDcwOTM4MTI"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": []
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "ConceptInterface_extends"
+          },
+          "targets": []
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzEyMjQ2MDg4MzQ0NDU",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "ConceptInterface"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "IDeprecatable"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.IDeprecatable"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzEyMjQ2MDg4MzQ0NDU"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": []
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "ConceptInterface_extends"
+          },
+          "targets": []
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzEyMzMxNjAyOTY1OTc",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "ConceptInterface"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "IContainer"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.IContainer"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzEyMzMxNjAyOTY1OTc"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": []
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "ConceptInterface_extends"
+          },
+          "targets": []
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzEyMzQ5NzEzNTg0NTA",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "ConceptInterface"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "IType"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.IType"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzEyMzQ5NzEzNTg0NTA"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": []
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "ConceptInterface_extends"
+          },
+          "targets": []
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzIwMTUzNzM2Nzg4MTA3MTkzMA",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "ConceptInterface"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "IMetaLevelChanger"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.IMetaLevelChanger"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzIwMTUzNzM2Nzg4MTA3MTkzMA"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": []
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "ConceptInterface_extends"
+          },
+          "targets": []
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzM3MzQxMTYyMTMxMjk3OTI0OTk",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "ConceptInterface"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "ScopeProvider"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.ScopeProvider"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzM3MzQxMTYyMTMxMjk3OTI0OTk"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": []
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "ConceptInterface_extends"
+          },
+          "targets": []
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzEwNDc0MDg4MjI0MDk2MDE2NDc",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "ConceptInterface"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "IAntisuppressErrors"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.IAntisuppressErrors"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzEwNDc0MDg4MjI0MDk2MDE2NDc"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": []
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "ConceptInterface_extends"
+          },
+          "targets": []
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzOTMxNjUxMjE4NDYwOTE1ODY",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "ConceptInterface"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "ICanSuppressErrors"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.ICanSuppressErrors"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzOTMxNjUxMjE4NDYwOTE1ODY"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": []
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "ConceptInterface_extends"
+          },
+          "targets": []
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzOTMxNjUxMjE4NDYwOTE1ODc",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "ConceptInterface"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "ISuppressErrors"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.ISuppressErrors"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzOTMxNjUxMjE4NDYwOTE1ODc"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": []
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "ConceptInterface_extends"
+          },
+          "targets": []
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzE4MzU2MjEwNjIxOTA2NjM4MTk",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "ConceptInterface"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "IDontSubstituteByDefault"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.IDontSubstituteByDefault"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzE4MzU2MjEwNjIxOTA2NjM4MTk"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": []
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "ConceptInterface_extends"
+          },
+          "targets": []
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzNjE0NzUzNzUxNTc0NjY1NTg",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "ConceptInterface"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "ScopeFacade"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.ScopeFacade"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzNjE0NzUzNzUxNTc0NjY1NTg"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": []
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "ConceptInterface_extends"
+          },
+          "targets": []
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzEzMTk3MjgyNzQ3ODMwNzc3MTk",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "ConceptInterface"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "ImplementationPart"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.ImplementationPart"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzEzMTk3MjgyNzQ3ODMwNzc3MTk"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": []
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "ConceptInterface_extends"
+          },
+          "targets": [
+            {
+              "resolveInfo": "ScopeFacade",
+              "reference": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzMzNjE0NzUzNzUxNTc0NjY1NTg"
+            }
+          ]
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzEzMTk3MjgyNzQ3ODMxNTE0Nzk",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "ConceptInterface"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "ImplementationContainer"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.ImplementationContainer"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzEzMTk3MjgyNzQ3ODMxNTE0Nzk"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": []
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "ConceptInterface_extends"
+          },
+          "targets": []
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzEzMTk3MjgyNzQ3ODQ5NzMwOTY",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "ConceptInterface"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "InterfacePart"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.InterfacePart"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzEzMTk3MjgyNzQ3ODQ5NzMwOTY"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": []
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "ConceptInterface_extends"
+          },
+          "targets": []
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzY5OTk3MzgyODg3Mzg0MjcxOTA",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "ConceptInterface"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "ImplementationWithStubPart"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.ImplementationWithStubPart"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzY5OTk3MzgyODg3Mzg0MjcxOTA"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": []
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "ConceptInterface_extends"
+          },
+          "targets": [
+            {
+              "resolveInfo": "ImplementationPart",
+              "reference": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzEzMTk3MjgyNzQ3ODMwNzc3MTk"
+            }
+          ]
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzE1NTA4NzU0MjAyNzQ0NzYyMQ",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "ConceptInterface"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "IStubForAnotherConcept"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.IStubForAnotherConcept"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzE1NTA4NzU0MjAyNzQ0NzYyMQ"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": []
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "ConceptInterface_extends"
+          },
+          "targets": [
+            {
+              "resolveInfo": "InterfacePart",
+              "reference": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzEzMTk3MjgyNzQ3ODQ5NzMwOTY"
+            }
+          ]
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzU4MzE4ODc2MTUyOTk0NTcwOTE",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "ConceptInterface"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "ISkipConstraintsChecking"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.ISkipConstraintsChecking"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzU4MzE4ODc2MTUyOTk0NTcwOTE"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": []
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "ConceptInterface_extends"
+          },
+          "targets": []
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzIyMTY3NjA0NjQxOTk1MDI0MjI",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "ConceptInterface"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "IDontApplyTypesystemRules"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.IDontApplyTypesystemRules"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzIyMTY3NjA0NjQxOTk1MDI0MjI"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": []
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "ConceptInterface_extends"
+          },
+          "targets": []
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzQxMjMxMjA3MzA5MzU0ODg0MzI",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "ConceptInterface"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "IOldCommentContainer"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.IOldCommentContainer"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzQxMjMxMjA3MzA5MzU0ODg0MzI"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": []
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "ConceptInterface_extends"
+          },
+          "targets": []
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzcwOTQ5MjYxOTIyMzQwMzYxODQ",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "ConceptInterface"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "ISmartReferent"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.ISmartReferent"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzcwOTQ5MjYxOTIyMzQwMzYxODQ"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": []
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "ConceptInterface_extends"
+          },
+          "targets": []
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzI0ODI2MTEwNzQzNDc2MTQ5MjA",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "ConceptInterface"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "MigrationAnnotation_old"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.MigrationAnnotation_old"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzI0ODI2MTEwNzQzNDc2MTQ5MjA"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": []
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "ConceptInterface_extends"
+          },
+          "targets": []
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzQwNTgxNzc1NjkzNzUxNTAwMzg",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "ConceptInterface"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "IPlaceholderContent"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.IPlaceholderContent"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzQwNTgxNzc1NjkzNzUxNTAwMzg"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": []
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "ConceptInterface_extends"
+          },
+          "targets": []
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzg3MDMxNzk0MzY5NzkzNTkyNTE",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "ConceptInterface"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "MigrationAnnotation"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.MigrationAnnotation"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzg3MDMxNzk0MzY5NzkzNTkyNTE"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "features"
+          },
+          "children": [
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzg3MDMxNzk0MzY5NzkzNTkyNTEvODcwMzE3OTQzNjk3OTM1OTI1Mg"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "ConceptInterface_extends"
+          },
+          "targets": [
+            {
+              "resolveInfo": "MigrationAnnotation_old",
+              "reference": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzI0ODI2MTEwNzQzNDc2MTQ5MjA"
+            }
+          ]
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzg3MDMxNzk0MzY5NzkzNTkyNTEvODcwMzE3OTQzNjk3OTM1OTI1Mg",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Property"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "optional"
+          },
+          "value": "true"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "derived"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "createdByScript"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.MigrationAnnotation.createdByScript"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzg3MDMxNzk0MzY5NzkzNTkyNTEvODcwMzE3OTQzNjk3OTM1OTI1Mg"
+        }
+      ],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "Property_type"
+          },
+          "targets": [
+            {
+              "resolveInfo": "String",
+              "reference": "LIonCore_M3_String"
+            }
+          ]
+        }
+      ],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzg3MDMxNzk0MzY5NzkzNTkyNTE"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzc3OTEyODQ5Mjg1MzcwMDA3Ng",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "Enumeration"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "SideTransformSide"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.SideTransformSide"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzc3OTEyODQ5Mjg1MzcwMDA3Ng"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "literals"
+          },
+          "children": [
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzc3OTEyODQ5Mjg1MzcwMDA3Ni83NzkxMjg0OTI4NTM3MDAwNzc",
+            "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzc3OTEyODQ5Mjg1MzcwMDA3Ni83NzkxMjg0OTI4NTM3MDIyMjM"
+          ]
+        }
+      ],
+      "references": [],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzc3OTEyODQ5Mjg1MzcwMDA3Ni83NzkxMjg0OTI4NTM3MDAwNzc",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "EnumerationLiteral"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "right"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": null
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": null
+        }
+      ],
+      "children": [],
+      "references": [],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzc3OTEyODQ5Mjg1MzcwMDA3Ng"
+    },
+    {
+      "id": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzc3OTEyODQ5Mjg1MzcwMDA3Ni83NzkxMjg0OTI4NTM3MDIyMjM",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "EnumerationLiteral"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "left"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": null
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": null
+        }
+      ],
+      "children": [],
+      "references": [],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBjLzc3OTEyODQ5Mjg1MzcwMDA3Ng"
+    },
+    {
+      "id": "LIonCore_M3_String",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "PrimitiveType"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "String"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.String"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "LIonCore_M3_String"
+        }
+      ],
+      "children": [],
+      "references": [],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj"
+    },
+    {
+      "id": "LIonCore_M3_Integer",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "PrimitiveType"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "Integer"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.Integer"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "LIonCore_M3_Integer"
+        }
+      ],
+      "children": [],
+      "references": [],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj"
+    },
+    {
+      "id": "LIonCore_M3_Boolean",
+      "concept": {
+        "metamodel": "LIonCore_M3",
+        "version": "1",
+        "key": "PrimitiveType"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "NamespacedEntity_name"
+          },
+          "value": "Boolean"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "qualifiedName"
+          },
+          "value": "jetbrains.mps.lang.core.Boolean"
+        },
+        {
+          "property": {
+            "metamodel": "LIonCore_M3",
+            "version": "1",
+            "key": "key"
+          },
+          "value": "LIonCore_M3_Boolean"
+        }
+      ],
+      "children": [],
+      "references": [],
+      "parent": "Y2VhYjUxOTUtMjVlYS00ZjIyLTliOTItMTAzYjk1Y2E4YzBj"
+    }
+  ]
+}

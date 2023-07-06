@@ -1,0 +1,218 @@
+{
+  "serializationFormatVersion": "1",
+  "metamodels": [],
+  "nodes": [
+    {
+      "id": "5487645678964387963",
+      "concept": {
+        "metamodel": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRh",
+        "version": "0",
+        "key": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzY"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRh",
+            "version": "0",
+            "key": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzYvNTQ4NzY0NTY3ODk2NDI3NDAzNw"
+          },
+          "value": "PAPER01"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRh",
+            "version": "0",
+            "key": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzYvNTQ4NzY0NTY3ODk2NDI3NDA0OA"
+          },
+          "children": [
+            "5487645678964387964"
+          ]
+        }
+      ],
+      "references": [],
+      "parent": "5487645678964387962"
+    },
+    {
+      "id": "5487645678964387964",
+      "concept": {
+        "metamodel": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRh",
+        "version": "0",
+        "key": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzk"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRh",
+            "version": "0",
+            "key": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzkvNTQ4NzY0NTY3ODk2NDI3NDA0NQ"
+          },
+          "value": "10"
+        },
+        {
+          "property": {
+            "metamodel": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRh",
+            "version": "0",
+            "key": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzkvNTQ4NzY0NTY3ODk2NDI3NDA0Ng"
+          },
+          "value": "23"
+        },
+        {
+          "property": {
+            "metamodel": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRh",
+            "version": "0",
+            "key": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzkvNTQ4NzY0NTY3ODk2NDI3NDA0NA"
+          },
+          "value": "4KC2aIjRRdU/USD"
+        }
+      ],
+      "children": [],
+      "references": [],
+      "parent": "5487645678964387963"
+    },
+    {
+      "id": "5487645678964492230",
+      "concept": {
+        "metamodel": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRh",
+        "version": "0",
+        "key": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwNDk"
+      },
+      "properties": [],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRh",
+            "version": "0",
+            "key": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwNDkvNTQ4NzY0NTY3ODk2NDI3NDA1Mw"
+          },
+          "children": [
+            "5487645678964628236"
+          ]
+        },
+        {
+          "containment": {
+            "metamodel": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRh",
+            "version": "0",
+            "key": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwNDkvNTQ4NzY0NTY3ODk2NDI3NDA1Mg"
+          },
+          "children": [
+            "5487645678964548385"
+          ]
+        }
+      ],
+      "references": [],
+      "parent": "5487645678964387965"
+    },
+    {
+      "id": "5487645678964628236",
+      "concept": {
+        "metamodel": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRh",
+        "version": "0",
+        "key": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQ1NDgzOTg"
+      },
+      "properties": [],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRh",
+            "version": "0",
+            "key": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQ1NDgzOTgvNTQ4NzY0NTY3ODk2NDU0ODM5OQ"
+          },
+          "children": [
+            "5487645678964628240"
+          ]
+        }
+      ],
+      "references": [],
+      "parent": "5487645678964492230"
+    },
+    {
+      "id": "5487645678964628240",
+      "concept": {
+        "metamodel": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRh",
+        "version": "0",
+        "key": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQ0MTcxMjQ"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRh",
+            "version": "0",
+            "key": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQ0MTcxMjQvNTQ4NzY0NTY3ODk2NDQxNzE0Mw"
+          },
+          "value": "5"
+        }
+      ],
+      "children": [],
+      "references": [],
+      "parent": "5487645678964628236"
+    },
+    {
+      "id": "5487645678964548385",
+      "concept": {
+        "metamodel": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRh",
+        "version": "0",
+        "key": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQ0MTcwNjY"
+      },
+      "properties": [],
+      "children": [
+        {
+          "containment": {
+            "metamodel": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRh",
+            "version": "0",
+            "key": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQ0MTcwNjcvNTQ4NzY0NTY3ODk2NDQxNzA2OQ"
+          },
+          "children": [
+            "5487645678964548391"
+          ]
+        },
+        {
+          "containment": {
+            "metamodel": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRh",
+            "version": "0",
+            "key": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQ0MTcwNjcvNTQ4NzY0NTY3ODk2NDQxNzA3MA"
+          },
+          "children": [
+            "5487645678964548396"
+          ]
+        }
+      ],
+      "references": [],
+      "parent": "5487645678964492230"
+    },
+    {
+      "id": "5487645678964548391",
+      "concept": {
+        "metamodel": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRh",
+        "version": "0",
+        "key": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQ0MTcwNTQ"
+      },
+      "properties": [],
+      "children": [],
+      "references": [],
+      "parent": "5487645678964548385"
+    },
+    {
+      "id": "5487645678964548396",
+      "concept": {
+        "metamodel": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRh",
+        "version": "0",
+        "key": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQ0MTcxMjQ"
+      },
+      "properties": [
+        {
+          "property": {
+            "metamodel": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRh",
+            "version": "0",
+            "key": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQ0MTcxMjQvNTQ4NzY0NTY3ODk2NDQxNzE0Mw"
+          },
+          "value": "10"
+        }
+      ],
+      "children": [],
+      "references": [],
+      "parent": "5487645678964548385"
+    }
+  ]
+}
