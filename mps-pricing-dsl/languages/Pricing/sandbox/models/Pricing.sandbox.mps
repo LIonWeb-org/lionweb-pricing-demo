@@ -21,6 +21,7 @@
         <child id="5487645678964548399" name="base" index="3vMUI4" />
       </concept>
       <concept id="5487645678964274049" name="Pricing.structure.DiscountPolicy" flags="ng" index="3vXRGE">
+        <property id="2994208855780055470" name="description" index="9_cyT" />
         <child id="5487645678964274053" name="discount" index="3vXRGI" />
         <child id="5487645678964274052" name="condition" index="3vXRGJ" />
       </concept>
@@ -67,11 +68,28 @@
         <property role="3vXRJn" value="4KC2aIjRRdU/USD" />
       </node>
     </node>
+    <node concept="3vXRJv" id="2Ad$hsw6Pvc" role="3vXRGH">
+      <property role="3vXRJu" value="PAPER02" />
+      <node concept="3vXRJs" id="2Ad$hsw6Pvd" role="3vXRGF">
+        <property role="3vXRJm" value="12" />
+        <property role="3vXRJl" value="20" />
+        <property role="3vXRJn" value="4KC2aIjRRdU/USD" />
+      </node>
+    </node>
+    <node concept="3vXRJv" id="2Ad$hsw6Pvi" role="3vXRGH">
+      <property role="3vXRJu" value="STAPLER_BASE" />
+      <node concept="3vXRJs" id="2Ad$hsw6Pvj" role="3vXRGF">
+        <property role="3vXRJm" value="20" />
+        <property role="3vXRJl" value="0" />
+        <property role="3vXRJn" value="4KC2aIjRRdU/USD" />
+      </node>
+    </node>
   </node>
   <node concept="3vXRJp" id="4KC2aIjSj1X">
     <property role="TrG5h" value="SummerSeason" />
     <ref role="3vMjzl" node="4KC2aIjSj1U" resolve="NoDiscounts" />
     <node concept="3vXRGE" id="4KC2aIjSGv6" role="3vXRGG">
+      <property role="9_cyT" value="summer discount" />
       <node concept="3vMUI5" id="4KC2aIjTdGc" role="3vXRGI">
         <node concept="3vMqFf" id="4KC2aIjTdGg" role="3vMUI4">
           <property role="3vMqFs" value="5" />

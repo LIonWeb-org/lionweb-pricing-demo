@@ -13,3 +13,12 @@ repositories {
 lionweb {
     importPackageNames.set(mutableMapOf("Pricing" to "com.strumenta.pricing"))
 }
+
+val kolasuVersion = extra["kolasuVersion"]
+val lionwebVersion = extra["lionwebVersion"]
+
+dependencies {
+    testImplementation("com.strumenta.kolasu:kolasu-lionweb-gen:$kolasuVersion")
+    testImplementation("io.lionweb.lioncore-java:lioncore-java-core:$lionwebVersion")
+    testImplementation(kotlin("test"))
+}

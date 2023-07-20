@@ -812,6 +812,7 @@
             "key": "Classifier-features"
           },
           "children": [
+            "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwNDkvMjk5NDIwODg1NTc4MDA1NTQ3MA",
             "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwNDkvNTQ4NzY0NTY3ODk2NDI3NDA1Mg",
             "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwNDkvNTQ4NzY0NTY3ODk2NDI3NDA1Mw"
           ]
@@ -841,6 +842,57 @@
         }
       ],
       "parent": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRh"
+    },
+    {
+      "id": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwNDkvMjk5NDIwODg1NTc4MDA1NTQ3MA",
+      "concept": {
+        "language": "LIonCore-M3",
+        "version": "1",
+        "key": "Property"
+      },
+      "properties": [
+        {
+          "property": {
+            "language": "LIonCore-M3",
+            "version": "1",
+            "key": "Feature-optional"
+          },
+          "value": "false"
+        },
+        {
+          "property": {
+            "language": "LIonCore-M3",
+            "version": "1",
+            "key": "IKeyed-key"
+          },
+          "value": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwNDkvMjk5NDIwODg1NTc4MDA1NTQ3MA"
+        },
+        {
+          "property": {
+            "language": "LIonCore-builtins",
+            "version": "1",
+            "key": "LIonCore-builtins-INamed-name"
+          },
+          "value": "description"
+        }
+      ],
+      "children": [],
+      "references": [
+        {
+          "reference": {
+            "language": "LIonCore-M3",
+            "version": "1",
+            "key": "Property-type"
+          },
+          "targets": [
+            {
+              "resolveInfo": "String",
+              "reference": "LIonCore-builtins-String"
+            }
+          ]
+        }
+      ],
+      "parent": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwNDk"
     },
     {
       "id": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwNDkvNTQ4NzY0NTY3ODk2NDI3NDA1Mg",

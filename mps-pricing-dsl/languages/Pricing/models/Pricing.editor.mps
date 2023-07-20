@@ -10,6 +10,7 @@
   <imports>
     <import index="n0di" ref="r:2f4abf87-6023-4adf-93d9-2683da48157d(Pricing.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -30,6 +31,9 @@
       <concept id="1233759184865" name="jetbrains.mps.lang.editor.structure.PunctuationRightStyleClassItem" flags="ln" index="11LMrY" />
       <concept id="1088013125922" name="jetbrains.mps.lang.editor.structure.CellModel_RefCell" flags="sg" stub="730538219795941030" index="1iCGBv">
         <child id="1088186146602" name="editorComponent" index="1sWHZn" />
+      </concept>
+      <concept id="1381004262292414836" name="jetbrains.mps.lang.editor.structure.ICellStyle" flags="ng" index="1k5N5V">
+        <reference id="1381004262292426837" name="parentStyleClass" index="1k5W1q" />
       </concept>
       <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
@@ -143,6 +147,22 @@
     <node concept="3EZMnI" id="4KC2aIjRRfU" role="2wV5jI">
       <node concept="3EZMnI" id="4KC2aIjRRg0" role="3EZMnx">
         <node concept="2iRfu4" id="4KC2aIjRRg1" role="2iSdaV" />
+        <node concept="3F0ifn" id="2Ad$hsw6lAQ" role="3EZMnx">
+          <property role="3F0ifm" value="(" />
+          <node concept="11LMrY" id="2Ad$hsw6lBc" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="2Ad$hsw6lBq" role="3EZMnx">
+          <ref role="1NtTu8" to="n0di:2Ad$hsw6lAI" resolve="description" />
+          <ref role="1k5W1q" to="tpco:3VARyd8XcQs" resolve="Comment" />
+        </node>
+        <node concept="3F0ifn" id="2Ad$hsw6lB4" role="3EZMnx">
+          <property role="3F0ifm" value=")" />
+          <node concept="11L4FC" id="2Ad$hsw6lBe" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
         <node concept="3F0ifn" id="4KC2aIjRRfY" role="3EZMnx">
           <property role="3F0ifm" value="when" />
         </node>
