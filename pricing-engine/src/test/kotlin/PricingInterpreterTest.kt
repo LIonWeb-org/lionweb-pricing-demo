@@ -1,4 +1,3 @@
-import com.strumenta.kolasu.lionweb.StarLasuLWLanguage
 import com.strumenta.kolasu.model.ReferenceByName
 import com.strumenta.pricing.Amount
 import com.strumenta.pricing.BasePrice
@@ -9,10 +8,7 @@ import com.strumenta.pricing.Price
 import com.strumenta.pricing.PriceComponent
 import com.strumenta.pricing.PricingInterpreter
 import com.strumenta.pricing.PricingStrategy
-import io.lionweb.lioncore.java.language.Language
 import io.lionweb.lioncore.java.serialization.JsonSerialization
-import java.io.File
-import java.io.FileInputStream
 import java.math.BigDecimal
 import kotlin.test.Test
 import kotlin.test.assertEquals
@@ -41,7 +37,7 @@ class PricingInterpreterTest {
                 OrderLine("xyz", 7)
             )
         )
-        assertEquals(Price(basePrice = mutableListOf(PriceComponent(BigDecimal(70.0), Currency.EUR))),
+        assertEquals(Price(basePrice = mutableListOf(PriceComponent(BigDecimal("70.0"), Currency.EUR))),
             PricingInterpreter(pricing).calculatePrice(order))
     }
 }

@@ -1,6 +1,6 @@
 plugins {
-    id("org.jetbrains.kotlin.jvm") version "1.8.22"
-    id("com.google.devtools.ksp") version "1.8.22-1.0.11"
+    id("org.jetbrains.kotlin.jvm") version "1.9.0"
+    id("com.google.devtools.ksp") version "1.9.0-1.0.11"
     id("com.strumenta.kolasu.lionwebgen")
 }
 
