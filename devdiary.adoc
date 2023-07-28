@@ -2,3 +2,4 @@
 * [ ] when running setup in the MPS module lioncore-mps is downloaded among the dependencies but not unzipped
 * [x] issue loading the language (it cannot reseolve the meta-pointer to EnumerationLiteral)
 * [ ] https://github.com/LIonWeb-org/lioncore-mps/issues/33
+* [ ] consider https://github.com/google/ksp/issues/1313

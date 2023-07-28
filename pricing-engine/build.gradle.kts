@@ -15,10 +15,10 @@ lionweb {
 }
 
 val kolasuVersion = extra["kolasuVersion"]
-val lionwebVersion = extra["lionwebVersion"]
+val lionwebJavaVersion = extra["lionwebJavaVersion"]
 
 dependencies {
     testImplementation("com.strumenta.kolasu:kolasu-lionweb-gen:$kolasuVersion")
-    testImplementation("io.lionweb.lioncore-java:lioncore-java-core:$lionwebVersion")
+    testImplementation("io.lionweb.lioncore-java:lioncore-java-core:$lionwebJavaVersion")
     testImplementation(kotlin("test"))
 }
