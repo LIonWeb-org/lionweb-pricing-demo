@@ -5,7 +5,7 @@ plugins {
 repositories {
     mavenLocal()
     mavenCentral()
-    //maven(url = "https://projects.itemis.de/nexus/content/repositories/mbeddr")    
+    maven(url="https://s01.oss.sonatype.org/content/repositories/snapshots/")
     maven(url="https://artifacts.itemis.cloud/repository/maven-mps")
 }
 
