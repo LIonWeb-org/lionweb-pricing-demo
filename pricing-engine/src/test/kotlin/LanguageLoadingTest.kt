@@ -1,5 +1,4 @@
 import com.strumenta.kolasu.lionweb.StarLasuLWLanguage
-import com.strumenta.pricing.Currency
 import io.lionweb.lioncore.java.language.Language
 import io.lionweb.lioncore.java.serialization.JsonSerialization
 import java.io.File

@@ -22,21 +22,20 @@ data class PriceComponent(val value: BigDecimal, val currency: Currency) {
         return PriceComponent(value.multiply(BigDecimal(multiplier)), currency)
     }
 
-    fun sum(other: PriceComponent) : PriceComponent {
+    fun sum(other: PriceComponent): PriceComponent {
         require(this.currency == other.currency)
         return PriceComponent(this.value.add(other.value), this.currency)
     }
 }
 
-
 class PricingInterpreter(val pricingStrategy: PricingStrategy) {
 
-    private fun basePriceFor(productID: String) : PriceComponent {
+    private fun basePriceFor(productID: String): PriceComponent {
         val basePrice = pricingStrategy.basePrices.find { it.itemID == productID } ?: throw IllegalArgumentException("No price for $productID")
         return PriceComponent(BigDecimal("${basePrice.amount.integerPart}.${basePrice.amount.decimalPart}"), basePrice.amount.currencey)
     }
 
-    fun calculatePrice(order: Order) : Price {
+    fun calculatePrice(order: Order): Price {
         val price = Price()
         order.lines.forEach { orderLine ->
             price.addBasePrice(basePriceFor(orderLine.productID).multipliedBy(orderLine.quantity))

@@ -25,7 +25,8 @@ class PricingInterpreterTest {
 
     @Test
     fun calculatePriceForPricingWithNoDiscounts() {
-        val pricing = PricingStrategy(name = "Standard Prices",
+        val pricing = PricingStrategy(
+            name = "Standard Prices",
             sameBasePricesAs = ReferenceByName("", null),
             basePrices = mutableListOf(
                 BasePrice("xyz", Amount(Currency.EUR, 10, 0))
@@ -37,7 +38,9 @@ class PricingInterpreterTest {
                 OrderLine("xyz", 7)
             )
         )
-        assertEquals(Price(basePrice = mutableListOf(PriceComponent(BigDecimal("70.0"), Currency.EUR))),
-            PricingInterpreter(pricing).calculatePrice(order))
+        assertEquals(
+            Price(basePrice = mutableListOf(PriceComponent(BigDecimal("70.0"), Currency.EUR))),
+            PricingInterpreter(pricing).calculatePrice(order)
+        )
     }
 }
