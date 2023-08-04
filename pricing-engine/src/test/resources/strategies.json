@@ -3,6 +3,40 @@
   "languages": [],
   "nodes": [
     {
+      "id": "5487645678964387962",
+      "concept": {
+        "language": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRh",
+        "version": "0",
+        "key": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzQ"
+      },
+      "properties": [
+        {
+          "property": {
+            "language": "LIonCore-builtins",
+            "version": "1",
+            "key": "LIonCore-builtins-INamed-name"
+          },
+          "value": "NoDiscounts"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "language": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRh",
+            "version": "0",
+            "key": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzQvNTQ4NzY0NTY3ODk2NDI3NDA1NA"
+          },
+          "children": [
+            "5487645678964387963",
+            "2994208855780186060",
+            "2994208855780186066"
+          ]
+        }
+      ],
+      "references": [],
+      "parent": null
+    },
+    {
       "id": "5487645678964387963",
       "concept": {
         "language": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRh",
@@ -208,6 +242,52 @@
       "children": [],
       "references": [],
       "parent": "2994208855780186066"
+    },
+    {
+      "id": "5487645678964387965",
+      "concept": {
+        "language": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRh",
+        "version": "0",
+        "key": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzQ"
+      },
+      "properties": [
+        {
+          "property": {
+            "language": "LIonCore-builtins",
+            "version": "1",
+            "key": "LIonCore-builtins-INamed-name"
+          },
+          "value": "SummerSeason"
+        }
+      ],
+      "children": [
+        {
+          "containment": {
+            "language": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRh",
+            "version": "0",
+            "key": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzQvNTQ4NzY0NTY3ODk2NDI3NDA1NQ"
+          },
+          "children": [
+            "5487645678964492230"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "reference": {
+            "language": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRh",
+            "version": "0",
+            "key": "ZGVkMzlmMGEtNDI5MC00ODlhLTg0ZmMtMmRhNjA4ZDExOWRhLzU0ODc2NDU2Nzg5NjQyNzQwMzQvNTQ4NzY0NTY3ODk2NDM4Nzk2Ng"
+          },
+          "targets": [
+            {
+              "resolveInfo": "NoDiscounts",
+              "reference": "5487645678964387962"
+            }
+          ]
+        }
+      ],
+      "parent": null
     },
     {
       "id": "5487645678964492230",

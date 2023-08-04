@@ -106,7 +106,7 @@
   <node concept="pgt$m" id="4KC2aIjTopx">
     <property role="TrG5h" value="LionWebExporter" />
     <property role="VS7hl" value="/Users/ftomassetti/repos/lionweb-pricing-demo/mps-pricing-dsl/build/strategies.json" />
-    <property role="pjpzt" value="39$JcGFainl/descendants" />
+    <property role="pjpzt" value="39$JcGFaino/closure" />
     <node concept="pgsVv" id="4KC2aIjTopy" role="pgtdD">
       <ref role="pgsW4" node="4KC2aIjSj1U" resolve="NoDiscounts" />
     </node>

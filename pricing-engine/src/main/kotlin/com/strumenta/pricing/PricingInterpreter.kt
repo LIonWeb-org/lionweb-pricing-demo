@@ -28,6 +28,7 @@ data class PriceComponent(val value: BigDecimal, val currency: Currency) {
     }
 }
 
+
 class PricingInterpreter(val pricingStrategy: PricingStrategy) {
 
     private fun basePriceFor(productID: String) : PriceComponent {

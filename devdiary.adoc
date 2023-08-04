@@ -1,6 +1,16 @@
 Overview: https://www.loom.com/share/3123d9ec8c224171bb1ac9520b77ffee
 
-* [ ] we need https://github.com/LIonWeb-org/lioncore-mps/issues/33 to be fixed
+* [x] we need https://github.com/LIonWeb-org/lioncore-mps/issues/33 to be fixed
+* [ ] we need to be able to import correctly a LW model in Kolasu
+
+Currently we are working on ensuring that we can associated the generated Kolasu classes to the LW Concepts they
+originated from. We plan to do that by adding annotations.
+
+We will then need to change the AST classes generators to add those annotations and produce the KolasuLanguage instance.
+
+The KolasuLanguage instance would not know about the LW Language, so this mapping should be contained in some other
+function that is generated and that is later invoked during unserialization, to register the mapping.
+
 * [ ] we need a release of LionCore-MPS
 * [ ] when running setup in the MPS module lioncore-mps is downloaded among the dependencies but not unzipped
 * [x] issue loading the language (it cannot reseolve the meta-pointer to EnumerationLiteral)
