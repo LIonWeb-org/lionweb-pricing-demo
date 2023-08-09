@@ -15,3 +15,4 @@ function that is generated and that is later invoked during unserialization, to 
 * [ ] when running setup in the MPS module lioncore-mps is downloaded among the dependencies but not unzipped
 * [x] issue loading the language (it cannot reseolve the meta-pointer to EnumerationLiteral)
 * [ ] consider https://github.com/google/ksp/issues/1313
+* [ ] run export of languages and models from command line, using ProjectLoader (https://github.com/mbeddr/mps-build-backends/blob/2ee0ec26d344effdfafc3c8000ade88f9cf3453c/project-loader/src/main/kotlin/de/itemis/mps/gradle/project/loader/ProjectLoader.kt#L16)
