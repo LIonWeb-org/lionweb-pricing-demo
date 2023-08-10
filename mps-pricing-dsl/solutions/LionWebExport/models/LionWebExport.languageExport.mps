@@ -676,7 +676,7 @@
   </node>
   <node concept="2P3vlD" id="3vHbq8vGVN_">
     <property role="TrG5h" value="ExportPricingToJSON" />
-    <property role="VS7hl" value="/Users/ftomassetti/repos/lionweb-pricing-demo/mps-pricing-dsl/build/pricing.json" />
+    <property role="VS7hl" value="${pricing-dsl.home}/build/pricing.json" />
     <node concept="2RzRkq" id="3vHbq8vGVNH" role="1a0gs3">
       <ref role="2RzRkr" node="3vHbq8vGVuv" resolve="Pricing" />
     </node>
