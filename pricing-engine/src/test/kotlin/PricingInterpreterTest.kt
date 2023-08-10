@@ -10,8 +10,8 @@ import com.strumenta.pricing.ItemQuantity
 import com.strumenta.pricing.Order
 import com.strumenta.pricing.OrderLine
 import com.strumenta.pricing.Percentage
-import com.strumenta.pricing.PriceValue
 import com.strumenta.pricing.PriceComponent
+import com.strumenta.pricing.PriceValue
 import com.strumenta.pricing.Pricing
 import com.strumenta.pricing.PricingInterpreter
 import com.strumenta.pricing.PricingStrategy
@@ -51,7 +51,7 @@ class PricingInterpreterTest {
                 BasePrice("xyz", Amount(Currency.EUR, 10, 0))
             ),
             discountPolicies = mutableListOf(
-                DiscountPolicy("discount foo", GreaterThan(ItemQuantity(), IntLiteral("6")), Percentage(IntLiteral("10")) )
+                DiscountPolicy("discount foo", GreaterThan(ItemQuantity(), IntLiteral("6")), Percentage(IntLiteral("10")))
             )
         )
         val order = Order(
@@ -83,7 +83,7 @@ class PricingInterpreterTest {
                 BasePrice("xyz", Amount(Currency.EUR, 10, 0))
             ),
             discountPolicies = mutableListOf(
-                DiscountPolicy("discount foo", GreaterThan(ItemQuantity(), IntLiteral("6")), Percentage(IntLiteral("10")) )
+                DiscountPolicy("discount foo", GreaterThan(ItemQuantity(), IntLiteral("6")), Percentage(IntLiteral("10")))
             )
         )
         val order = Order(

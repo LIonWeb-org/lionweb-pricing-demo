@@ -1,16 +1,14 @@
 package com.strumenta.pricing
 
-import com.ibm.icu.math.MathContext
 import java.math.BigDecimal
 
 data class OrderLine(val productID: String, val quantity: Int)
 data class Order(val lines: List<OrderLine>) {
-    val itemQuantity : Int
+    val itemQuantity: Int
         get() = lines.sumOf { it.quantity }
 }
 
 data class Discount(val description: String, val amount: PriceValue)
-
 
 data class Pricing(val startingPrice: PriceValue = PriceValue(), val discounts: MutableList<Discount> = mutableListOf()) {
     fun addComponent(priceComponent: PriceComponent) {
@@ -53,6 +51,10 @@ class PriceComponent(initialValue: BigDecimal, val currency: Currency) {
         result = 31 * result + (value.hashCode() ?: 0)
         return result
     }
+
+    override fun toString(): String {
+        return "$value $currency"
+    }
 }
 
 internal data class PricingContext(val order: Order, val basePrice: PriceValue) {
@@ -94,12 +96,12 @@ class PricingInterpreter(val pricingStrategy: PricingStrategy) {
 
             is ItemQuantity -> IntegerValue(pricingContext.itemQuantity)
             is IntLiteral -> IntegerValue(this.value.toInt())
-            is Percentage -> pricingContext.basePrice.multipliedBy(this.base.evaluate(pricingContext).asBigDecimal().divide(
-                BigDecimal(100)
-            ))
+            is Percentage -> pricingContext.basePrice.multipliedBy(
+                this.base.evaluate(pricingContext).asBigDecimal().divide(
+                    BigDecimal(100)
+                )
+            )
             else -> TODO("Evaluate $this (${this.javaClass.canonicalName})")
         }
     }
 }
-
-

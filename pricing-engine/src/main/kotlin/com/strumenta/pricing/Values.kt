@@ -24,8 +24,6 @@ data class IntegerValue(val value: Int) : Value() {
     override fun asBigDecimal(): BigDecimal = BigDecimal(value)
 }
 
-data class PercentageValue(val value: BigDecimal) : Value()
-
 data class PriceValue(val components: MutableList<PriceComponent> = mutableListOf()) : Value() {
 
     fun add(other: PriceValue) {
@@ -59,4 +57,7 @@ data class PriceValue(val components: MutableList<PriceComponent> = mutableListO
     }
 
     override fun asPrice(): PriceValue = this
+    override fun toString(): String {
+        return "PriceValue(components=$components)"
+    }
 }

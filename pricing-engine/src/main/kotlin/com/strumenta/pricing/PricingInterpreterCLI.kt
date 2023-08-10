@@ -25,6 +25,9 @@ class PricingInterpreterCLI : CliktCommand() {
         val pricingStrategy = PricingLoader().loadPricingStrategyFromLionWebFile(pricingStrategyFile)
         val pricing = PricingInterpreter(pricingStrategy).calculatePrice(order)
         println("Base price: ${pricing.startingPrice}")
+        if (pricing.discounts.isEmpty()) {
+            println("  (sorry, no discounts)")
+        }
         pricing.discounts.forEach {
             println(" - $it")
         }
