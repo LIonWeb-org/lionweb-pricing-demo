@@ -10,12 +10,11 @@ import com.strumenta.pricing.ItemQuantity
 import com.strumenta.pricing.Order
 import com.strumenta.pricing.OrderLine
 import com.strumenta.pricing.Percentage
-import com.strumenta.pricing.Price
+import com.strumenta.pricing.PriceValue
 import com.strumenta.pricing.PriceComponent
 import com.strumenta.pricing.Pricing
 import com.strumenta.pricing.PricingInterpreter
 import com.strumenta.pricing.PricingStrategy
-import io.lionweb.lioncore.java.serialization.JsonSerialization
 import java.math.BigDecimal
 import kotlin.test.Test
 import kotlin.test.assertEquals
@@ -38,13 +37,13 @@ class PricingInterpreterTest {
             )
         )
         assertEquals(
-            Pricing(startingPrice = Price(mutableListOf(PriceComponent(BigDecimal("70.0"), Currency.EUR)))),
+            Pricing(startingPrice = PriceValue(mutableListOf(PriceComponent(BigDecimal("70.0"), Currency.EUR)))),
             PricingInterpreter(pricing).calculatePrice(order)
         )
     }
 
     @Test
-    fun calculatePriceForPricingWithDiscounts() {
+    fun calculatePriceForPricingWithDiscountsApplied() {
         val pricingStrategy = PricingStrategy(
             name = "Standard Prices",
             sameBasePricesAs = ReferenceByName("", null),
@@ -62,15 +61,47 @@ class PricingInterpreterTest {
         )
         val interpreter = PricingInterpreter(pricingStrategy)
         assertEquals(
-            Price(mutableListOf(PriceComponent(BigDecimal("70.0"), Currency.EUR))),
+            PriceValue(mutableListOf(PriceComponent(BigDecimal("70.00"), Currency.EUR))),
             interpreter.calculatePrice(order).startingPrice
         )
         assertEquals(
-            listOf(Discount("discount foo", Price(mutableListOf(PriceComponent(BigDecimal("7.0"), Currency.EUR))))),
+            listOf(Discount("discount foo", PriceValue(mutableListOf(PriceComponent(BigDecimal("7.00"), Currency.EUR))))),
             interpreter.calculatePrice(order).discounts
         )
         assertEquals(
-            Price(mutableListOf(PriceComponent(BigDecimal("63.0"), Currency.EUR))),
+            PriceValue(mutableListOf(PriceComponent(BigDecimal("63.00"), Currency.EUR))),
+            interpreter.calculatePrice(order).finalPrice
+        )
+    }
+
+    @Test
+    fun calculatePriceForPricingWithDiscountsNotApplied() {
+        val pricingStrategy = PricingStrategy(
+            name = "Standard Prices",
+            sameBasePricesAs = ReferenceByName("", null),
+            basePrices = mutableListOf(
+                BasePrice("xyz", Amount(Currency.EUR, 10, 0))
+            ),
+            discountPolicies = mutableListOf(
+                DiscountPolicy("discount foo", GreaterThan(ItemQuantity(), IntLiteral("6")), Percentage(IntLiteral("10")) )
+            )
+        )
+        val order = Order(
+            lines = listOf(
+                OrderLine("xyz", 6)
+            )
+        )
+        val interpreter = PricingInterpreter(pricingStrategy)
+        assertEquals(
+            PriceValue(mutableListOf(PriceComponent(BigDecimal("60.00"), Currency.EUR))),
+            interpreter.calculatePrice(order).startingPrice
+        )
+        assertEquals(
+            emptyList(),
+            interpreter.calculatePrice(order).discounts
+        )
+        assertEquals(
+            PriceValue(mutableListOf(PriceComponent(BigDecimal("60.00"), Currency.EUR))),
             interpreter.calculatePrice(order).finalPrice
         )
     }

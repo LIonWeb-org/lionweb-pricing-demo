@@ -1,5 +1,6 @@
 package com.strumenta.pricing
 
+import com.ibm.icu.math.MathContext
 import java.math.BigDecimal
 
 data class OrderLine(val productID: String, val quantity: Int)
@@ -8,46 +9,24 @@ data class Order(val lines: List<OrderLine>) {
         get() = lines.sumOf { it.quantity }
 }
 
-data class Discount(val description: String, val amount: Price)
+data class Discount(val description: String, val amount: PriceValue)
 
-data class Price(val components: MutableList<PriceComponent> = mutableListOf()) {
-    fun add(other: Price) {
-        other.components.forEach { otherComponent -> addComponent(otherComponent) }
-    }
-    fun addComponent(priceComponent: PriceComponent) {
-        val existing = components.find { it.currency == priceComponent.currency }
-        if (existing == null) {
-            components.add(priceComponent)
-        } else {
-            components.remove(existing)
-            components.add(existing.sum(priceComponent))
-        }
-    }
-    fun applyDiscounts(discounts: MutableList<Discount>): Price {
-        val discountedPrice = this.copy()
-        discounts.forEach {
-            discountedPrice.add(it.amount.inverse())
-        }
-        return discountedPrice
-    }
 
-    private fun inverse(): Price {
-        return Price(components.map { it.inverse() }.toMutableList())
-    }
-}
-
-data class Pricing(val startingPrice: Price = Price(), val discounts: MutableList<Discount> = mutableListOf()) {
+data class Pricing(val startingPrice: PriceValue = PriceValue(), val discounts: MutableList<Discount> = mutableListOf()) {
     fun addComponent(priceComponent: PriceComponent) {
         startingPrice.addComponent(priceComponent)
     }
 
-    val finalPrice: Price
+    val finalPrice: PriceValue
         get() = startingPrice.applyDiscounts(discounts)
 }
 
-data class PriceComponent(val value: BigDecimal, val currency: Currency) {
-    fun multipliedBy(multiplier: Int): PriceComponent {
-        return PriceComponent(value.multiply(BigDecimal(multiplier)), currency)
+class PriceComponent(initialValue: BigDecimal, val currency: Currency) {
+    val value = initialValue.setScale(2)
+    fun multipliedBy(multiplier: Int): PriceComponent = multipliedBy(BigDecimal(multiplier))
+
+    fun multipliedBy(multiplier: BigDecimal): PriceComponent {
+        return PriceComponent(value.multiply(multiplier), currency)
     }
 
     fun sum(other: PriceComponent): PriceComponent {
@@ -58,13 +37,38 @@ data class PriceComponent(val value: BigDecimal, val currency: Currency) {
     fun inverse(): PriceComponent {
         return PriceComponent(value.multiply(BigDecimal("-1.0")), currency)
     }
+
+    override fun equals(other: Any?): Boolean {
+        if (this === other) return true
+        if (other !is PriceComponent) return false
+
+        if (currency != other.currency) return false
+        if (value != other.value) return false
+
+        return true
+    }
+
+    override fun hashCode(): Int {
+        var result = currency.hashCode()
+        result = 31 * result + (value.hashCode() ?: 0)
+        return result
+    }
+}
+
+internal data class PricingContext(val order: Order, val basePrice: PriceValue) {
+    val itemQuantity: Int
+        get() = order.itemQuantity
 }
 
 class PricingInterpreter(val pricingStrategy: PricingStrategy) {
 
     private fun basePriceFor(productID: String): PriceComponent {
-        val basePrice = pricingStrategy.basePrices.find { it.itemID == productID } ?: throw IllegalArgumentException("No price for $productID")
-        return PriceComponent(BigDecimal("${basePrice.amount.integerPart}.${basePrice.amount.decimalPart}"), basePrice.amount.currencey)
+        val basePrice = pricingStrategy.basePrices.find { it.itemID == productID }
+            ?: throw IllegalArgumentException("No price for $productID")
+        return PriceComponent(
+            BigDecimal("${basePrice.amount.integerPart}.${basePrice.amount.decimalPart}"),
+            basePrice.amount.currencey
+        )
     }
 
     fun calculatePrice(order: Order): Pricing {
@@ -72,44 +76,29 @@ class PricingInterpreter(val pricingStrategy: PricingStrategy) {
         order.lines.forEach { orderLine ->
             price.addComponent(basePriceFor(orderLine.productID).multipliedBy(orderLine.quantity))
         }
+        val pricingContext = PricingContext(order, price.startingPrice)
         pricingStrategy.discountPolicies.forEach { discountPolicy ->
-            if (discountPolicy.condition.evaluate(order).asBoolean()) {
-                val discountAmount = discountPolicy.discount.evaluate(order).asPrice()
+            if (discountPolicy.condition.evaluate(pricingContext).asBoolean()) {
+                val discountAmount = discountPolicy.discount.evaluate(pricingContext).asPrice()
                 price.discounts.add(Discount(discountPolicy.description, discountAmount))
             }
         }
         return price
     }
-}
 
-sealed class Value {
-    open fun asBoolean(): Boolean {
-        throw UnsupportedOperationException("$this cannot be converted to Boolean")
-    }
+    private fun Expression.evaluate(pricingContext: PricingContext): Value {
+        return when (this) {
+            is GreaterThan -> BooleanValue(
+                this.left.evaluate(pricingContext).asBigDecimal() > this.right.evaluate(pricingContext).asBigDecimal()
+            )
 
-    open fun asPrice(): Price {
-        throw UnsupportedOperationException("$this cannot be converted to Price")
-    }
-
-    open fun asBigDecimal(): BigDecimal {
-        throw UnsupportedOperationException("$this cannot be converted to BigDecimal")
-    }
-}
-
-data class BooleanValue(val value: Boolean) : Value() {
-    override fun asBoolean(): Boolean = value
-}
-
-data class IntegerValue(val value: Int) : Value() {
-    override fun asBigDecimal(): BigDecimal = BigDecimal(value)
-}
-
-private fun Expression.evaluate(order: Order): Value {
-    return when (this) {
-        is GreaterThan -> BooleanValue(this.left.evaluate(order).asBigDecimal() > this.right.evaluate(order).asBigDecimal())
-        is ItemQuantity -> IntegerValue(order.itemQuantity)
-        is IntLiteral -> IntegerValue(this.value.toInt())
-        else -> TODO("Evaluate $this (${this.javaClass.canonicalName})")
+            is ItemQuantity -> IntegerValue(pricingContext.itemQuantity)
+            is IntLiteral -> IntegerValue(this.value.toInt())
+            is Percentage -> pricingContext.basePrice.multipliedBy(this.base.evaluate(pricingContext).asBigDecimal().divide(
+                BigDecimal(100)
+            ))
+            else -> TODO("Evaluate $this (${this.javaClass.canonicalName})")
+        }
     }
 }
 
