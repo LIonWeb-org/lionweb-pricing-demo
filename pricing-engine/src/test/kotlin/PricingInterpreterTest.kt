@@ -4,7 +4,7 @@ import com.strumenta.pricing.BasePrice
 import com.strumenta.pricing.Currency
 import com.strumenta.pricing.Order
 import com.strumenta.pricing.OrderLine
-import com.strumenta.pricing.Price
+import com.strumenta.pricing.Pricing
 import com.strumenta.pricing.PriceComponent
 import com.strumenta.pricing.PricingInterpreter
 import com.strumenta.pricing.PricingStrategy
@@ -39,7 +39,7 @@ class PricingInterpreterTest {
             )
         )
         assertEquals(
-            Price(basePrice = mutableListOf(PriceComponent(BigDecimal("70.0"), Currency.EUR))),
+            Pricing(startingPrice = mutableListOf(PriceComponent(BigDecimal("70.0"), Currency.EUR))),
             PricingInterpreter(pricing).calculatePrice(order)
         )
     }

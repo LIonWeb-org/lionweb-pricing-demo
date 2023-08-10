@@ -19,6 +19,7 @@ val kolasuVersion = extra["kolasuVersion"]
 val lionwebJavaVersion = extra["lionwebJavaVersion"]
 
 dependencies {
+    implementation("com.github.ajalt.clikt:clikt:4.2.0")
     testImplementation("com.strumenta.kolasu:kolasu-lionweb-gen:$kolasuVersion")
     testImplementation("io.lionweb.lioncore-java:lioncore-java-core:$lionwebJavaVersion")
     testImplementation(kotlin("test"))

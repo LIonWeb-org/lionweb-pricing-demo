@@ -13,7 +13,7 @@ class PricingLoader {
     private var jsonser: JsonSerialization
 
     init {
-        val languageFile = File("src/main/lionweb/pricing.json")
+        val languageFile = File("pricing-engine/src/main/lionweb/pricing.json")
         require(languageFile.exists())
         jsonser = JsonSerialization.getStandardSerialization()
         jsonser.nodeResolver.addTree(StarLasuLWLanguage)
