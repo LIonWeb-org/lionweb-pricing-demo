@@ -12,19 +12,21 @@ class PricingInterpreterCLI : CliktCommand() {
     val orderLines: List<String> by argument().multiple(required = true)
 
     override fun run() {
-        val order = Order(orderLines.map {
-            val parts = it.split(":")
-            if (parts.size != 2 || parts[1].toIntOrNull() == null) {
-                System.err.println("all order lines should be in the format <order-id>:<quantity>")
-                exitProcess(1)
+        val order = Order(
+            orderLines.map {
+                val parts = it.split(":")
+                if (parts.size != 2 || parts[1].toIntOrNull() == null) {
+                    System.err.println("all order lines should be in the format <order-id>:<quantity>")
+                    exitProcess(1)
+                }
+                OrderLine(parts[0], parts[1].toInt())
             }
-            OrderLine(parts[0], parts[1].toInt())
-        })
+        )
         val pricingStrategy = PricingLoader().loadPricingStrategyFromLionWebFile(pricingStrategyFile)
         val pricing = PricingInterpreter(pricingStrategy).calculatePrice(order)
         println("Base price: ${pricing.startingPrice}")
         pricing.discounts.forEach {
-            println(" - ${it}")
+            println(" - $it")
         }
         println("-------------------------------------")
         println("Final price: ${pricing.startingPrice}")

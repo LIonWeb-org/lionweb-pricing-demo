@@ -13,7 +13,11 @@ class PricingLoader {
     private var jsonser: JsonSerialization
 
     init {
-        val languageFile = File("pricing-engine/src/main/lionweb/pricing.json")
+        // TODO load from resources?
+        var languageFile = File("src/main/lionweb/pricing.json")
+        if (!languageFile.exists()) {
+            languageFile = File("pricing-engine/src/main/lionweb/pricing.json")
+        }
         require(languageFile.exists())
         jsonser = JsonSerialization.getStandardSerialization()
         jsonser.nodeResolver.addTree(StarLasuLWLanguage)
@@ -36,7 +40,6 @@ class PricingLoader {
         }
 
         lwImpExp.associateLanguages(language, kolasuLanguage)
-        lwImpExp.importModelFromLionWeb(model.first())
-        return model.first() as PricingStrategy
+        return lwImpExp.importModelFromLionWeb(model.first()) as PricingStrategy
     }
 }

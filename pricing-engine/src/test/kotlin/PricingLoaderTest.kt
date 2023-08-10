@@ -2,11 +2,12 @@ import com.strumenta.pricing.PricingLoader
 import java.io.File
 import kotlin.test.Test
 
-class ModelLoadingTest {
+class PricingLoaderTest {
 
     @Test
     fun loadPricingStrategies() {
-        val pricingStragegy = PricingLoader().loadPricingStrategyFromLionWebFile(File("src/test/resources/strategies.json"))
+        val pricingStrategy = PricingLoader().loadPricingStrategyFromLionWebFile(File("src/test/resources/strategies.json"))
+
         // For now we are happy this does not explode!
     }
 }
