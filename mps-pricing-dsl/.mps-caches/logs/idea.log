@@ -1,0 +1,795 @@
+2023-08-11 09:48:43,658 [      0]   INFO - jetbrains.mps.tool.environment.IdeaEnvironment - Creating IDEA environment 
+2023-08-11 09:48:43,658 [      0]   INFO - jetbrains.mps.tool.environment.IdeaEnvironment - Creating IdeaCmdApplication 
+2023-08-11 09:48:50,368 [   6710]   INFO -                         STDOUT - Log4j is initialized by MPS from the configuration file /Users/federico/.gradle/caches/transforms-3/449919180470779c4a6aec037a975379/transformed/mps/bin/log.xml 
+2023-08-11 09:48:50,369 [   6711]   INFO - jetbrains.mps.tool.environment.EnvironmentBase - Initializing libraries 
+2023-08-11 09:48:50,370 [   6712]   INFO - jetbrains.mps.library.LibraryInitializer - Adding libraries from SetLibraryContributor 
+2023-08-11 09:48:50,532 [   6874]   INFO - jetbrains.mps.plugins.PluginLoaderRegistry - Running Update Task : loaders [toLoad: 1; toUnload:0]; contributors : [toLoad: 120; toUnload:0]; Thread[AWT-EventQueue-0,6,Idea Thread Group] 
+2023-08-11 09:48:50,537 [   6879]   INFO - #com.intellij.util.indexing.FileBasedIndexImpl - Indexes to be rebuilt after corruption:FilenameIndex(v = 3),FrameworkDetectionIndex(v = 65536),TodoIndex(v = 4107),IdIndex(v = 4113),filetypes(v = 3),Stubs(v = 46),Trigram.Index(v = 4099),fileIncludes(v = 6),DomFileIndex(v = 0),RelaxSymbolIndex(v = 0),XmlTagNames(v = 1),XmlNamespaces(v = 8),html5.custom.attributes.index(v = 1),SchemaTypeInheritance(v = 2),json.file.root.values(v = 5),mps.NodeUsage(v = 1),mps.RootNodeName(v = 1),mps.propvalue(v = 2),ModelDigest2(v = 1),BinaryModelDigest2(v = 1),mps.ClassifierSuccessors(v = 1) 
+2023-08-11 09:48:50,539 [   6881]   INFO - com.intellij.util.indexing.FileBasedIndexDataInitialization - Index data initialization done: 283 ms. Initialized indexes: [FilenameIndex, FrameworkDetectionIndex, IdIndex, TodoIndex, filetypes, Trigram.Index, DomFileIndex, fileIncludes, RelaxSymbolIndex, XmlTagNames, XmlNamespaces, SchemaTypeInheritance, html5.custom.attributes.index, mps.RootNodeName, json.file.root.values, mps.NodeUsage, ModelDigest2, BinaryModelDigest2, mps.propvalue, mps.ClassifierSuccessors, Stubs]. 
+2023-08-11 09:48:50,544 [   6886]   INFO - #com.intellij.psi.stubs.StubIndexImpl - Following stub indices will be built:dom.namespaceKey(v = 1),dom.elementClass(v = 0) 
+2023-08-11 09:48:50,545 [   6887]   INFO - com.intellij.psi.stubs.StubIndexImpl$StubIndexInitialization - Index data initialization done: 5 ms. Initialized stub indexes: {dom.elementClass, dom.namespaceKey}. 
+2023-08-11 09:48:50,682 [   7024]   WARN - #com.intellij.openapi.actionSystem.impl.ActionManagerImpl - keymap "Eclipse" not found [Plugin: com.intellij] 
+2023-08-11 09:48:50,683 [   7025]   WARN - #com.intellij.openapi.actionSystem.impl.ActionManagerImpl - keymap "NetBeans 6.5" not found [Plugin: com.intellij] 
+2023-08-11 09:48:50,683 [   7025]   WARN - #com.intellij.openapi.actionSystem.impl.ActionManagerImpl - keymap "Eclipse (Mac OS X)" not found [Plugin: com.intellij] 
+2023-08-11 09:48:50,805 [   7147]   WARN - tbrains.mps.plugins.applicationplugins.BaseApplicationPlugin - Destination group was not found id: Internal. Trying to insert jetbrains.mps.ide.actions.ToolsInternal_ActionGroup 
+2023-08-11 09:48:51,358 [   7700]   INFO - jetbrains.mps.plugins.PluginLoaderRegistry - Loading of 2 plugins took 0.819 s 
+2023-08-11 09:48:51,452 [   7794]   INFO - jetbrains.mps.plugins.PluginLoaderRegistry - Loading of 120 plugins took 0.093 s 
+2023-08-11 09:48:51,453 [   7795]   INFO - jetbrains.mps.library.LibraryInitializer - Loading 2 libraries 
+2023-08-11 09:48:51,908 [   8250]   INFO - jetbrains.mps.library.LibraryInitializer - Library update is finished 
+2023-08-11 09:48:51,913 [   8255]   INFO - jetbrains.mps.tool.environment.EnvironmentBase - Opening a new project 
+2023-08-11 09:48:51,914 [   8256]   INFO - jetbrains.mps.tool.environment.IdeaEnvironment - Load and open the project with path '/Users/federico/repos/lionweb-pricing-demo/mps-pricing-dsl' 
+2023-08-11 09:48:51,962 [   8304]   INFO - l.ide.impl.legacyBridge.LegacyBridgeProjectLifecycleListener - Using workspace model to open project 
+2023-08-11 09:48:52,090 [   8432]   INFO - #com.intellij.psi.codeStyle.ProjectCodeStyleSettingsManager - Initialized from default code style settings. 
+2023-08-11 09:48:52,092 [   8434]   INFO - #com.intellij.openapi.vcs.impl.projectlevelman.NewMappings - VCS Root: [Git] - [/Users/federico/repos/lionweb-pricing-demo] 
+2023-08-11 09:48:52,177 [   8519]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.project.StandaloneMPSProject) 
+2023-08-11 09:48:52,177 [   8519]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.project.ProjectLibraryManager) 
+2023-08-11 09:48:52,351 [   8693]   INFO - jetbrains.mps.library.LibraryInitializer - Adding libraries from ProjectLibraryManager 
+2023-08-11 09:48:52,352 [   8694]   INFO - jetbrains.mps.library.LibraryInitializer - Loading 1 libraries 
+2023-08-11 09:48:53,095 [   9437]   INFO - #com.intellij.openapi.vfs.impl.ZipHandlerBase - duplicate entry: /Users/federico/repos/lionweb-pricing-demo/mps-pricing-dsl/build/dependencies/de.itemis.mps.extensions/de.itemis.mps.extensions.jackson/lib/jackson-databind.jar!/META-INF/LICENSE 
+2023-08-11 09:48:53,095 [   9437]   INFO - #com.intellij.openapi.vfs.impl.ZipHandlerBase - duplicate entry: /Users/federico/repos/lionweb-pricing-demo/mps-pricing-dsl/build/dependencies/de.itemis.mps.extensions/de.itemis.mps.extensions.jackson/lib/jackson-databind.jar!/module-info.class 
+2023-08-11 09:48:53,580 [   9922]   WARN - jetbrains.mps.persistence.DefaultModelRoot - Models have not been found within the Path [IdeaFile[path: /Users/federico/repos/lionweb-pricing-demo/mps-pricing-dsl/build/dependencies/de.itemis.mps.extensions/org.modelix.model.api/languages/group.model-api/org.modelix.model.api-src.jar!/module/models]] 
+2023-08-11 09:48:53,674 [  10016]   WARN - jetbrains.mps.persistence.DefaultModelRoot - Models have not been found within the Path [IdeaFile[path: /Users/federico/repos/lionweb-pricing-demo/mps-pricing-dsl/build/dependencies/de.itemis.mps.extensions/de.q60.mps.collections.libs/languages/de.q60.mps.collections.libs/de.q60.mps.collections.libs-src.jar!/module/models]] 
+2023-08-11 09:48:53,839 [  10181]   WARN - jetbrains.mps.persistence.DefaultModelRoot - No source roots specified for location IdeaFile[path: /Users/federico/repos/lionweb-pricing-demo/mps-pricing-dsl/build/dependencies/de.itemis.mps.extensions/de.itemis.mps.extensions.jackson/languages/jackson/com.fasterxml.jackson-src.jar!/module] of module com.fasterxml.jackson [solution], no models were loaded 
+2023-08-11 09:48:53,840 [  10182]   INFO - #com.intellij.openapi.vfs.impl.ZipHandlerBase - duplicate entry: /Users/federico/.gradle/caches/transforms-3/449919180470779c4a6aec037a975379/transformed/mps/lib/jackson-databind.jar!/META-INF/LICENSE 
+2023-08-11 09:48:53,840 [  10182]   INFO - #com.intellij.openapi.vfs.impl.ZipHandlerBase - duplicate entry: /Users/federico/.gradle/caches/transforms-3/449919180470779c4a6aec037a975379/transformed/mps/lib/jackson-databind.jar!/module-info.class 
+2023-08-11 09:48:53,869 [  10211]   INFO - jetbrains.mps.library.LibraryInitializer - Library update is finished 
+2023-08-11 09:48:54,381 [  10723]   INFO - jetbrains.mps.classloading.ModuleUpdater - Classloading refresh took 0.512 s 
+2023-08-11 09:48:54,411 [  10753]   WARN - jetbrains.mps.classloading.ModulesWatcher - 3 modules are marked as invalid roots for class loading out of 426 modules [totally in the repository]: 
+2023-08-11 09:48:54,411 [  10753]   WARN - jetbrains.mps.classloading.ModulesWatcher - com.mbeddr.mpsutil.grammarcells [language] has got an absent dependency problem and therefore was marked invalid for class loading: The dependency in com.mbeddr.mpsutil.grammarcells [language] cannot be resolved {Default} b1ab8c10-c118-4755-bf2a-cebab35cf533(jetbrains.mps.lang.editor.tooltips) 
+2023-08-11 09:48:54,411 [  10753]   WARN - jetbrains.mps.classloading.ModulesWatcher - jetbrains.mps.vcs.mergehints.plugin [solution] has got an absent dependency problem and therefore was marked invalid for class loading: The dependency in jetbrains.mps.vcs.mergehints.plugin [solution] cannot be resolved {Default} cae9c33a-938f-42e8-8f0f-26f001c0af63(jetbrains.mps.ide.devkit.editor) 
+2023-08-11 09:48:54,411 [  10753]   WARN - jetbrains.mps.classloading.ModulesWatcher - de.itemis.mps.tooltips [language] has got an absent dependency problem and therefore was marked invalid for class loading: The dependency in de.itemis.mps.tooltips [language] cannot be resolved {Default} b1ab8c10-c118-4755-bf2a-cebab35cf533(jetbrains.mps.lang.editor.tooltips) 
+2023-08-11 09:48:54,411 [  10753]   INFO - jetbrains.mps.classloading.ModulesWatcher - Totally 6 modules are marked invalid for class loading: 
+2023-08-11 09:48:54,411 [  10753]   INFO - jetbrains.mps.classloading.ModulesWatcher - 9d69e719-78c8-4286-90db-fb19c107d049(com.mbeddr.mpsutil.grammarcells) 
+2023-08-11 09:48:54,411 [  10753]   INFO - jetbrains.mps.classloading.ModulesWatcher - 3caaaa06-4186-4d6e-8cb4-37c75a1dbcaf(com.mbeddr.mpsutil.grammarcells#1749127723000258530) 
+2023-08-11 09:48:54,411 [  10753]   INFO - jetbrains.mps.classloading.ModulesWatcher - f3e1e6f1-1de5-4ca2-a0b2-25f6530686ef(jetbrains.mps.vcs.mergehints.plugin) 
+2023-08-11 09:48:54,411 [  10753]   INFO - jetbrains.mps.classloading.ModulesWatcher - a0ab8c10-c118-4755-ba27-3853435cf524(de.itemis.mps.tooltips) 
+2023-08-11 09:48:54,411 [  10753]   INFO - jetbrains.mps.classloading.ModulesWatcher - 9a94d19e-1f70-46b2-87a7-a5b1c8e1fc5f(de.itemis.mps.editor.diagram#1110129820007083940) 
+2023-08-11 09:48:54,411 [  10753]   INFO - jetbrains.mps.classloading.ModulesWatcher - 091ef3ba-305a-4257-ac3b-6c5daacb61ee(de.itemis.mps.tooltips#7561794385526429391) 
+2023-08-11 09:48:54,603 [  10945]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.ide.vfs.ProjectRootListenerComponent) 
+2023-08-11 09:48:54,611 [  10953]   INFO - jetbrains.mps.project.StandaloneMPSProject - Loading the project 'PricingDSL' from disk 
+2023-08-11 09:48:54,617 [  10959]   INFO - jetbrains.mps.project.StandaloneMPSProject - Updating PricingDSL 
+2023-08-11 09:48:54,617 [  10959]   INFO - jetbrains.mps.project.ProjectModuleLoader - Loading modules... 
+2023-08-11 09:48:54,681 [  11023]   INFO - jetbrains.mps.project.ProjectModuleLoader - Modules are loaded: 4 new; 0 removed 
+2023-08-11 09:48:54,773 [  11115]   INFO - jetbrains.mps.classloading.ModuleUpdater - Classloading refresh took 0.091 s 
+2023-08-11 09:48:54,825 [  11167]   WARN - jetbrains.mps.classloading.ModulesWatcher - 5 modules are marked as invalid roots for class loading out of 431 modules [totally in the repository]: 
+2023-08-11 09:48:54,825 [  11167]   WARN - jetbrains.mps.classloading.ModulesWatcher - com.mbeddr.mpsutil.grammarcells [language] has got an absent dependency problem and therefore was marked invalid for class loading: The dependency in com.mbeddr.mpsutil.grammarcells [language] cannot be resolved {Default} b1ab8c10-c118-4755-bf2a-cebab35cf533(jetbrains.mps.lang.editor.tooltips) 
+2023-08-11 09:48:54,826 [  11168]   WARN - jetbrains.mps.classloading.ModulesWatcher - LionWebExport [solution] has got an absent dependency problem and therefore was marked invalid for class loading: The dependency in LionWebExport [solution] cannot be resolved {Default} 01cf0d82-8d29-4fc4-be96-28abaf4ad33d(io.lionweb.mps.m3) 
+2023-08-11 09:48:54,826 [  11168]   WARN - jetbrains.mps.classloading.ModulesWatcher - jetbrains.mps.vcs.mergehints.plugin [solution] has got an absent dependency problem and therefore was marked invalid for class loading: The dependency in jetbrains.mps.vcs.mergehints.plugin [solution] cannot be resolved {Default} cae9c33a-938f-42e8-8f0f-26f001c0af63(jetbrains.mps.ide.devkit.editor) 
+2023-08-11 09:48:54,826 [  11168]   WARN - jetbrains.mps.classloading.ModulesWatcher - de.itemis.mps.tooltips [language] has got an absent dependency problem and therefore was marked invalid for class loading: The dependency in de.itemis.mps.tooltips [language] cannot be resolved {Default} b1ab8c10-c118-4755-bf2a-cebab35cf533(jetbrains.mps.lang.editor.tooltips) 
+2023-08-11 09:48:54,826 [  11168]   WARN - jetbrains.mps.classloading.ModulesWatcher - Build [solution] has got an absent dependency problem and therefore was marked invalid for class loading: The dependency in Build [solution] cannot be resolved {Default} bf3c8943-8801-4969-9ac2-7403444bbefa(io.lionweb.mps.build) 
+2023-08-11 09:48:54,826 [  11168]   INFO - jetbrains.mps.classloading.ModulesWatcher - Totally 8 modules are marked invalid for class loading: 
+2023-08-11 09:48:54,826 [  11168]   INFO - jetbrains.mps.classloading.ModulesWatcher - 9d69e719-78c8-4286-90db-fb19c107d049(com.mbeddr.mpsutil.grammarcells) 
+2023-08-11 09:48:54,826 [  11168]   INFO - jetbrains.mps.classloading.ModulesWatcher - 3caaaa06-4186-4d6e-8cb4-37c75a1dbcaf(com.mbeddr.mpsutil.grammarcells#1749127723000258530) 
+2023-08-11 09:48:54,826 [  11168]   INFO - jetbrains.mps.classloading.ModulesWatcher - a91510f1-5df7-4a65-9b67-7da88671a17d(LionWebExport) 
+2023-08-11 09:48:54,826 [  11168]   INFO - jetbrains.mps.classloading.ModulesWatcher - f3e1e6f1-1de5-4ca2-a0b2-25f6530686ef(jetbrains.mps.vcs.mergehints.plugin) 
+2023-08-11 09:48:54,826 [  11168]   INFO - jetbrains.mps.classloading.ModulesWatcher - a0ab8c10-c118-4755-ba27-3853435cf524(de.itemis.mps.tooltips) 
+2023-08-11 09:48:54,826 [  11168]   INFO - jetbrains.mps.classloading.ModulesWatcher - 9a94d19e-1f70-46b2-87a7-a5b1c8e1fc5f(de.itemis.mps.editor.diagram#1110129820007083940) 
+2023-08-11 09:48:54,826 [  11168]   INFO - jetbrains.mps.classloading.ModulesWatcher - 091ef3ba-305a-4257-ac3b-6c5daacb61ee(de.itemis.mps.tooltips#7561794385526429391) 
+2023-08-11 09:48:54,826 [  11168]   INFO - jetbrains.mps.classloading.ModulesWatcher - a34404a4-f381-43ed-ae80-c7aff6f7bbab(Build) 
+2023-08-11 09:48:54,840 [  11182]   INFO - jetbrains.mps.project.StandaloneMPSProject - Updating PricingDSL took 0.223 s 
+2023-08-11 09:48:54,841 [  11183]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.nodefs.FileSystemProjectBridge) 
+2023-08-11 09:48:54,842 [  11184]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.ide.undo.OnReloadingUndoCleaner) 
+2023-08-11 09:48:54,846 [  11188]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.nodeEditor.EmptyHighlighter) 
+2023-08-11 09:48:54,853 [  11195]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.ide.editor.MPSValidationComponent) 
+2023-08-11 09:48:54,853 [  11195]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.ide.editor.warningPanel.MPSEditorWarningsManager) 
+2023-08-11 09:48:54,862 [  11204]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.ide.generator.TransientModelsComponent) 
+2023-08-11 09:48:54,863 [  11205]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.ide.hierarchy.HierarchyViewTool) 
+2023-08-11 09:48:54,863 [  11205]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.ide.bookmark.BookmarkManager) 
+2023-08-11 09:48:54,867 [  11209]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.ide.bookmark.BookmarksUIComponent) 
+2023-08-11 09:48:54,870 [  11212]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.ide.vfs.DirectoryIndexExcludeUpdater) 
+2023-08-11 09:48:54,873 [  11215]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.plugins.projectplugins.ProjectPluginManager) 
+2023-08-11 09:48:54,878 [  11220]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.vfs.tracking.ModelTracking) 
+2023-08-11 09:48:54,883 [  11225]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.java.platform.actions.OverrideImplementMethodComponent) 
+2023-08-11 09:48:54,884 [  11226]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.java.platform.highlighters.JavaHighlighters) 
+2023-08-11 09:48:54,888 [  11230]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.vcs.MPSVcsManager) 
+2023-08-11 09:48:54,930 [  11272]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.vcs.changesmanager.roots.NodeFileStatusMappingExt) 
+2023-08-11 09:48:54,931 [  11273]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.vcs.integration.GeneratedFileConflictResolving) 
+2023-08-11 09:48:54,942 [  11284]   INFO - Model.ide.impl.jps.serialization.JpsProjectModelSynchronizer - Workspace model loaded without cache. Loading real project state into workspace model. Thread[AWT-EventQueue-0,6,Idea Thread Group] 
+2023-08-11 09:48:55,032 [  11374]   WARN - m.intellij.internal.statistic.eventLog.EventLogConfiguration - Failed retrieving device id for FUS 
+2023-08-11 09:48:55,998 [  12340]   INFO - jetbrains.mps.project.ProjectBase - Project 'PricingDSL' is opened 
+2023-08-11 09:48:56,108 [  12450]   INFO - #com.intellij.openapi.application.Experiments - Experimental features enabled for user: wsl.p9.support, wsl.prefer.p9.support, wsl.p9.show.roots.in.file.chooser, wsl.execute.with.wsl.exe, inline.browse.button, linux.native.menu, recent.and.edited.files.together, show.create.new.element.in.popup, search.everywhere.mixed.results, i18n.match.actions, editor.reader.mode, edit.run.configurations.while.dumb, new.large.text.file.viewer 
+2023-08-11 09:48:56,120 [  12462]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Started 
+2023-08-11 09:48:56,132 [  12474]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Scanning: use 12 scanning threads 
+2023-08-11 09:48:56,540 [  12882]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Scanning completed. Number of scanned files: 2650; Number of files for indexing: 2347 took 412ms; general responsiveness: ok; EDT responsiveness: ok 
+2023-08-11 09:48:56,542 [  12884]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Pushing properties took 2ms; general responsiveness: ok; EDT responsiveness: ok 
+2023-08-11 09:48:56,624 [  12966]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Use 4 indexing threads 
+2023-08-11 09:49:02,207 [  18549]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Finished. Unindexed files update took 5586ms; general responsiveness: ok; EDT responsiveness: ok 
+2023-08-11 09:49:02,361 [  18703]   INFO - nalSystem.service.project.manage.ExternalProjectsDataStorage - Load external projects data in 4 millis (read time: 1) 
+2023-08-11 09:49:02,385 [  18727]   INFO -  #git4idea.commands.GitHandler - [.] git version 
+2023-08-11 09:49:02,403 [  18745]   INFO - #com.intellij.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2023-08-11 09:49:02,417 [  18759]   INFO -  #git4idea.commands.GitHandler - git version 2.31.1 
+2023-08-11 09:49:02,427 [  18769]   INFO - #git4idea.config.GitExecutableManager - Git version for /usr/local/bin/git: 2.31.1.0 (UNIX) 
+2023-08-11 09:49:02,430 [  18772]   INFO - #com.intellij.diagnostic.PerformanceWatcher - Post-startup activities under progress took 217ms; general responsiveness: ok; EDT responsiveness: ok 
+2023-08-11 09:49:02,460 [  18802]   INFO - jetbrains.mps.plugins.PluginLoaderRegistry - Running Update Task : loaders [toLoad: 1; toUnload:0]; contributors : [toLoad: 91; toUnload:0]; Thread[AWT-EventQueue-0,6,Idea Thread Group] 
+2023-08-11 09:49:02,572 [  18914]   INFO - jetbrains.mps.plugins.PluginLoaderRegistry - Loading of 122 plugins took 0.111 s 
+2023-08-11 09:49:03,197 [  19539]   WARN - org.modelix.model.api.INodeReferenceSerializer - Migrate class org.modelix.model.mpsadapters.plugin.MPSNodeReferenceSerializer (Kotlin reflection is not available) to INodeReferenceSerializerEx 
+2023-08-11 09:49:03,533 [  19875]   INFO - jetbrains.mps.plugins.PluginLoaderRegistry - Loading of 91 plugins took 0.961 s 
+2023-08-11 09:49:03,590 [  19932]   WARN - #com.intellij.openapi.editor.impl.FontFamilyServiceImpl - Couldn't access required runtime API, will fall back to basic logic of font selection 
+2023-08-11 09:49:03,867 [  20209]   INFO - #com.intellij.openapi.roots.impl.ProjectRootManagerComponent - project roots have changed (trace_hash = -1203660107) 
+java.lang.Throwable
+	at com.intellij.openapi.roots.impl.ProjectRootManagerComponent.logRootChanges(ProjectRootManagerComponent.java:309)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerComponent.synchronizeRoots(ProjectRootManagerComponent.java:296)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerComponent.fireRootsChangedEvent(ProjectRootManagerComponent.java:201)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerImpl.fireRootsChanged(ProjectRootManagerImpl.java:459)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerImpl$1.fireRootsChanged(ProjectRootManagerImpl.java:146)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerImpl$1.fireRootsChanged(ProjectRootManagerImpl.java:143)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerImpl$BatchSession.rootsChanged(ProjectRootManagerImpl.java:113)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerImpl$BatchSession.rootsChanged(ProjectRootManagerImpl.java:121)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerImpl.makeRootsChange(ProjectRootManagerImpl.java:431)
+	at jetbrains.mps.ide.findusages.caches.IndexableRootCalculator.lambda$invalidateCache$3(IndexableRootCalculator.java:183)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:959)
+	at jetbrains.mps.ide.findusages.caches.IndexableRootCalculator.lambda$invalidateCache$4(IndexableRootCalculator.java:181)
+	at com.intellij.openapi.application.TransactionGuardImpl.runWithWritingAllowed(TransactionGuardImpl.java:218)
+	at com.intellij.openapi.application.TransactionGuardImpl.access$200(TransactionGuardImpl.java:21)
+	at com.intellij.openapi.application.TransactionGuardImpl$2.run(TransactionGuardImpl.java:200)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:781)
+	at com.intellij.openapi.application.impl.ApplicationImpl.lambda$invokeLaterOnWriteThread$10(ApplicationImpl.java:770)
+	at com.intellij.openapi.application.impl.FlushQueue.doRun(FlushQueue.java:84)
+	at com.intellij.openapi.application.impl.FlushQueue.runNextEvent(FlushQueue.java:133)
+	at com.intellij.openapi.application.impl.FlushQueue.flushNow(FlushQueue.java:46)
+	at com.intellij.openapi.application.impl.FlushQueue$FlushNow.run(FlushQueue.java:189)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:969)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:839)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:449)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:808)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$9(IdeEventQueue.java:448)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:781)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:496)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2023-08-11 09:49:03,868 [  20210]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Started 
+2023-08-11 09:49:03,868 [  20210]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Scanning: use 12 scanning threads 
+2023-08-11 09:49:03,877 [  20219]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Scanning completed. Number of scanned files: 2650; Number of files for indexing: 0 took 9ms; general responsiveness: ok; EDT responsiveness: ok 
+2023-08-11 09:49:03,877 [  20219]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Pushing properties took 0ms; general responsiveness: ok; EDT responsiveness: ok 
+2023-08-11 09:49:03,916 [  20258]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Finish. No files to index with loading content. 
+2023-08-11 09:49:04,208 [  20550]  ERROR - de.itemis.mps.gradle.generate.messages - Cannot find the build project dependency io.lionweb.mps in the model io.lionweb.mps.build 
+2023-08-11 09:49:04,209 [  20551]  ERROR - de.itemis.mps.gradle.generate.messages - -- -- was input node: [dependencies] BuildProjectDependency null[6699021429252439676] in Build.build@0 
+2023-08-11 09:49:04,209 [  20551]  ERROR - de.itemis.mps.gradle.generate.messages - -- was template node: r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)/3189788309732145594 
+2023-08-11 09:49:04,335 [  20677]  ERROR - de.itemis.mps.gradle.generate.messages - cannot find used language in dependencies: io.lionweb.mps.converter.lang 
+2023-08-11 09:49:04,335 [  20677]  ERROR - de.itemis.mps.gradle.generate.messages - -- -- was input node: [modules] BuildMps_Language "Pricing"[6699021429252439044] in Build.build@0 
+2023-08-11 09:49:04,335 [  20677]  ERROR - de.itemis.mps.gradle.generate.messages - -- was template node: r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)/3189788309732145594 
+2023-08-11 09:49:04,365 [  20707]  ERROR - de.itemis.mps.gradle.generate.messages - dependency on a module not visible from current build project: 01cf0d82-8d29-4fc4-be96-28abaf4ad33d(io.lionweb.mps.m3) 
+2023-08-11 09:49:04,365 [  20707]  ERROR - de.itemis.mps.gradle.generate.messages - -- -- was input node: [modules] BuildMps_Solution "LionWebExport"[6699021429252439084] in Build.build@0 
+2023-08-11 09:49:04,365 [  20707]  ERROR - de.itemis.mps.gradle.generate.messages - -- was template node: r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)/3189788309732145594 
+2023-08-11 09:49:04,368 [  20710]  ERROR - de.itemis.mps.gradle.generate.messages - cannot find used language in dependencies: io.lionweb.mps.converter.lang 
+2023-08-11 09:49:04,368 [  20710]  ERROR - de.itemis.mps.gradle.generate.messages - -- -- was input node: [modules] BuildMps_Solution "LionWebExport"[6699021429252439084] in Build.build@0 
+2023-08-11 09:49:04,368 [  20710]  ERROR - de.itemis.mps.gradle.generate.messages - -- was template node: r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)/3189788309732145594 
+2023-08-11 09:49:04,373 [  20715]  ERROR - de.itemis.mps.gradle.generate.messages - cannot find used language in dependencies: io.lionweb.mps.converter.lang 
+2023-08-11 09:49:04,373 [  20715]  ERROR - de.itemis.mps.gradle.generate.messages - -- -- was input node: [modules] BuildMps_Solution "Pricing.sandbox"[6699021429252439744] in Build.build@0 
+2023-08-11 09:49:04,373 [  20715]  ERROR - de.itemis.mps.gradle.generate.messages - -- was template node: r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)/3189788309732145594 
+2023-08-11 09:49:04,390 [  20732]  ERROR - de.itemis.mps.gradle.generate.messages - cannot resolve dependency on transient model, no original node is available 
+2023-08-11 09:49:04,390 [  20732]  ERROR - de.itemis.mps.gradle.generate.messages - -- was template node: r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)/3189788309732145594 
+2023-08-11 09:49:04,636 [  20978]   WARN - de.itemis.mps.gradle.generate.messages - model 'Build.build@0' has been generated with errors 
+2023-08-11 09:49:04,650 [  20992]  ERROR - de.itemis.mps.gradle.generate.messages - generation completed with errors in 728 ms 
+2023-08-11 09:49:04,660 [  21002]   INFO - #com.intellij.openapi.roots.impl.ProjectRootManagerComponent - project roots have changed (stacktrace has been already reported with trace_hash = -1203660107) 
+2023-08-11 09:49:04,660 [  21002]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Started 
+2023-08-11 09:49:04,660 [  21002]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Scanning: use 12 scanning threads 
+2023-08-11 09:49:04,660 [  21002]  ERROR - de.itemis.mps.gradle.generate.messages - Error executing target jetbrains.mps.lang.core.Generate.generate 
+2023-08-11 09:49:04,662 [  21004]  ERROR - de.itemis.mps.gradle.generate.messages - Build failed. See previous messages for details. 
+2023-08-11 09:49:04,662 [  21004]  ERROR -  de.itemis.mps.gradle.generate - generation result: failed 
+2023-08-11 09:49:04,662 [  21004]  ERROR -  de.itemis.mps.gradle.generate - jetbrains.mps.internal.make.runtime.script.CompositeResult@4adc663e 
+2023-08-11 09:49:04,671 [  21013]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Scanning completed. Number of scanned files: 2650; Number of files for indexing: 0 took 11ms; general responsiveness: ok; EDT responsiveness: ok 
+2023-08-11 09:49:04,671 [  21013]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Pushing properties took 0ms; general responsiveness: ok; EDT responsiveness: ok 
+2023-08-11 09:49:04,715 [  21057]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Finish. No files to index with loading content. 
+2023-08-11 09:49:04,753 [  21095]   INFO - jetbrains.mps.plugins.PluginLoaderRegistry - Running Update Task : loaders [toLoad: 0; toUnload:1]; contributors : [toLoad: 0; toUnload:0]; Thread[AWT-EventQueue-0,6,Idea Thread Group] 
+2023-08-11 09:49:04,756 [  21098]   INFO - jetbrains.mps.plugins.PluginLoaderRegistry - Unloading of 213 plugins took 0.003 s 
+2023-08-11 09:49:04,758 [  21100]   INFO - jetbrains.mps.project.ProjectBase - Project 'PricingDSL' is closing 
+2023-08-11 09:49:04,852 [  21194]   INFO - jetbrains.mps.classloading.ModuleUpdater - Classloading refresh took 0.051 s 
+2023-08-11 09:49:04,880 [  21222]   WARN - jetbrains.mps.classloading.ModulesWatcher - 3 modules are marked as invalid roots for class loading out of 426 modules [totally in the repository]: 
+2023-08-11 09:49:04,880 [  21222]   WARN - jetbrains.mps.classloading.ModulesWatcher - com.mbeddr.mpsutil.grammarcells [language] has got an absent dependency problem and therefore was marked invalid for class loading: The dependency in com.mbeddr.mpsutil.grammarcells [language] cannot be resolved {Default} b1ab8c10-c118-4755-bf2a-cebab35cf533(jetbrains.mps.lang.editor.tooltips) 
+2023-08-11 09:49:04,880 [  21222]   WARN - jetbrains.mps.classloading.ModulesWatcher - jetbrains.mps.vcs.mergehints.plugin [solution] has got an absent dependency problem and therefore was marked invalid for class loading: The dependency in jetbrains.mps.vcs.mergehints.plugin [solution] cannot be resolved {Default} cae9c33a-938f-42e8-8f0f-26f001c0af63(jetbrains.mps.ide.devkit.editor) 
+2023-08-11 09:49:04,880 [  21222]   WARN - jetbrains.mps.classloading.ModulesWatcher - de.itemis.mps.tooltips [language] has got an absent dependency problem and therefore was marked invalid for class loading: The dependency in de.itemis.mps.tooltips [language] cannot be resolved {Default} b1ab8c10-c118-4755-bf2a-cebab35cf533(jetbrains.mps.lang.editor.tooltips) 
+2023-08-11 09:49:04,880 [  21222]   INFO - jetbrains.mps.classloading.ModulesWatcher - Totally 6 modules are marked invalid for class loading: 
+2023-08-11 09:49:04,880 [  21222]   INFO - jetbrains.mps.classloading.ModulesWatcher - 9d69e719-78c8-4286-90db-fb19c107d049(com.mbeddr.mpsutil.grammarcells) 
+2023-08-11 09:49:04,880 [  21222]   INFO - jetbrains.mps.classloading.ModulesWatcher - 3caaaa06-4186-4d6e-8cb4-37c75a1dbcaf(com.mbeddr.mpsutil.grammarcells#1749127723000258530) 
+2023-08-11 09:49:04,880 [  21222]   INFO - jetbrains.mps.classloading.ModulesWatcher - f3e1e6f1-1de5-4ca2-a0b2-25f6530686ef(jetbrains.mps.vcs.mergehints.plugin) 
+2023-08-11 09:49:04,880 [  21222]   INFO - jetbrains.mps.classloading.ModulesWatcher - a0ab8c10-c118-4755-ba27-3853435cf524(de.itemis.mps.tooltips) 
+2023-08-11 09:49:04,880 [  21222]   INFO - jetbrains.mps.classloading.ModulesWatcher - 9a94d19e-1f70-46b2-87a7-a5b1c8e1fc5f(de.itemis.mps.editor.diagram#1110129820007083940) 
+2023-08-11 09:49:04,880 [  21222]   INFO - jetbrains.mps.classloading.ModulesWatcher - 091ef3ba-305a-4257-ac3b-6c5daacb61ee(de.itemis.mps.tooltips#7561794385526429391) 
+2023-08-11 09:49:04,882 [  21224]   WARN - jetbrains.mps.ide.platform.watching.WatchedRoots - Remove watch request submitted to disposed LocalFileSystem. Caller should be updated:
+jetbrains.mps.ide.platform.watching.WatchedRoots.removeWatchRequest(WatchedRoots.java:91) 
+2023-08-11 09:49:04,882 [  21224]   WARN - jetbrains.mps.ide.platform.watching.WatchedRoots - Remove watch request submitted to disposed LocalFileSystem. Caller should be updated:
+jetbrains.mps.ide.platform.watching.WatchedRoots.removeWatchRequest(WatchedRoots.java:91) 
+2023-08-11 09:49:04,882 [  21224]   WARN - jetbrains.mps.ide.platform.watching.WatchedRoots - Remove watch request submitted to disposed LocalFileSystem. Caller should be updated:
+jetbrains.mps.ide.platform.watching.WatchedRoots.removeWatchRequest(WatchedRoots.java:91) 
+2023-08-11 09:49:04,882 [  21224]   WARN - jetbrains.mps.ide.platform.watching.WatchedRoots - Remove watch request submitted to disposed LocalFileSystem. Caller should be updated:
+jetbrains.mps.ide.platform.watching.WatchedRoots.removeWatchRequest(WatchedRoots.java:91) 
+2023-08-11 09:49:04,882 [  21224]   WARN - jetbrains.mps.ide.platform.watching.WatchedRoots - Remove watch request submitted to disposed LocalFileSystem. Caller should be updated:
+jetbrains.mps.ide.platform.watching.WatchedRoots.removeWatchRequest(WatchedRoots.java:91) 
+2023-08-11 09:49:04,882 [  21224]   WARN - jetbrains.mps.ide.platform.watching.WatchedRoots - Remove watch request submitted to disposed LocalFileSystem. Caller should be updated:
+jetbrains.mps.ide.platform.watching.WatchedRoots.removeWatchRequest(WatchedRoots.java:91) 
+2023-08-11 09:49:04,882 [  21224]   WARN - jetbrains.mps.ide.platform.watching.WatchedRoots - Remove watch request submitted to disposed LocalFileSystem. Caller should be updated:
+jetbrains.mps.ide.platform.watching.WatchedRoots.removeWatchRequest(WatchedRoots.java:91) 
+2023-08-11 09:49:04,882 [  21224]   WARN - jetbrains.mps.ide.platform.watching.WatchedRoots - Remove watch request submitted to disposed LocalFileSystem. Caller should be updated:
+jetbrains.mps.ide.platform.watching.WatchedRoots.removeWatchRequest(WatchedRoots.java:91) 
+2023-08-11 09:49:04,882 [  21224]   WARN - jetbrains.mps.ide.platform.watching.WatchedRoots - Remove watch request submitted to disposed LocalFileSystem. Caller should be updated:
+jetbrains.mps.ide.platform.watching.WatchedRoots.removeWatchRequest(WatchedRoots.java:91) 
+2023-08-11 09:49:04,882 [  21224]   INFO - jetbrains.mps.library.LibraryInitializer - Removing libraries from ProjectLibraryManager 
+2023-08-11 09:49:04,884 [  21226]   INFO - jetbrains.mps.library.LibraryInitializer - Unloading 1 libraries 
+2023-08-11 09:49:04,947 [  21289]   WARN - jetbrains.mps.ide.platform.watching.WatchedRoots - Remove watch request submitted to disposed LocalFileSystem. Caller should be updated:
+jetbrains.mps.ide.platform.watching.WatchedRoots.removeWatchRequest(WatchedRoots.java:91) 
+2023-08-11 09:49:04,948 [  21290]   INFO - jetbrains.mps.library.LibraryInitializer - Library update is finished 
+2023-08-11 09:49:04,982 [  21324]   INFO - jetbrains.mps.classloading.ModuleUpdater - Classloading refresh took 0.022 s 
+2023-08-11 09:49:04,998 [  21340]   WARN - jetbrains.mps.classloading.ModulesWatcher - 1 modules are marked as invalid roots for class loading out of 285 modules [totally in the repository]: 
+2023-08-11 09:49:04,998 [  21340]   WARN - jetbrains.mps.classloading.ModulesWatcher - jetbrains.mps.vcs.mergehints.plugin [solution] has got an absent dependency problem and therefore was marked invalid for class loading: The dependency in jetbrains.mps.vcs.mergehints.plugin [solution] cannot be resolved {Default} cae9c33a-938f-42e8-8f0f-26f001c0af63(jetbrains.mps.ide.devkit.editor) 
+2023-08-11 09:49:04,998 [  21340]   INFO - jetbrains.mps.classloading.ModulesWatcher - Totally 1 modules are marked invalid for class loading: 
+2023-08-11 09:49:04,998 [  21340]   INFO - jetbrains.mps.classloading.ModulesWatcher - f3e1e6f1-1de5-4ca2-a0b2-25f6530686ef(jetbrains.mps.vcs.mergehints.plugin) 
+2023-08-11 09:49:05,004 [  21346]   INFO - com.intellij.openapi.fileTypes.impl.FileTypeDetectionService - 84 auto-detected files. Detection took 69 ms 
+2023-08-11 09:49:05,005 [  21347]   INFO - #org.jetbrains.io.BuiltInServer - web server stopped 
+2023-08-11 09:49:05,007 [  21349]   INFO - jetbrains.mps.library.LibraryInitializer - Removing libraries from AdditionalLibrariesManager 
+2023-08-11 09:49:05,008 [  21350]   INFO - jetbrains.mps.library.LibraryInitializer - Removing libraries from PluginLibraryContributor 
+2023-08-11 09:49:05,008 [  21350]   INFO - jetbrains.mps.library.LibraryInitializer - Removing libraries from WorkbenchLibraryContributor 
+2023-08-11 09:49:05,008 [  21350]   INFO - jetbrains.mps.library.LibraryInitializer - Removing libraries from BootstrapLibraryContributor 
+2023-08-11 09:49:05,008 [  21350]   INFO - jetbrains.mps.library.LibraryInitializer - Unloading 11 libraries 
+2023-08-11 09:49:05,024 [  21366]   INFO - jetbrains.mps.library.LibraryInitializer - Library update is finished 
+2023-08-11 09:49:05,045 [  21387]   INFO - jetbrains.mps.classloading.ModuleUpdater - Classloading refresh took 0.020 s 
+2023-08-11 09:49:05,058 [  21400]   INFO - jetbrains.mps.classloading.ModulesWatcher - Totally 0 modules are marked invalid for class loading. 
+2023-08-11 09:49:05,059 [  21401]   INFO - #com.intellij.util.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2023-08-11 09:49:05,778 [  22120]   INFO - #com.intellij.psi.stubs.StubIndexImpl - StubIndexExtension-s were unloaded 
+2023-08-11 09:49:05,779 [  22121]   INFO - #com.intellij.util.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2023-08-11 09:49:05,779 [  22121]   INFO - #com.intellij.openapi.vfs.newvfs.persistent.PersistentFS - VFS dispose started 
+2023-08-11 09:49:05,789 [  22131]   INFO - #com.intellij.openapi.vfs.newvfs.persistent.PersistentFS - VFS dispose completed 
+2023-08-11 09:49:05,879 [  22221]   INFO - jetbrains.mps.classloading.ModuleUpdater - Classloading refresh took 0.001 s 
+2023-08-11 09:49:05,879 [  22221]   INFO - jetbrains.mps.classloading.ModulesWatcher - Totally 0 modules are marked invalid for class loading. 
+2023-08-11 09:49:05,881 [  22223]   INFO - #com.intellij.psi.stubs.SerializationManagerImpl - Start shutting down /Users/federico/.gradle/caches/transforms-3/449919180470779c4a6aec037a975379/transformed/mps/system/index/rep.names 
+2023-08-11 09:49:05,881 [  22223]   INFO - #com.intellij.psi.stubs.SerializationManagerImpl - Finished shutting down /Users/federico/.gradle/caches/transforms-3/449919180470779c4a6aec037a975379/transformed/mps/system/index/rep.names 
+2023-08-11 09:49:05,887 [  22229]   INFO -                         STDERR - execute-generators: generation failed 
+2023-08-11 09:49:05,888 [  22230]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2023-08-11 09:49:05,889 [  22231]   INFO - #org.jetbrains.io.BuiltInServer - web server stopped 
+2023-08-11 09:50:43,782 [      0]   INFO - jetbrains.mps.tool.environment.IdeaEnvironment - Creating IDEA environment 
+2023-08-11 09:50:43,782 [      0]   INFO - jetbrains.mps.tool.environment.IdeaEnvironment - Creating IdeaCmdApplication 
+2023-08-11 09:50:49,501 [   5719]   INFO -                         STDOUT - Log4j is initialized by MPS from the configuration file /Users/federico/.gradle/caches/transforms-3/449919180470779c4a6aec037a975379/transformed/mps/bin/log.xml 
+2023-08-11 09:50:49,501 [   5719]   INFO - jetbrains.mps.tool.environment.EnvironmentBase - Initializing libraries 
+2023-08-11 09:50:49,502 [   5720]   INFO - jetbrains.mps.library.LibraryInitializer - Adding libraries from SetLibraryContributor 
+2023-08-11 09:50:49,624 [   5842]   INFO - com.intellij.util.indexing.FileBasedIndexDataInitialization - Index data initialization done: 257 ms. Initialized indexes: [FilenameIndex, FrameworkDetectionIndex, IdIndex, TodoIndex, filetypes, DomFileIndex, Trigram.Index, fileIncludes, XmlTagNames, RelaxSymbolIndex, XmlNamespaces, SchemaTypeInheritance, html5.custom.attributes.index, json.file.root.values, mps.RootNodeName, mps.NodeUsage, mps.propvalue, ModelDigest2, BinaryModelDigest2, mps.ClassifierSuccessors, Stubs]. 
+2023-08-11 09:50:49,631 [   5849]   INFO - com.intellij.psi.stubs.StubIndexImpl$StubIndexInitialization - Index data initialization done: 6 ms. Initialized stub indexes: {dom.elementClass, dom.namespaceKey}. 
+2023-08-11 09:50:49,689 [   5907]   INFO - jetbrains.mps.plugins.PluginLoaderRegistry - Running Update Task : loaders [toLoad: 1; toUnload:0]; contributors : [toLoad: 120; toUnload:0]; Thread[AWT-EventQueue-0,6,Idea Thread Group] 
+2023-08-11 09:50:49,860 [   6078]   WARN - #com.intellij.openapi.actionSystem.impl.ActionManagerImpl - keymap "Eclipse" not found [Plugin: com.intellij] 
+2023-08-11 09:50:49,860 [   6078]   WARN - #com.intellij.openapi.actionSystem.impl.ActionManagerImpl - keymap "NetBeans 6.5" not found [Plugin: com.intellij] 
+2023-08-11 09:50:49,860 [   6078]   WARN - #com.intellij.openapi.actionSystem.impl.ActionManagerImpl - keymap "Eclipse (Mac OS X)" not found [Plugin: com.intellij] 
+2023-08-11 09:50:50,004 [   6222]   WARN - tbrains.mps.plugins.applicationplugins.BaseApplicationPlugin - Destination group was not found id: Internal. Trying to insert jetbrains.mps.ide.actions.ToolsInternal_ActionGroup 
+2023-08-11 09:50:50,612 [   6830]   INFO - jetbrains.mps.plugins.PluginLoaderRegistry - Loading of 2 plugins took 0.917 s 
+2023-08-11 09:50:50,720 [   6938]   INFO - jetbrains.mps.plugins.PluginLoaderRegistry - Loading of 120 plugins took 0.108 s 
+2023-08-11 09:50:50,721 [   6939]   INFO - jetbrains.mps.library.LibraryInitializer - Loading 2 libraries 
+2023-08-11 09:50:51,225 [   7443]   INFO - jetbrains.mps.library.LibraryInitializer - Library update is finished 
+2023-08-11 09:50:51,230 [   7448]   INFO - jetbrains.mps.tool.environment.EnvironmentBase - Opening a new project 
+2023-08-11 09:50:51,231 [   7449]   INFO - jetbrains.mps.tool.environment.IdeaEnvironment - Load and open the project with path '/Users/federico/repos/lionweb-pricing-demo/mps-pricing-dsl' 
+2023-08-11 09:50:51,283 [   7501]   INFO - l.ide.impl.legacyBridge.LegacyBridgeProjectLifecycleListener - Using workspace model to open project 
+2023-08-11 09:50:51,404 [   7622]   INFO - #com.intellij.psi.codeStyle.ProjectCodeStyleSettingsManager - Initialized from default code style settings. 
+2023-08-11 09:50:51,410 [   7628]   INFO - #com.intellij.openapi.vcs.impl.projectlevelman.NewMappings - VCS Root: [Git] - [/Users/federico/repos/lionweb-pricing-demo] 
+2023-08-11 09:50:51,546 [   7764]   INFO - #com.intellij.workspaceModel.ide.impl.WorkspaceModelImpl - Load workspace model from cache in 102 ms 
+2023-08-11 09:50:51,568 [   7786]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.project.StandaloneMPSProject) 
+2023-08-11 09:50:51,568 [   7786]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.project.ProjectLibraryManager) 
+2023-08-11 09:50:51,588 [   7806]   INFO - jetbrains.mps.library.LibraryInitializer - Adding libraries from ProjectLibraryManager 
+2023-08-11 09:50:51,589 [   7807]   INFO - jetbrains.mps.library.LibraryInitializer - Loading 1 libraries 
+2023-08-11 09:50:51,977 [   8195]   INFO - #com.intellij.openapi.vfs.impl.ZipHandlerBase - duplicate entry: /Users/federico/repos/lionweb-pricing-demo/mps-pricing-dsl/build/dependencies/de.itemis.mps.extensions/de.itemis.mps.extensions.jackson/lib/jackson-databind.jar!/META-INF/LICENSE 
+2023-08-11 09:50:51,977 [   8195]   INFO - #com.intellij.openapi.vfs.impl.ZipHandlerBase - duplicate entry: /Users/federico/repos/lionweb-pricing-demo/mps-pricing-dsl/build/dependencies/de.itemis.mps.extensions/de.itemis.mps.extensions.jackson/lib/jackson-databind.jar!/module-info.class 
+2023-08-11 09:50:52,181 [   8399]   WARN - jetbrains.mps.persistence.DefaultModelRoot - Models have not been found within the Path [IdeaFile[path: /Users/federico/repos/lionweb-pricing-demo/mps-pricing-dsl/build/dependencies/de.itemis.mps.extensions/org.modelix.model.api/languages/group.model-api/org.modelix.model.api-src.jar!/module/models]] 
+2023-08-11 09:50:52,231 [   8449]   WARN - jetbrains.mps.persistence.DefaultModelRoot - Models have not been found within the Path [IdeaFile[path: /Users/federico/repos/lionweb-pricing-demo/mps-pricing-dsl/build/dependencies/de.itemis.mps.extensions/de.q60.mps.collections.libs/languages/de.q60.mps.collections.libs/de.q60.mps.collections.libs-src.jar!/module/models]] 
+2023-08-11 09:50:52,345 [   8563]   WARN - jetbrains.mps.persistence.DefaultModelRoot - No source roots specified for location IdeaFile[path: /Users/federico/repos/lionweb-pricing-demo/mps-pricing-dsl/build/dependencies/de.itemis.mps.extensions/de.itemis.mps.extensions.jackson/languages/jackson/com.fasterxml.jackson-src.jar!/module] of module com.fasterxml.jackson [solution], no models were loaded 
+2023-08-11 09:50:52,369 [   8587]   INFO - jetbrains.mps.library.LibraryInitializer - Library update is finished 
+2023-08-11 09:50:52,823 [   9041]   INFO - jetbrains.mps.classloading.ModuleUpdater - Classloading refresh took 0.452 s 
+2023-08-11 09:50:52,853 [   9071]   WARN - jetbrains.mps.classloading.ModulesWatcher - 3 modules are marked as invalid roots for class loading out of 426 modules [totally in the repository]: 
+2023-08-11 09:50:52,853 [   9071]   WARN - jetbrains.mps.classloading.ModulesWatcher - com.mbeddr.mpsutil.grammarcells [language] has got an absent dependency problem and therefore was marked invalid for class loading: The dependency in com.mbeddr.mpsutil.grammarcells [language] cannot be resolved {Default} b1ab8c10-c118-4755-bf2a-cebab35cf533(jetbrains.mps.lang.editor.tooltips) 
+2023-08-11 09:50:52,853 [   9071]   WARN - jetbrains.mps.classloading.ModulesWatcher - jetbrains.mps.vcs.mergehints.plugin [solution] has got an absent dependency problem and therefore was marked invalid for class loading: The dependency in jetbrains.mps.vcs.mergehints.plugin [solution] cannot be resolved {Default} cae9c33a-938f-42e8-8f0f-26f001c0af63(jetbrains.mps.ide.devkit.editor) 
+2023-08-11 09:50:52,853 [   9071]   WARN - jetbrains.mps.classloading.ModulesWatcher - de.itemis.mps.tooltips [language] has got an absent dependency problem and therefore was marked invalid for class loading: The dependency in de.itemis.mps.tooltips [language] cannot be resolved {Default} b1ab8c10-c118-4755-bf2a-cebab35cf533(jetbrains.mps.lang.editor.tooltips) 
+2023-08-11 09:50:52,853 [   9071]   INFO - jetbrains.mps.classloading.ModulesWatcher - Totally 6 modules are marked invalid for class loading: 
+2023-08-11 09:50:52,853 [   9071]   INFO - jetbrains.mps.classloading.ModulesWatcher - 9d69e719-78c8-4286-90db-fb19c107d049(com.mbeddr.mpsutil.grammarcells) 
+2023-08-11 09:50:52,853 [   9071]   INFO - jetbrains.mps.classloading.ModulesWatcher - 3caaaa06-4186-4d6e-8cb4-37c75a1dbcaf(com.mbeddr.mpsutil.grammarcells#1749127723000258530) 
+2023-08-11 09:50:52,853 [   9071]   INFO - jetbrains.mps.classloading.ModulesWatcher - f3e1e6f1-1de5-4ca2-a0b2-25f6530686ef(jetbrains.mps.vcs.mergehints.plugin) 
+2023-08-11 09:50:52,854 [   9072]   INFO - jetbrains.mps.classloading.ModulesWatcher - a0ab8c10-c118-4755-ba27-3853435cf524(de.itemis.mps.tooltips) 
+2023-08-11 09:50:52,854 [   9072]   INFO - jetbrains.mps.classloading.ModulesWatcher - 9a94d19e-1f70-46b2-87a7-a5b1c8e1fc5f(de.itemis.mps.editor.diagram#1110129820007083940) 
+2023-08-11 09:50:52,854 [   9072]   INFO - jetbrains.mps.classloading.ModulesWatcher - 091ef3ba-305a-4257-ac3b-6c5daacb61ee(de.itemis.mps.tooltips#7561794385526429391) 
+2023-08-11 09:50:53,075 [   9293]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.ide.vfs.ProjectRootListenerComponent) 
+2023-08-11 09:50:53,083 [   9301]   INFO - jetbrains.mps.project.StandaloneMPSProject - Loading the project 'PricingDSL' from disk 
+2023-08-11 09:50:53,090 [   9308]   INFO - jetbrains.mps.project.StandaloneMPSProject - Updating PricingDSL 
+2023-08-11 09:50:53,090 [   9308]   INFO - jetbrains.mps.project.ProjectModuleLoader - Loading modules... 
+2023-08-11 09:50:53,149 [   9367]   INFO - jetbrains.mps.project.ProjectModuleLoader - Modules are loaded: 4 new; 0 removed 
+2023-08-11 09:50:53,249 [   9467]   INFO - jetbrains.mps.classloading.ModuleUpdater - Classloading refresh took 0.099 s 
+2023-08-11 09:50:53,306 [   9524]   WARN - jetbrains.mps.classloading.ModulesWatcher - 5 modules are marked as invalid roots for class loading out of 431 modules [totally in the repository]: 
+2023-08-11 09:50:53,306 [   9524]   WARN - jetbrains.mps.classloading.ModulesWatcher - com.mbeddr.mpsutil.grammarcells [language] has got an absent dependency problem and therefore was marked invalid for class loading: The dependency in com.mbeddr.mpsutil.grammarcells [language] cannot be resolved {Default} b1ab8c10-c118-4755-bf2a-cebab35cf533(jetbrains.mps.lang.editor.tooltips) 
+2023-08-11 09:50:53,306 [   9524]   WARN - jetbrains.mps.classloading.ModulesWatcher - LionWebExport [solution] has got an absent dependency problem and therefore was marked invalid for class loading: The dependency in LionWebExport [solution] cannot be resolved {Default} 01cf0d82-8d29-4fc4-be96-28abaf4ad33d(io.lionweb.mps.m3) 
+2023-08-11 09:50:53,306 [   9524]   WARN - jetbrains.mps.classloading.ModulesWatcher - jetbrains.mps.vcs.mergehints.plugin [solution] has got an absent dependency problem and therefore was marked invalid for class loading: The dependency in jetbrains.mps.vcs.mergehints.plugin [solution] cannot be resolved {Default} cae9c33a-938f-42e8-8f0f-26f001c0af63(jetbrains.mps.ide.devkit.editor) 
+2023-08-11 09:50:53,306 [   9524]   WARN - jetbrains.mps.classloading.ModulesWatcher - de.itemis.mps.tooltips [language] has got an absent dependency problem and therefore was marked invalid for class loading: The dependency in de.itemis.mps.tooltips [language] cannot be resolved {Default} b1ab8c10-c118-4755-bf2a-cebab35cf533(jetbrains.mps.lang.editor.tooltips) 
+2023-08-11 09:50:53,306 [   9524]   WARN - jetbrains.mps.classloading.ModulesWatcher - Build [solution] has got an absent dependency problem and therefore was marked invalid for class loading: The dependency in Build [solution] cannot be resolved {Default} bf3c8943-8801-4969-9ac2-7403444bbefa(io.lionweb.mps.build) 
+2023-08-11 09:50:53,306 [   9524]   INFO - jetbrains.mps.classloading.ModulesWatcher - Totally 8 modules are marked invalid for class loading: 
+2023-08-11 09:50:53,306 [   9524]   INFO - jetbrains.mps.classloading.ModulesWatcher - 9d69e719-78c8-4286-90db-fb19c107d049(com.mbeddr.mpsutil.grammarcells) 
+2023-08-11 09:50:53,306 [   9524]   INFO - jetbrains.mps.classloading.ModulesWatcher - 3caaaa06-4186-4d6e-8cb4-37c75a1dbcaf(com.mbeddr.mpsutil.grammarcells#1749127723000258530) 
+2023-08-11 09:50:53,306 [   9524]   INFO - jetbrains.mps.classloading.ModulesWatcher - a91510f1-5df7-4a65-9b67-7da88671a17d(LionWebExport) 
+2023-08-11 09:50:53,306 [   9524]   INFO - jetbrains.mps.classloading.ModulesWatcher - f3e1e6f1-1de5-4ca2-a0b2-25f6530686ef(jetbrains.mps.vcs.mergehints.plugin) 
+2023-08-11 09:50:53,306 [   9524]   INFO - jetbrains.mps.classloading.ModulesWatcher - a0ab8c10-c118-4755-ba27-3853435cf524(de.itemis.mps.tooltips) 
+2023-08-11 09:50:53,306 [   9524]   INFO - jetbrains.mps.classloading.ModulesWatcher - 9a94d19e-1f70-46b2-87a7-a5b1c8e1fc5f(de.itemis.mps.editor.diagram#1110129820007083940) 
+2023-08-11 09:50:53,306 [   9524]   INFO - jetbrains.mps.classloading.ModulesWatcher - 091ef3ba-305a-4257-ac3b-6c5daacb61ee(de.itemis.mps.tooltips#7561794385526429391) 
+2023-08-11 09:50:53,306 [   9524]   INFO - jetbrains.mps.classloading.ModulesWatcher - a34404a4-f381-43ed-ae80-c7aff6f7bbab(Build) 
+2023-08-11 09:50:53,321 [   9539]   INFO - jetbrains.mps.project.StandaloneMPSProject - Updating PricingDSL took 0.231 s 
+2023-08-11 09:50:53,322 [   9540]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.nodefs.FileSystemProjectBridge) 
+2023-08-11 09:50:53,322 [   9540]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.ide.undo.OnReloadingUndoCleaner) 
+2023-08-11 09:50:53,327 [   9545]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.nodeEditor.EmptyHighlighter) 
+2023-08-11 09:50:53,333 [   9551]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.ide.editor.MPSValidationComponent) 
+2023-08-11 09:50:53,334 [   9552]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.ide.editor.warningPanel.MPSEditorWarningsManager) 
+2023-08-11 09:50:53,343 [   9561]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.ide.generator.TransientModelsComponent) 
+2023-08-11 09:50:53,343 [   9561]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.ide.hierarchy.HierarchyViewTool) 
+2023-08-11 09:50:53,344 [   9562]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.ide.bookmark.BookmarkManager) 
+2023-08-11 09:50:53,347 [   9565]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.ide.bookmark.BookmarksUIComponent) 
+2023-08-11 09:50:53,350 [   9568]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.ide.vfs.DirectoryIndexExcludeUpdater) 
+2023-08-11 09:50:53,353 [   9571]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.plugins.projectplugins.ProjectPluginManager) 
+2023-08-11 09:50:53,363 [   9581]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.vfs.tracking.ModelTracking) 
+2023-08-11 09:50:53,369 [   9587]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.java.platform.actions.OverrideImplementMethodComponent) 
+2023-08-11 09:50:53,370 [   9588]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.java.platform.highlighters.JavaHighlighters) 
+2023-08-11 09:50:53,373 [   9591]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.vcs.MPSVcsManager) 
+2023-08-11 09:50:53,409 [   9627]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.vcs.changesmanager.roots.NodeFileStatusMappingExt) 
+2023-08-11 09:50:53,410 [   9628]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.vcs.integration.GeneratedFileConflictResolving) 
+2023-08-11 09:50:53,470 [   9688]   WARN - m.intellij.internal.statistic.eventLog.EventLogConfiguration - Failed retrieving device id for FUS 
+2023-08-11 09:50:54,018 [  10236]   INFO - jetbrains.mps.project.ProjectBase - Project 'PricingDSL' is opened 
+2023-08-11 09:50:54,140 [  10358]   INFO - #com.intellij.openapi.application.Experiments - Experimental features enabled for user: wsl.p9.support, wsl.prefer.p9.support, wsl.p9.show.roots.in.file.chooser, wsl.execute.with.wsl.exe, inline.browse.button, linux.native.menu, recent.and.edited.files.together, show.create.new.element.in.popup, search.everywhere.mixed.results, i18n.match.actions, editor.reader.mode, edit.run.configurations.while.dumb, new.large.text.file.viewer 
+2023-08-11 09:50:54,155 [  10373]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Started 
+2023-08-11 09:50:54,170 [  10388]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Scanning: use 12 scanning threads 
+2023-08-11 09:50:54,375 [  10593]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Scanning completed. Number of scanned files: 2650; Number of files for indexing: 0 took 212ms; general responsiveness: ok; EDT responsiveness: ok 
+2023-08-11 09:50:54,378 [  10596]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Pushing properties took 3ms; general responsiveness: ok; EDT responsiveness: ok 
+2023-08-11 09:50:54,640 [  10858]   INFO - #com.intellij.openapi.application.impl.ApplicationImpl - LONG VFS PROCESSING. Topic=BulkFileListener, offender=class com.intellij.openapi.vfs.newvfs.AsyncEventSupport$1, message=after, time=67ms 
+2023-08-11 09:50:54,641 [  10859]   INFO - jetbrains.mps.smodel.MPSModuleRepository - Saving of the repository took 0.001 s 
+2023-08-11 09:50:55,002 [  11220]   WARN - jetbrains.mps.project.AbstractModule - Changing read-only module io.lionweb.mps.client.persistence [solution] 
+2023-08-11 09:50:55,002 [  11220]   WARN - jetbrains.mps.project.AbstractModule - Changing read-only module io.lionweb.mps.client.connector [solution] 
+2023-08-11 09:50:55,002 [  11220]   WARN - jetbrains.mps.project.AbstractModule - Changing read-only module io.lionweb.mps.server.plugin [solution] 
+2023-08-11 09:50:55,191 [  11409]   WARN - jetbrains.mps.persistence.DefaultModelRoot - Models have not been found within the Path [IdeaFile[path: /Users/federico/repos/lionweb-pricing-demo/mps-pricing-dsl/build/dependencies/de.itemis.mps.extensions/org.modelix.model.api/languages/group.model-api/org.modelix.model.api-src.jar!/module/models]] 
+2023-08-11 09:50:55,302 [  11520]   WARN - jetbrains.mps.persistence.DefaultModelRoot - No source roots specified for location IdeaFile[path: /Users/federico/repos/lionweb-pricing-demo/mps-pricing-dsl/build/dependencies/de.itemis.mps.extensions/de.itemis.mps.extensions.jackson/languages/jackson/com.fasterxml.jackson-src.jar!/module] of module com.fasterxml.jackson [solution], no models were loaded 
+2023-08-11 09:50:55,311 [  11529]   WARN - jetbrains.mps.persistence.DefaultModelRoot - Models have not been found within the Path [IdeaFile[path: /Users/federico/repos/lionweb-pricing-demo/mps-pricing-dsl/build/dependencies/de.itemis.mps.extensions/de.q60.mps.collections.libs/languages/de.q60.mps.collections.libs/de.q60.mps.collections.libs-src.jar!/module/models]] 
+2023-08-11 09:50:55,903 [  12121]   INFO - jetbrains.mps.classloading.ModuleUpdater - Classloading refresh took 0.526 s 
+2023-08-11 09:50:55,948 [  12166]   WARN - jetbrains.mps.classloading.ModulesWatcher - 4 modules are marked as invalid roots for class loading out of 442 modules [totally in the repository]: 
+2023-08-11 09:50:55,948 [  12166]   WARN - jetbrains.mps.classloading.ModulesWatcher - com.mbeddr.mpsutil.grammarcells [language] has got an absent dependency problem and therefore was marked invalid for class loading: The dependency in com.mbeddr.mpsutil.grammarcells [language] cannot be resolved {Default} b1ab8c10-c118-4755-bf2a-cebab35cf533(jetbrains.mps.lang.editor.tooltips) 
+2023-08-11 09:50:55,948 [  12166]   WARN - jetbrains.mps.classloading.ModulesWatcher - jetbrains.mps.vcs.mergehints.plugin [solution] has got an absent dependency problem and therefore was marked invalid for class loading: The dependency in jetbrains.mps.vcs.mergehints.plugin [solution] cannot be resolved {Default} cae9c33a-938f-42e8-8f0f-26f001c0af63(jetbrains.mps.ide.devkit.editor) 
+2023-08-11 09:50:55,948 [  12166]   WARN - jetbrains.mps.classloading.ModulesWatcher - de.itemis.mps.tooltips [language] has got an absent dependency problem and therefore was marked invalid for class loading: The dependency in de.itemis.mps.tooltips [language] cannot be resolved {Default} b1ab8c10-c118-4755-bf2a-cebab35cf533(jetbrains.mps.lang.editor.tooltips) 
+2023-08-11 09:50:55,948 [  12166]   WARN - jetbrains.mps.classloading.ModulesWatcher - Build [solution] has got an absent dependency problem and therefore was marked invalid for class loading: The dependency in Build [solution] cannot be resolved {Default} bf3c8943-8801-4969-9ac2-7403444bbefa(io.lionweb.mps.build) 
+2023-08-11 09:50:55,948 [  12166]   INFO - jetbrains.mps.classloading.ModulesWatcher - Totally 7 modules are marked invalid for class loading: 
+2023-08-11 09:50:55,949 [  12167]   INFO - jetbrains.mps.classloading.ModulesWatcher - 9d69e719-78c8-4286-90db-fb19c107d049(com.mbeddr.mpsutil.grammarcells) 
+2023-08-11 09:50:55,949 [  12167]   INFO - jetbrains.mps.classloading.ModulesWatcher - 3caaaa06-4186-4d6e-8cb4-37c75a1dbcaf(com.mbeddr.mpsutil.grammarcells#1749127723000258530) 
+2023-08-11 09:50:55,949 [  12167]   INFO - jetbrains.mps.classloading.ModulesWatcher - f3e1e6f1-1de5-4ca2-a0b2-25f6530686ef(jetbrains.mps.vcs.mergehints.plugin) 
+2023-08-11 09:50:55,949 [  12167]   INFO - jetbrains.mps.classloading.ModulesWatcher - a0ab8c10-c118-4755-ba27-3853435cf524(de.itemis.mps.tooltips) 
+2023-08-11 09:50:55,949 [  12167]   INFO - jetbrains.mps.classloading.ModulesWatcher - 9a94d19e-1f70-46b2-87a7-a5b1c8e1fc5f(de.itemis.mps.editor.diagram#1110129820007083940) 
+2023-08-11 09:50:55,949 [  12167]   INFO - jetbrains.mps.classloading.ModulesWatcher - 091ef3ba-305a-4257-ac3b-6c5daacb61ee(de.itemis.mps.tooltips#7561794385526429391) 
+2023-08-11 09:50:55,949 [  12167]   INFO - jetbrains.mps.classloading.ModulesWatcher - a34404a4-f381-43ed-ae80-c7aff6f7bbab(Build) 
+2023-08-11 09:50:56,028 [  12246]   INFO - jetbrains.mps.classloading.ModuleUpdater - Classloading refresh took 0.063 s 
+2023-08-11 09:50:56,063 [  12281]   WARN - jetbrains.mps.classloading.ModulesWatcher - 4 modules are marked as invalid roots for class loading out of 442 modules [totally in the repository]: 
+2023-08-11 09:50:56,063 [  12281]   WARN - jetbrains.mps.classloading.ModulesWatcher - com.mbeddr.mpsutil.grammarcells [language] has got an absent dependency problem and therefore was marked invalid for class loading: The dependency in com.mbeddr.mpsutil.grammarcells [language] cannot be resolved {Default} b1ab8c10-c118-4755-bf2a-cebab35cf533(jetbrains.mps.lang.editor.tooltips) 
+2023-08-11 09:50:56,063 [  12281]   WARN - jetbrains.mps.classloading.ModulesWatcher - jetbrains.mps.vcs.mergehints.plugin [solution] has got an absent dependency problem and therefore was marked invalid for class loading: The dependency in jetbrains.mps.vcs.mergehints.plugin [solution] cannot be resolved {Default} cae9c33a-938f-42e8-8f0f-26f001c0af63(jetbrains.mps.ide.devkit.editor) 
+2023-08-11 09:50:56,064 [  12282]   WARN - jetbrains.mps.classloading.ModulesWatcher - de.itemis.mps.tooltips [language] has got an absent dependency problem and therefore was marked invalid for class loading: The dependency in de.itemis.mps.tooltips [language] cannot be resolved {Default} b1ab8c10-c118-4755-bf2a-cebab35cf533(jetbrains.mps.lang.editor.tooltips) 
+2023-08-11 09:50:56,064 [  12282]   WARN - jetbrains.mps.classloading.ModulesWatcher - Build [solution] has got an absent dependency problem and therefore was marked invalid for class loading: The dependency in Build [solution] cannot be resolved {Default} bf3c8943-8801-4969-9ac2-7403444bbefa(io.lionweb.mps.build) 
+2023-08-11 09:50:56,064 [  12282]   INFO - jetbrains.mps.classloading.ModulesWatcher - Totally 7 modules are marked invalid for class loading: 
+2023-08-11 09:50:56,064 [  12282]   INFO - jetbrains.mps.classloading.ModulesWatcher - 9d69e719-78c8-4286-90db-fb19c107d049(com.mbeddr.mpsutil.grammarcells) 
+2023-08-11 09:50:56,064 [  12282]   INFO - jetbrains.mps.classloading.ModulesWatcher - 3caaaa06-4186-4d6e-8cb4-37c75a1dbcaf(com.mbeddr.mpsutil.grammarcells#1749127723000258530) 
+2023-08-11 09:50:56,064 [  12282]   INFO - jetbrains.mps.classloading.ModulesWatcher - f3e1e6f1-1de5-4ca2-a0b2-25f6530686ef(jetbrains.mps.vcs.mergehints.plugin) 
+2023-08-11 09:50:56,064 [  12282]   INFO - jetbrains.mps.classloading.ModulesWatcher - a0ab8c10-c118-4755-ba27-3853435cf524(de.itemis.mps.tooltips) 
+2023-08-11 09:50:56,064 [  12282]   INFO - jetbrains.mps.classloading.ModulesWatcher - 9a94d19e-1f70-46b2-87a7-a5b1c8e1fc5f(de.itemis.mps.editor.diagram#1110129820007083940) 
+2023-08-11 09:50:56,064 [  12282]   INFO - jetbrains.mps.classloading.ModulesWatcher - 091ef3ba-305a-4257-ac3b-6c5daacb61ee(de.itemis.mps.tooltips#7561794385526429391) 
+2023-08-11 09:50:56,064 [  12282]   INFO - jetbrains.mps.classloading.ModulesWatcher - a34404a4-f381-43ed-ae80-c7aff6f7bbab(Build) 
+2023-08-11 09:50:56,243 [  12461]   INFO - jetbrains.mps.classloading.ClassLoaderManager - Reloaded 141 module(s) in 0.278 s 
+2023-08-11 09:50:56,263 [  12481]   INFO - jetbrains.mps.ide.platform.watching.ReloadSession - File system reload finished in 1.618 s 
+2023-08-11 09:50:56,275 [  12493]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Finish. No files to index with loading content. 
+2023-08-11 09:50:56,285 [  12503]   INFO - #com.intellij.openapi.vfs.impl.ZipHandlerBase - duplicate entry: /Users/federico/repos/lionweb-pricing-demo/mps-pricing-dsl/build/dependencies/de.itemis.mps.extensions/de.itemis.mps.extensions.jackson/lib/jackson-databind.jar!/META-INF/LICENSE 
+2023-08-11 09:50:56,286 [  12504]   INFO - #com.intellij.openapi.vfs.impl.ZipHandlerBase - duplicate entry: /Users/federico/repos/lionweb-pricing-demo/mps-pricing-dsl/build/dependencies/de.itemis.mps.extensions/de.itemis.mps.extensions.jackson/lib/jackson-databind.jar!/module-info.class 
+2023-08-11 09:50:56,445 [  12663]   INFO - jetbrains.mps.plugins.PluginLoaderRegistry - Running Update Task : loaders [toLoad: 1; toUnload:0]; contributors : [toLoad: 95; toUnload:0]; Thread[AWT-EventQueue-0,6,Idea Thread Group] 
+2023-08-11 09:50:56,549 [  12767]   INFO - jetbrains.mps.plugins.PluginLoaderRegistry - Loading of 122 plugins took 0.100 s 
+2023-08-11 09:50:57,166 [  13384]   WARN - org.modelix.model.api.INodeReferenceSerializer - Migrate class org.modelix.model.mpsadapters.plugin.MPSNodeReferenceSerializer (Kotlin reflection is not available) to INodeReferenceSerializerEx 
+2023-08-11 09:50:57,520 [  13738]   INFO - jetbrains.mps.plugins.PluginLoaderRegistry - Loading of 95 plugins took 0.970 s 
+2023-08-11 09:50:57,589 [  13807]   WARN - #com.intellij.openapi.editor.impl.FontFamilyServiceImpl - Couldn't access required runtime API, will fall back to basic logic of font selection 
+2023-08-11 09:50:57,703 [  13921]   INFO - #com.intellij.openapi.roots.impl.ProjectRootManagerComponent - project roots have changed (trace_hash = -670722812) 
+java.lang.Throwable
+	at com.intellij.openapi.roots.impl.ProjectRootManagerComponent.logRootChanges(ProjectRootManagerComponent.java:309)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerComponent.synchronizeRoots(ProjectRootManagerComponent.java:296)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerComponent.fireRootsChangedEvent(ProjectRootManagerComponent.java:201)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerImpl.fireRootsChanged(ProjectRootManagerImpl.java:459)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerImpl$1.fireRootsChanged(ProjectRootManagerImpl.java:146)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerImpl$1.fireRootsChanged(ProjectRootManagerImpl.java:143)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerImpl$BatchSession.rootsChanged(ProjectRootManagerImpl.java:113)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerImpl$BatchSession.rootsChanged(ProjectRootManagerImpl.java:121)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerImpl.makeRootsChange(ProjectRootManagerImpl.java:431)
+	at jetbrains.mps.ide.findusages.caches.IndexableRootCalculator.lambda$invalidateCache$3(IndexableRootCalculator.java:183)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:959)
+	at jetbrains.mps.ide.findusages.caches.IndexableRootCalculator.lambda$invalidateCache$4(IndexableRootCalculator.java:181)
+	at com.intellij.openapi.application.TransactionGuardImpl.runWithWritingAllowed(TransactionGuardImpl.java:218)
+	at com.intellij.openapi.application.TransactionGuardImpl.access$200(TransactionGuardImpl.java:21)
+	at com.intellij.openapi.application.TransactionGuardImpl$2.run(TransactionGuardImpl.java:200)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:781)
+	at com.intellij.openapi.application.impl.ApplicationImpl.lambda$invokeLaterOnWriteThread$10(ApplicationImpl.java:770)
+	at com.intellij.openapi.application.impl.FlushQueue.doRun(FlushQueue.java:84)
+	at com.intellij.openapi.application.impl.FlushQueue.runNextEvent(FlushQueue.java:133)
+	at com.intellij.openapi.application.impl.FlushQueue.flushNow(FlushQueue.java:46)
+	at com.intellij.openapi.application.impl.FlushQueue$FlushNow.run(FlushQueue.java:189)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:969)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:839)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:449)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:808)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$9(IdeEventQueue.java:448)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:781)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:496)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2023-08-11 09:50:57,703 [  13921]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Started 
+2023-08-11 09:50:57,704 [  13922]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Scanning: use 12 scanning threads 
+2023-08-11 09:50:57,736 [  13954]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Scanning completed. Number of scanned files: 2704; Number of files for indexing: 51 took 33ms; general responsiveness: ok; EDT responsiveness: ok 
+2023-08-11 09:50:57,736 [  13954]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Pushing properties took 0ms; general responsiveness: ok; EDT responsiveness: ok 
+2023-08-11 09:50:57,780 [  13998]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Use 4 indexing threads 
+2023-08-11 09:50:58,185 [  14403]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Finished. Unindexed files update took 408ms; general responsiveness: ok; EDT responsiveness: ok 
+2023-08-11 09:50:58,202 [  14420]   INFO - eModel.ide.impl.jps.serialization.DelayedProjectSynchronizer - Workspace model loaded from cache. Syncing real project state into workspace model in 1888 ms. Thread[ApplicationImpl pooled thread 9,4,Idea Thread Group] 
+2023-08-11 09:50:58,280 [  14498]   INFO - nalSystem.service.project.manage.ExternalProjectsDataStorage - Load external projects data in 4 millis (read time: 1) 
+2023-08-11 09:50:58,299 [  14517]   INFO -  #git4idea.commands.GitHandler - [.] git version 
+2023-08-11 09:50:58,320 [  14538]   INFO - #com.intellij.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2023-08-11 09:50:58,323 [  14541]   INFO -  #git4idea.commands.GitHandler - git version 2.31.1 
+2023-08-11 09:50:58,333 [  14551]   INFO - #git4idea.config.GitExecutableManager - Git version for /usr/local/bin/git: 2.31.1.0 (UNIX) 
+2023-08-11 09:50:58,343 [  14561]   INFO - #com.intellij.diagnostic.PerformanceWatcher - Post-startup activities under progress took 2062ms; general responsiveness: ok; EDT responsiveness: ok 
+2023-08-11 09:50:58,746 [  14964]   INFO - #com.intellij.util.indexing.FileBasedIndexProjectHandler - Reindexing refreshed files: 573 to update, calculated in 238ms 
+2023-08-11 09:50:58,747 [  14965]   INFO - #com.intellij.util.indexing.FileBasedIndexProjectHandler - Using 4 threads for indexing 
+2023-08-11 09:51:00,776 [  16994]   INFO - #com.intellij.diagnostic.PerformanceWatcher - Reindexing refreshed files took 2030ms; general responsiveness: ok; EDT responsiveness: ok 
+2023-08-11 09:51:01,014 [  17232]   INFO - #com.intellij.openapi.roots.impl.ProjectRootManagerComponent - project roots have changed (stacktrace has been already reported with trace_hash = -670722812) 
+2023-08-11 09:51:01,014 [  17232]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Started 
+2023-08-11 09:51:01,014 [  17232]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Scanning: use 12 scanning threads 
+2023-08-11 09:51:01,026 [  17244]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Scanning completed. Number of scanned files: 2704; Number of files for indexing: 0 took 12ms; general responsiveness: ok; EDT responsiveness: ok 
+2023-08-11 09:51:01,026 [  17244]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Pushing properties took 0ms; general responsiveness: ok; EDT responsiveness: ok 
+2023-08-11 09:51:01,069 [  17287]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Finish. No files to index with loading content. 
+2023-08-11 09:51:01,364 [  17582]  ERROR - de.itemis.mps.gradle.generate.messages - Cannot find the build project dependency io.lionweb.mps in the model io.lionweb.mps.build 
+2023-08-11 09:51:01,364 [  17582]  ERROR - de.itemis.mps.gradle.generate.messages - -- -- was input node: [dependencies] BuildProjectDependency null[6699021429252439676] in Build.build@0 
+2023-08-11 09:51:01,364 [  17582]  ERROR - de.itemis.mps.gradle.generate.messages - -- was template node: r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)/3189788309732145594 
+2023-08-11 09:51:01,475 [  17693]  ERROR - de.itemis.mps.gradle.generate.messages - cannot find used language in dependencies: io.lionweb.mps.converter.lang 
+2023-08-11 09:51:01,475 [  17693]  ERROR - de.itemis.mps.gradle.generate.messages - -- -- was input node: [modules] BuildMps_Language "Pricing"[6699021429252439044] in Build.build@0 
+2023-08-11 09:51:01,475 [  17693]  ERROR - de.itemis.mps.gradle.generate.messages - -- was template node: r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)/3189788309732145594 
+2023-08-11 09:51:01,501 [  17719]  ERROR - de.itemis.mps.gradle.generate.messages - dependency on a module not visible from current build project: 01cf0d82-8d29-4fc4-be96-28abaf4ad33d(io.lionweb.mps.m3) 
+2023-08-11 09:51:01,501 [  17719]  ERROR - de.itemis.mps.gradle.generate.messages - -- -- was input node: [modules] BuildMps_Solution "LionWebExport"[6699021429252439084] in Build.build@0 
+2023-08-11 09:51:01,501 [  17719]  ERROR - de.itemis.mps.gradle.generate.messages - -- was template node: r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)/3189788309732145594 
+2023-08-11 09:51:01,505 [  17723]  ERROR - de.itemis.mps.gradle.generate.messages - cannot find used language in dependencies: io.lionweb.mps.converter.lang 
+2023-08-11 09:51:01,505 [  17723]  ERROR - de.itemis.mps.gradle.generate.messages - -- -- was input node: [modules] BuildMps_Solution "LionWebExport"[6699021429252439084] in Build.build@0 
+2023-08-11 09:51:01,505 [  17723]  ERROR - de.itemis.mps.gradle.generate.messages - -- was template node: r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)/3189788309732145594 
+2023-08-11 09:51:01,526 [  17744]  ERROR - de.itemis.mps.gradle.generate.messages - cannot find used language in dependencies: io.lionweb.mps.converter.lang 
+2023-08-11 09:51:01,526 [  17744]  ERROR - de.itemis.mps.gradle.generate.messages - -- -- was input node: [modules] BuildMps_Solution "Pricing.sandbox"[6699021429252439744] in Build.build@0 
+2023-08-11 09:51:01,526 [  17744]  ERROR - de.itemis.mps.gradle.generate.messages - -- was template node: r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)/3189788309732145594 
+2023-08-11 09:51:01,547 [  17765]  ERROR - de.itemis.mps.gradle.generate.messages - cannot resolve dependency on transient model, no original node is available 
+2023-08-11 09:51:01,547 [  17765]  ERROR - de.itemis.mps.gradle.generate.messages - -- was template node: r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)/3189788309732145594 
+2023-08-11 09:51:01,789 [  18007]   WARN - de.itemis.mps.gradle.generate.messages - model 'Build.build@0' has been generated with errors 
+2023-08-11 09:51:01,805 [  18023]  ERROR - de.itemis.mps.gradle.generate.messages - generation completed with errors in 728 ms 
+2023-08-11 09:51:01,816 [  18034]  ERROR - de.itemis.mps.gradle.generate.messages - Error executing target jetbrains.mps.lang.core.Generate.generate 
+2023-08-11 09:51:01,821 [  18039]   INFO - #com.intellij.openapi.roots.impl.ProjectRootManagerComponent - project roots have changed (stacktrace has been already reported with trace_hash = -670722812) 
+2023-08-11 09:51:01,834 [  18052]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Started 
+2023-08-11 09:51:01,835 [  18053]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Scanning: use 12 scanning threads 
+2023-08-11 09:51:01,836 [  18054]  ERROR - de.itemis.mps.gradle.generate.messages - Build failed. See previous messages for details. 
+2023-08-11 09:51:01,836 [  18054]  ERROR -  de.itemis.mps.gradle.generate - generation result: failed 
+2023-08-11 09:51:01,836 [  18054]  ERROR -  de.itemis.mps.gradle.generate - jetbrains.mps.internal.make.runtime.script.CompositeResult@56cfe111 
+2023-08-11 09:51:01,847 [  18065]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Scanning completed. Number of scanned files: 2704; Number of files for indexing: 0 took 13ms; general responsiveness: ok; EDT responsiveness: ok 
+2023-08-11 09:51:01,847 [  18065]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Pushing properties took 0ms; general responsiveness: ok; EDT responsiveness: ok 
+2023-08-11 09:51:01,895 [  18113]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Finish. No files to index with loading content. 
+2023-08-11 09:51:01,934 [  18152]   WARN - #git4idea.repo.GitUntrackedFilesHolder - Ignoring untracked file under another root: /Users/federico/repos/lionweb-pricing-demo/mps-pricing-dsl/.mps-caches/logs/idea.log; root: /Users/federico/repos/lionweb-pricing-demo; mapped root: null 
+2023-08-11 09:51:01,935 [  18153]   WARN - #git4idea.repo.GitUntrackedFilesHolder - Ignoring untracked file under another root: /Users/federico/repos/lionweb-pricing-demo/mps-pricing-dsl/.mps-caches/logs/mpsvcs.log; root: /Users/federico/repos/lionweb-pricing-demo; mapped root: null 
+2023-08-11 09:51:01,935 [  18153]   INFO - jetbrains.mps.plugins.PluginLoaderRegistry - Running Update Task : loaders [toLoad: 0; toUnload:1]; contributors : [toLoad: 0; toUnload:0]; Thread[AWT-EventQueue-0,6,Idea Thread Group] 
+2023-08-11 09:51:01,938 [  18156]   INFO - jetbrains.mps.plugins.PluginLoaderRegistry - Unloading of 217 plugins took 0.003 s 
+2023-08-11 09:51:01,940 [  18158]   INFO - jetbrains.mps.project.ProjectBase - Project 'PricingDSL' is closing 
+2023-08-11 09:51:02,045 [  18263]   INFO - jetbrains.mps.classloading.ModuleUpdater - Classloading refresh took 0.063 s 
+2023-08-11 09:51:02,084 [  18302]   WARN - jetbrains.mps.classloading.ModulesWatcher - 3 modules are marked as invalid roots for class loading out of 437 modules [totally in the repository]: 
+2023-08-11 09:51:02,084 [  18302]   WARN - jetbrains.mps.classloading.ModulesWatcher - com.mbeddr.mpsutil.grammarcells [language] has got an absent dependency problem and therefore was marked invalid for class loading: The dependency in com.mbeddr.mpsutil.grammarcells [language] cannot be resolved {Default} b1ab8c10-c118-4755-bf2a-cebab35cf533(jetbrains.mps.lang.editor.tooltips) 
+2023-08-11 09:51:02,084 [  18302]   WARN - jetbrains.mps.classloading.ModulesWatcher - jetbrains.mps.vcs.mergehints.plugin [solution] has got an absent dependency problem and therefore was marked invalid for class loading: The dependency in jetbrains.mps.vcs.mergehints.plugin [solution] cannot be resolved {Default} cae9c33a-938f-42e8-8f0f-26f001c0af63(jetbrains.mps.ide.devkit.editor) 
+2023-08-11 09:51:02,085 [  18303]   WARN - jetbrains.mps.classloading.ModulesWatcher - de.itemis.mps.tooltips [language] has got an absent dependency problem and therefore was marked invalid for class loading: The dependency in de.itemis.mps.tooltips [language] cannot be resolved {Default} b1ab8c10-c118-4755-bf2a-cebab35cf533(jetbrains.mps.lang.editor.tooltips) 
+2023-08-11 09:51:02,085 [  18303]   INFO - jetbrains.mps.classloading.ModulesWatcher - Totally 6 modules are marked invalid for class loading: 
+2023-08-11 09:51:02,085 [  18303]   INFO - jetbrains.mps.classloading.ModulesWatcher - 9d69e719-78c8-4286-90db-fb19c107d049(com.mbeddr.mpsutil.grammarcells) 
+2023-08-11 09:51:02,085 [  18303]   INFO - jetbrains.mps.classloading.ModulesWatcher - 3caaaa06-4186-4d6e-8cb4-37c75a1dbcaf(com.mbeddr.mpsutil.grammarcells#1749127723000258530) 
+2023-08-11 09:51:02,085 [  18303]   INFO - jetbrains.mps.classloading.ModulesWatcher - f3e1e6f1-1de5-4ca2-a0b2-25f6530686ef(jetbrains.mps.vcs.mergehints.plugin) 
+2023-08-11 09:51:02,085 [  18303]   INFO - jetbrains.mps.classloading.ModulesWatcher - a0ab8c10-c118-4755-ba27-3853435cf524(de.itemis.mps.tooltips) 
+2023-08-11 09:51:02,085 [  18303]   INFO - jetbrains.mps.classloading.ModulesWatcher - 9a94d19e-1f70-46b2-87a7-a5b1c8e1fc5f(de.itemis.mps.editor.diagram#1110129820007083940) 
+2023-08-11 09:51:02,085 [  18303]   INFO - jetbrains.mps.classloading.ModulesWatcher - 091ef3ba-305a-4257-ac3b-6c5daacb61ee(de.itemis.mps.tooltips#7561794385526429391) 
+2023-08-11 09:51:02,087 [  18305]   WARN - jetbrains.mps.ide.platform.watching.WatchedRoots - Remove watch request submitted to disposed LocalFileSystem. Caller should be updated:
+jetbrains.mps.ide.platform.watching.WatchedRoots.removeWatchRequest(WatchedRoots.java:91) 
+2023-08-11 09:51:02,087 [  18305]   WARN - jetbrains.mps.ide.platform.watching.WatchedRoots - Remove watch request submitted to disposed LocalFileSystem. Caller should be updated:
+jetbrains.mps.ide.platform.watching.WatchedRoots.removeWatchRequest(WatchedRoots.java:91) 
+2023-08-11 09:51:02,087 [  18305]   WARN - jetbrains.mps.ide.platform.watching.WatchedRoots - Remove watch request submitted to disposed LocalFileSystem. Caller should be updated:
+jetbrains.mps.ide.platform.watching.WatchedRoots.removeWatchRequest(WatchedRoots.java:91) 
+2023-08-11 09:51:02,087 [  18305]   WARN - jetbrains.mps.ide.platform.watching.WatchedRoots - Remove watch request submitted to disposed LocalFileSystem. Caller should be updated:
+jetbrains.mps.ide.platform.watching.WatchedRoots.removeWatchRequest(WatchedRoots.java:91) 
+2023-08-11 09:51:02,087 [  18305]   WARN - jetbrains.mps.ide.platform.watching.WatchedRoots - Remove watch request submitted to disposed LocalFileSystem. Caller should be updated:
+jetbrains.mps.ide.platform.watching.WatchedRoots.removeWatchRequest(WatchedRoots.java:91) 
+2023-08-11 09:51:02,087 [  18305]   WARN - jetbrains.mps.ide.platform.watching.WatchedRoots - Remove watch request submitted to disposed LocalFileSystem. Caller should be updated:
+jetbrains.mps.ide.platform.watching.WatchedRoots.removeWatchRequest(WatchedRoots.java:91) 
+2023-08-11 09:51:02,087 [  18305]   WARN - jetbrains.mps.ide.platform.watching.WatchedRoots - Remove watch request submitted to disposed LocalFileSystem. Caller should be updated:
+jetbrains.mps.ide.platform.watching.WatchedRoots.removeWatchRequest(WatchedRoots.java:91) 
+2023-08-11 09:51:02,088 [  18306]   WARN - jetbrains.mps.ide.platform.watching.WatchedRoots - Remove watch request submitted to disposed LocalFileSystem. Caller should be updated:
+jetbrains.mps.ide.platform.watching.WatchedRoots.removeWatchRequest(WatchedRoots.java:91) 
+2023-08-11 09:51:02,088 [  18306]   WARN - jetbrains.mps.ide.platform.watching.WatchedRoots - Remove watch request submitted to disposed LocalFileSystem. Caller should be updated:
+jetbrains.mps.ide.platform.watching.WatchedRoots.removeWatchRequest(WatchedRoots.java:91) 
+2023-08-11 09:51:02,088 [  18306]   INFO - jetbrains.mps.library.LibraryInitializer - Removing libraries from ProjectLibraryManager 
+2023-08-11 09:51:02,089 [  18307]   INFO - jetbrains.mps.library.LibraryInitializer - Unloading 1 libraries 
+2023-08-11 09:51:02,171 [  18389]   WARN - jetbrains.mps.ide.platform.watching.WatchedRoots - Remove watch request submitted to disposed LocalFileSystem. Caller should be updated:
+jetbrains.mps.ide.platform.watching.WatchedRoots.removeWatchRequest(WatchedRoots.java:91) 
+2023-08-11 09:51:02,171 [  18389]   INFO - jetbrains.mps.library.LibraryInitializer - Library update is finished 
+2023-08-11 09:51:02,207 [  18425]   INFO - jetbrains.mps.classloading.ModuleUpdater - Classloading refresh took 0.025 s 
+2023-08-11 09:51:02,224 [  18442]   WARN - jetbrains.mps.classloading.ModulesWatcher - 1 modules are marked as invalid roots for class loading out of 285 modules [totally in the repository]: 
+2023-08-11 09:51:02,224 [  18442]   WARN - jetbrains.mps.classloading.ModulesWatcher - jetbrains.mps.vcs.mergehints.plugin [solution] has got an absent dependency problem and therefore was marked invalid for class loading: The dependency in jetbrains.mps.vcs.mergehints.plugin [solution] cannot be resolved {Default} cae9c33a-938f-42e8-8f0f-26f001c0af63(jetbrains.mps.ide.devkit.editor) 
+2023-08-11 09:51:02,224 [  18442]   INFO - jetbrains.mps.classloading.ModulesWatcher - Totally 1 modules are marked invalid for class loading: 
+2023-08-11 09:51:02,224 [  18442]   INFO - jetbrains.mps.classloading.ModulesWatcher - f3e1e6f1-1de5-4ca2-a0b2-25f6530686ef(jetbrains.mps.vcs.mergehints.plugin) 
+2023-08-11 09:51:02,229 [  18447]   INFO - com.intellij.openapi.fileTypes.impl.FileTypeDetectionService - 555 auto-detected files. Detection took 116 ms 
+2023-08-11 09:51:02,230 [  18448]   INFO - #org.jetbrains.io.BuiltInServer - web server stopped 
+2023-08-11 09:51:02,235 [  18453]   INFO - jetbrains.mps.library.LibraryInitializer - Removing libraries from AdditionalLibrariesManager 
+2023-08-11 09:51:02,235 [  18453]   INFO - jetbrains.mps.library.LibraryInitializer - Removing libraries from PluginLibraryContributor 
+2023-08-11 09:51:02,235 [  18453]   INFO - jetbrains.mps.library.LibraryInitializer - Removing libraries from WorkbenchLibraryContributor 
+2023-08-11 09:51:02,235 [  18453]   INFO - jetbrains.mps.library.LibraryInitializer - Removing libraries from BootstrapLibraryContributor 
+2023-08-11 09:51:02,236 [  18454]   INFO - jetbrains.mps.library.LibraryInitializer - Unloading 11 libraries 
+2023-08-11 09:51:02,256 [  18474]   INFO - jetbrains.mps.library.LibraryInitializer - Library update is finished 
+2023-08-11 09:51:02,279 [  18497]   INFO - jetbrains.mps.classloading.ModuleUpdater - Classloading refresh took 0.022 s 
+2023-08-11 09:51:02,292 [  18510]   INFO - jetbrains.mps.classloading.ModulesWatcher - Totally 0 modules are marked invalid for class loading. 
+2023-08-11 09:51:02,293 [  18511]   INFO - #com.intellij.util.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2023-08-11 09:51:02,641 [  18859]   INFO - #com.intellij.psi.stubs.StubIndexImpl - StubIndexExtension-s were unloaded 
+2023-08-11 09:51:02,643 [  18861]   INFO - #com.intellij.util.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2023-08-11 09:51:02,643 [  18861]   INFO - #com.intellij.openapi.vfs.newvfs.persistent.PersistentFS - VFS dispose started 
+2023-08-11 09:51:02,650 [  18868]   INFO - #com.intellij.openapi.vfs.newvfs.persistent.PersistentFS - VFS dispose completed 
+2023-08-11 09:51:02,730 [  18948]   INFO - jetbrains.mps.classloading.ModuleUpdater - Classloading refresh took 0.001 s 
+2023-08-11 09:51:02,730 [  18948]   INFO - jetbrains.mps.classloading.ModulesWatcher - Totally 0 modules are marked invalid for class loading. 
+2023-08-11 09:51:02,733 [  18951]   INFO - #com.intellij.psi.stubs.SerializationManagerImpl - Start shutting down /Users/federico/.gradle/caches/transforms-3/449919180470779c4a6aec037a975379/transformed/mps/system/index/rep.names 
+2023-08-11 09:51:02,734 [  18952]   INFO - #com.intellij.psi.stubs.SerializationManagerImpl - Finished shutting down /Users/federico/.gradle/caches/transforms-3/449919180470779c4a6aec037a975379/transformed/mps/system/index/rep.names 
+2023-08-11 09:51:02,739 [  18957]   INFO -                         STDERR - execute-generators: generation failed 
+2023-08-11 09:51:02,739 [  18957]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2023-08-11 09:51:02,740 [  18958]   INFO - #org.jetbrains.io.BuiltInServer - web server stopped 
+2023-08-11 09:51:51,476 [      0]   INFO - jetbrains.mps.tool.environment.IdeaEnvironment - Creating IDEA environment 
+2023-08-11 09:51:51,476 [      0]   INFO - jetbrains.mps.tool.environment.IdeaEnvironment - Creating IdeaCmdApplication 
+2023-08-11 09:51:56,992 [   5516]   INFO -                         STDOUT - Log4j is initialized by MPS from the configuration file /Users/federico/.gradle/caches/transforms-3/449919180470779c4a6aec037a975379/transformed/mps/bin/log.xml 
+2023-08-11 09:51:56,993 [   5517]   INFO - jetbrains.mps.tool.environment.EnvironmentBase - Initializing libraries 
+2023-08-11 09:51:56,994 [   5518]   INFO - jetbrains.mps.library.LibraryInitializer - Adding libraries from SetLibraryContributor 
+2023-08-11 09:51:57,098 [   5622]   INFO - com.intellij.util.indexing.FileBasedIndexDataInitialization - Index data initialization done: 226 ms. Initialized indexes: [FilenameIndex, FrameworkDetectionIndex, TodoIndex, IdIndex, filetypes, Trigram.Index, DomFileIndex, fileIncludes, RelaxSymbolIndex, XmlTagNames, XmlNamespaces, SchemaTypeInheritance, json.file.root.values, html5.custom.attributes.index, mps.RootNodeName, mps.NodeUsage, mps.propvalue, ModelDigest2, BinaryModelDigest2, mps.ClassifierSuccessors, Stubs]. 
+2023-08-11 09:51:57,104 [   5628]   INFO - com.intellij.psi.stubs.StubIndexImpl$StubIndexInitialization - Index data initialization done: 5 ms. Initialized stub indexes: {dom.elementClass, dom.namespaceKey}. 
+2023-08-11 09:51:57,161 [   5685]   INFO - jetbrains.mps.plugins.PluginLoaderRegistry - Running Update Task : loaders [toLoad: 1; toUnload:0]; contributors : [toLoad: 120; toUnload:0]; Thread[AWT-EventQueue-0,6,Idea Thread Group] 
+2023-08-11 09:51:57,330 [   5854]   WARN - #com.intellij.openapi.actionSystem.impl.ActionManagerImpl - keymap "Eclipse" not found [Plugin: com.intellij] 
+2023-08-11 09:51:57,330 [   5854]   WARN - #com.intellij.openapi.actionSystem.impl.ActionManagerImpl - keymap "NetBeans 6.5" not found [Plugin: com.intellij] 
+2023-08-11 09:51:57,330 [   5854]   WARN - #com.intellij.openapi.actionSystem.impl.ActionManagerImpl - keymap "Eclipse (Mac OS X)" not found [Plugin: com.intellij] 
+2023-08-11 09:51:57,481 [   6005]   WARN - tbrains.mps.plugins.applicationplugins.BaseApplicationPlugin - Destination group was not found id: Internal. Trying to insert jetbrains.mps.ide.actions.ToolsInternal_ActionGroup 
+2023-08-11 09:51:58,057 [   6581]   INFO - jetbrains.mps.plugins.PluginLoaderRegistry - Loading of 2 plugins took 0.888 s 
+2023-08-11 09:51:58,141 [   6665]   INFO - jetbrains.mps.plugins.PluginLoaderRegistry - Loading of 120 plugins took 0.084 s 
+2023-08-11 09:51:58,141 [   6665]   INFO - jetbrains.mps.library.LibraryInitializer - Loading 2 libraries 
+2023-08-11 09:51:58,676 [   7200]   INFO - jetbrains.mps.library.LibraryInitializer - Library update is finished 
+2023-08-11 09:51:58,682 [   7206]   INFO - jetbrains.mps.tool.environment.EnvironmentBase - Opening a new project 
+2023-08-11 09:51:58,683 [   7207]   INFO - jetbrains.mps.tool.environment.IdeaEnvironment - Load and open the project with path '/Users/federico/repos/lionweb-pricing-demo/mps-pricing-dsl' 
+2023-08-11 09:51:58,737 [   7261]   INFO - l.ide.impl.legacyBridge.LegacyBridgeProjectLifecycleListener - Using workspace model to open project 
+2023-08-11 09:51:58,869 [   7393]   INFO - #com.intellij.psi.codeStyle.ProjectCodeStyleSettingsManager - Initialized from default code style settings. 
+2023-08-11 09:51:58,874 [   7398]   INFO - #com.intellij.openapi.vcs.impl.projectlevelman.NewMappings - VCS Root: [Git] - [/Users/federico/repos/lionweb-pricing-demo] 
+2023-08-11 09:51:59,008 [   7532]   INFO - #com.intellij.workspaceModel.ide.impl.WorkspaceModelImpl - Load workspace model from cache in 100 ms 
+2023-08-11 09:51:59,027 [   7551]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.project.StandaloneMPSProject) 
+2023-08-11 09:51:59,027 [   7551]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.project.ProjectLibraryManager) 
+2023-08-11 09:51:59,046 [   7570]   INFO - jetbrains.mps.library.LibraryInitializer - Adding libraries from ProjectLibraryManager 
+2023-08-11 09:51:59,047 [   7571]   INFO - jetbrains.mps.library.LibraryInitializer - Loading 1 libraries 
+2023-08-11 09:51:59,536 [   8060]   INFO - #com.intellij.openapi.vfs.impl.ZipHandlerBase - duplicate entry: /Users/federico/repos/lionweb-pricing-demo/mps-pricing-dsl/build/dependencies/de.itemis.mps.extensions/de.itemis.mps.extensions.jackson/lib/jackson-databind.jar!/META-INF/LICENSE 
+2023-08-11 09:51:59,536 [   8060]   INFO - #com.intellij.openapi.vfs.impl.ZipHandlerBase - duplicate entry: /Users/federico/repos/lionweb-pricing-demo/mps-pricing-dsl/build/dependencies/de.itemis.mps.extensions/de.itemis.mps.extensions.jackson/lib/jackson-databind.jar!/module-info.class 
+2023-08-11 09:51:59,747 [   8271]  ERROR - jetbrains.mps.smodel.MPSModuleRepository - Trying to register a module with the same identity but different name. There's module 'io.lionweb.lioncore.java' in the repository, and new module is 'org.lionweb.lioncore.java'.
+Original module comes from IdeaFile[path: /Users/federico/repos/lionweb-pricing-demo/mps-pricing-dsl/build/dependencies/io.lionweb.mps/io.lionweb.mps/lib/io.lionweb.lioncore.java.jar!/META-INF/module.xml], contesting from IdeaFile[path: /Users/federico/repos/lionweb-pricing-demo/mps-pricing-dsl/build/dependencies/io.lionweb.mps/io.lionweb.mps/languages/lionweb-mps.json/org.lionweb.lioncore.java.jar!/META-INF/module.xml] 
+2023-08-11 09:51:59,847 [   8371]   WARN - jetbrains.mps.persistence.DefaultModelRoot - Models have not been found within the Path [IdeaFile[path: /Users/federico/repos/lionweb-pricing-demo/mps-pricing-dsl/build/dependencies/de.itemis.mps.extensions/org.modelix.model.api/languages/group.model-api/org.modelix.model.api-src.jar!/module/models]] 
+2023-08-11 09:51:59,896 [   8420]   WARN - jetbrains.mps.persistence.DefaultModelRoot - Models have not been found within the Path [IdeaFile[path: /Users/federico/repos/lionweb-pricing-demo/mps-pricing-dsl/build/dependencies/de.itemis.mps.extensions/de.q60.mps.collections.libs/languages/de.q60.mps.collections.libs/de.q60.mps.collections.libs-src.jar!/module/models]] 
+2023-08-11 09:51:59,984 [   8508]   WARN - jetbrains.mps.persistence.DefaultModelRoot - No source roots specified for location IdeaFile[path: /Users/federico/repos/lionweb-pricing-demo/mps-pricing-dsl/build/dependencies/de.itemis.mps.extensions/de.itemis.mps.extensions.jackson/languages/jackson/com.fasterxml.jackson-src.jar!/module] of module com.fasterxml.jackson [solution], no models were loaded 
+2023-08-11 09:52:00,004 [   8528]   INFO - jetbrains.mps.library.LibraryInitializer - Library update is finished 
+2023-08-11 09:52:00,549 [   9073]   INFO - jetbrains.mps.classloading.ModuleUpdater - Classloading refresh took 0.544 s 
+2023-08-11 09:52:00,575 [   9099]   WARN - jetbrains.mps.classloading.ModulesWatcher - 3 modules are marked as invalid roots for class loading out of 437 modules [totally in the repository]: 
+2023-08-11 09:52:00,575 [   9099]   WARN - jetbrains.mps.classloading.ModulesWatcher - com.mbeddr.mpsutil.grammarcells [language] has got an absent dependency problem and therefore was marked invalid for class loading: The dependency in com.mbeddr.mpsutil.grammarcells [language] cannot be resolved {Default} b1ab8c10-c118-4755-bf2a-cebab35cf533(jetbrains.mps.lang.editor.tooltips) 
+2023-08-11 09:52:00,575 [   9099]   WARN - jetbrains.mps.classloading.ModulesWatcher - jetbrains.mps.vcs.mergehints.plugin [solution] has got an absent dependency problem and therefore was marked invalid for class loading: The dependency in jetbrains.mps.vcs.mergehints.plugin [solution] cannot be resolved {Default} cae9c33a-938f-42e8-8f0f-26f001c0af63(jetbrains.mps.ide.devkit.editor) 
+2023-08-11 09:52:00,575 [   9099]   WARN - jetbrains.mps.classloading.ModulesWatcher - de.itemis.mps.tooltips [language] has got an absent dependency problem and therefore was marked invalid for class loading: The dependency in de.itemis.mps.tooltips [language] cannot be resolved {Default} b1ab8c10-c118-4755-bf2a-cebab35cf533(jetbrains.mps.lang.editor.tooltips) 
+2023-08-11 09:52:00,575 [   9099]   INFO - jetbrains.mps.classloading.ModulesWatcher - Totally 6 modules are marked invalid for class loading: 
+2023-08-11 09:52:00,575 [   9099]   INFO - jetbrains.mps.classloading.ModulesWatcher - 9d69e719-78c8-4286-90db-fb19c107d049(com.mbeddr.mpsutil.grammarcells) 
+2023-08-11 09:52:00,575 [   9099]   INFO - jetbrains.mps.classloading.ModulesWatcher - 3caaaa06-4186-4d6e-8cb4-37c75a1dbcaf(com.mbeddr.mpsutil.grammarcells#1749127723000258530) 
+2023-08-11 09:52:00,575 [   9099]   INFO - jetbrains.mps.classloading.ModulesWatcher - f3e1e6f1-1de5-4ca2-a0b2-25f6530686ef(jetbrains.mps.vcs.mergehints.plugin) 
+2023-08-11 09:52:00,575 [   9099]   INFO - jetbrains.mps.classloading.ModulesWatcher - a0ab8c10-c118-4755-ba27-3853435cf524(de.itemis.mps.tooltips) 
+2023-08-11 09:52:00,575 [   9099]   INFO - jetbrains.mps.classloading.ModulesWatcher - 9a94d19e-1f70-46b2-87a7-a5b1c8e1fc5f(de.itemis.mps.editor.diagram#1110129820007083940) 
+2023-08-11 09:52:00,575 [   9099]   INFO - jetbrains.mps.classloading.ModulesWatcher - 091ef3ba-305a-4257-ac3b-6c5daacb61ee(de.itemis.mps.tooltips#7561794385526429391) 
+2023-08-11 09:52:00,754 [   9278]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.ide.vfs.ProjectRootListenerComponent) 
+2023-08-11 09:52:00,760 [   9284]   INFO - jetbrains.mps.project.StandaloneMPSProject - Loading the project 'PricingDSL' from disk 
+2023-08-11 09:52:00,767 [   9291]   INFO - jetbrains.mps.project.StandaloneMPSProject - Updating PricingDSL 
+2023-08-11 09:52:00,767 [   9291]   INFO - jetbrains.mps.project.ProjectModuleLoader - Loading modules... 
+2023-08-11 09:52:00,813 [   9337]   INFO - jetbrains.mps.project.ProjectModuleLoader - Modules are loaded: 4 new; 0 removed 
+2023-08-11 09:52:00,920 [   9444]   INFO - jetbrains.mps.classloading.ModuleUpdater - Classloading refresh took 0.105 s 
+2023-08-11 09:52:00,976 [   9500]   WARN - jetbrains.mps.classloading.ModulesWatcher - 4 modules are marked as invalid roots for class loading out of 442 modules [totally in the repository]: 
+2023-08-11 09:52:00,976 [   9500]   WARN - jetbrains.mps.classloading.ModulesWatcher - com.mbeddr.mpsutil.grammarcells [language] has got an absent dependency problem and therefore was marked invalid for class loading: The dependency in com.mbeddr.mpsutil.grammarcells [language] cannot be resolved {Default} b1ab8c10-c118-4755-bf2a-cebab35cf533(jetbrains.mps.lang.editor.tooltips) 
+2023-08-11 09:52:00,976 [   9500]   WARN - jetbrains.mps.classloading.ModulesWatcher - jetbrains.mps.vcs.mergehints.plugin [solution] has got an absent dependency problem and therefore was marked invalid for class loading: The dependency in jetbrains.mps.vcs.mergehints.plugin [solution] cannot be resolved {Default} cae9c33a-938f-42e8-8f0f-26f001c0af63(jetbrains.mps.ide.devkit.editor) 
+2023-08-11 09:52:00,976 [   9500]   WARN - jetbrains.mps.classloading.ModulesWatcher - de.itemis.mps.tooltips [language] has got an absent dependency problem and therefore was marked invalid for class loading: The dependency in de.itemis.mps.tooltips [language] cannot be resolved {Default} b1ab8c10-c118-4755-bf2a-cebab35cf533(jetbrains.mps.lang.editor.tooltips) 
+2023-08-11 09:52:00,976 [   9500]   WARN - jetbrains.mps.classloading.ModulesWatcher - Build [solution] has got an absent dependency problem and therefore was marked invalid for class loading: The dependency in Build [solution] cannot be resolved {Default} bf3c8943-8801-4969-9ac2-7403444bbefa(io.lionweb.mps.build) 
+2023-08-11 09:52:00,976 [   9500]   INFO - jetbrains.mps.classloading.ModulesWatcher - Totally 7 modules are marked invalid for class loading: 
+2023-08-11 09:52:00,976 [   9500]   INFO - jetbrains.mps.classloading.ModulesWatcher - 9d69e719-78c8-4286-90db-fb19c107d049(com.mbeddr.mpsutil.grammarcells) 
+2023-08-11 09:52:00,976 [   9500]   INFO - jetbrains.mps.classloading.ModulesWatcher - 3caaaa06-4186-4d6e-8cb4-37c75a1dbcaf(com.mbeddr.mpsutil.grammarcells#1749127723000258530) 
+2023-08-11 09:52:00,976 [   9500]   INFO - jetbrains.mps.classloading.ModulesWatcher - f3e1e6f1-1de5-4ca2-a0b2-25f6530686ef(jetbrains.mps.vcs.mergehints.plugin) 
+2023-08-11 09:52:00,977 [   9501]   INFO - jetbrains.mps.classloading.ModulesWatcher - a0ab8c10-c118-4755-ba27-3853435cf524(de.itemis.mps.tooltips) 
+2023-08-11 09:52:00,977 [   9501]   INFO - jetbrains.mps.classloading.ModulesWatcher - 9a94d19e-1f70-46b2-87a7-a5b1c8e1fc5f(de.itemis.mps.editor.diagram#1110129820007083940) 
+2023-08-11 09:52:00,977 [   9501]   INFO - jetbrains.mps.classloading.ModulesWatcher - 091ef3ba-305a-4257-ac3b-6c5daacb61ee(de.itemis.mps.tooltips#7561794385526429391) 
+2023-08-11 09:52:00,977 [   9501]   INFO - jetbrains.mps.classloading.ModulesWatcher - a34404a4-f381-43ed-ae80-c7aff6f7bbab(Build) 
+2023-08-11 09:52:00,989 [   9513]   INFO - jetbrains.mps.project.StandaloneMPSProject - Updating PricingDSL took 0.222 s 
+2023-08-11 09:52:00,990 [   9514]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.nodefs.FileSystemProjectBridge) 
+2023-08-11 09:52:00,991 [   9515]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.ide.undo.OnReloadingUndoCleaner) 
+2023-08-11 09:52:00,995 [   9519]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.nodeEditor.EmptyHighlighter) 
+2023-08-11 09:52:01,001 [   9525]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.ide.editor.MPSValidationComponent) 
+2023-08-11 09:52:01,002 [   9526]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.ide.editor.warningPanel.MPSEditorWarningsManager) 
+2023-08-11 09:52:01,010 [   9534]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.ide.generator.TransientModelsComponent) 
+2023-08-11 09:52:01,011 [   9535]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.ide.hierarchy.HierarchyViewTool) 
+2023-08-11 09:52:01,012 [   9536]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.ide.bookmark.BookmarkManager) 
+2023-08-11 09:52:01,015 [   9539]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.ide.bookmark.BookmarksUIComponent) 
+2023-08-11 09:52:01,017 [   9541]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.ide.vfs.DirectoryIndexExcludeUpdater) 
+2023-08-11 09:52:01,021 [   9545]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.plugins.projectplugins.ProjectPluginManager) 
+2023-08-11 09:52:01,026 [   9550]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.vfs.tracking.ModelTracking) 
+2023-08-11 09:52:01,032 [   9556]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.java.platform.actions.OverrideImplementMethodComponent) 
+2023-08-11 09:52:01,032 [   9556]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.java.platform.highlighters.JavaHighlighters) 
+2023-08-11 09:52:01,036 [   9560]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.vcs.MPSVcsManager) 
+2023-08-11 09:52:01,071 [   9595]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.vcs.changesmanager.roots.NodeFileStatusMappingExt) 
+2023-08-11 09:52:01,072 [   9596]   WARN - #com.intellij.serviceContainer.ComponentManagerImpl - Do not use constructor injection (requestorClass=jetbrains.mps.vcs.integration.GeneratedFileConflictResolving) 
+2023-08-11 09:52:01,130 [   9654]   WARN - m.intellij.internal.statistic.eventLog.EventLogConfiguration - Failed retrieving device id for FUS 
+2023-08-11 09:52:01,641 [  10165]   INFO - jetbrains.mps.project.ProjectBase - Project 'PricingDSL' is opened 
+2023-08-11 09:52:01,767 [  10291]   INFO - #com.intellij.openapi.application.Experiments - Experimental features enabled for user: wsl.p9.support, wsl.prefer.p9.support, wsl.p9.show.roots.in.file.chooser, wsl.execute.with.wsl.exe, inline.browse.button, linux.native.menu, recent.and.edited.files.together, show.create.new.element.in.popup, search.everywhere.mixed.results, i18n.match.actions, editor.reader.mode, edit.run.configurations.while.dumb, new.large.text.file.viewer 
+2023-08-11 09:52:01,780 [  10304]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Started 
+2023-08-11 09:52:01,793 [  10317]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Scanning: use 12 scanning threads 
+2023-08-11 09:52:02,062 [  10586]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Scanning completed. Number of scanned files: 2725; Number of files for indexing: 41 took 273ms; general responsiveness: ok; EDT responsiveness: ok 
+2023-08-11 09:52:02,064 [  10588]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Pushing properties took 2ms; general responsiveness: ok; EDT responsiveness: ok 
+2023-08-11 09:52:02,215 [  10739]   INFO - jetbrains.mps.smodel.MPSModuleRepository - Saving of the repository took 0.001 s 
+2023-08-11 09:52:02,224 [  10748]   INFO - jetbrains.mps.ide.platform.watching.ReloadSession - File system reload finished in 0.005 s 
+2023-08-11 09:52:02,242 [  10766]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Use 4 indexing threads 
+2023-08-11 09:52:02,674 [  11198]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Finished. Unindexed files update took 436ms; general responsiveness: ok; EDT responsiveness: ok 
+2023-08-11 09:52:02,852 [  11376]   INFO - jetbrains.mps.plugins.PluginLoaderRegistry - Running Update Task : loaders [toLoad: 1; toUnload:0]; contributors : [toLoad: 95; toUnload:0]; Thread[AWT-EventQueue-0,6,Idea Thread Group] 
+2023-08-11 09:52:02,950 [  11474]   INFO - jetbrains.mps.plugins.PluginLoaderRegistry - Loading of 122 plugins took 0.097 s 
+2023-08-11 09:52:03,597 [  12121]   WARN - org.modelix.model.api.INodeReferenceSerializer - Migrate class org.modelix.model.mpsadapters.plugin.MPSNodeReferenceSerializer (Kotlin reflection is not available) to INodeReferenceSerializerEx 
+2023-08-11 09:52:03,937 [  12461]   INFO - jetbrains.mps.plugins.PluginLoaderRegistry - Loading of 95 plugins took 0.987 s 
+2023-08-11 09:52:03,997 [  12521]   WARN - #com.intellij.openapi.editor.impl.FontFamilyServiceImpl - Couldn't access required runtime API, will fall back to basic logic of font selection 
+2023-08-11 09:52:04,113 [  12637]   INFO - eModel.ide.impl.jps.serialization.DelayedProjectSynchronizer - Workspace model loaded from cache. Syncing real project state into workspace model in 1397 ms. Thread[ApplicationImpl pooled thread 12,4,Idea Thread Group] 
+2023-08-11 09:52:04,181 [  12705]   INFO - nalSystem.service.project.manage.ExternalProjectsDataStorage - Load external projects data in 2 millis (read time: 1) 
+2023-08-11 09:52:04,200 [  12724]   INFO -  #git4idea.commands.GitHandler - [.] git version 
+2023-08-11 09:52:04,208 [  12732]   INFO - #com.intellij.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2023-08-11 09:52:04,214 [  12738]   INFO - #com.intellij.diagnostic.PerformanceWatcher - Post-startup activities under progress took 1535ms; general responsiveness: ok; EDT responsiveness: ok 
+2023-08-11 09:52:04,230 [  12754]   INFO -  #git4idea.commands.GitHandler - git version 2.31.1 
+2023-08-11 09:52:04,243 [  12767]   INFO - #git4idea.config.GitExecutableManager - Git version for /usr/local/bin/git: 2.31.1.0 (UNIX) 
+2023-08-11 09:52:04,447 [  12971]   INFO - #com.intellij.openapi.roots.impl.ProjectRootManagerComponent - project roots have changed (trace_hash = 623135404) 
+java.lang.Throwable
+	at com.intellij.openapi.roots.impl.ProjectRootManagerComponent.logRootChanges(ProjectRootManagerComponent.java:309)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerComponent.synchronizeRoots(ProjectRootManagerComponent.java:296)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerComponent.fireRootsChangedEvent(ProjectRootManagerComponent.java:201)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerImpl.fireRootsChanged(ProjectRootManagerImpl.java:459)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerImpl$1.fireRootsChanged(ProjectRootManagerImpl.java:146)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerImpl$1.fireRootsChanged(ProjectRootManagerImpl.java:143)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerImpl$BatchSession.rootsChanged(ProjectRootManagerImpl.java:113)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerImpl$BatchSession.rootsChanged(ProjectRootManagerImpl.java:121)
+	at com.intellij.openapi.roots.impl.ProjectRootManagerImpl.makeRootsChange(ProjectRootManagerImpl.java:431)
+	at jetbrains.mps.ide.findusages.caches.IndexableRootCalculator.lambda$invalidateCache$3(IndexableRootCalculator.java:183)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:959)
+	at jetbrains.mps.ide.findusages.caches.IndexableRootCalculator.lambda$invalidateCache$4(IndexableRootCalculator.java:181)
+	at com.intellij.openapi.application.TransactionGuardImpl.runWithWritingAllowed(TransactionGuardImpl.java:218)
+	at com.intellij.openapi.application.TransactionGuardImpl.access$200(TransactionGuardImpl.java:21)
+	at com.intellij.openapi.application.TransactionGuardImpl$2.run(TransactionGuardImpl.java:200)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:781)
+	at com.intellij.openapi.application.impl.ApplicationImpl.lambda$invokeLaterOnWriteThread$10(ApplicationImpl.java:770)
+	at com.intellij.openapi.application.impl.FlushQueue.doRun(FlushQueue.java:84)
+	at com.intellij.openapi.application.impl.FlushQueue.runNextEvent(FlushQueue.java:133)
+	at com.intellij.openapi.application.impl.FlushQueue.flushNow(FlushQueue.java:46)
+	at com.intellij.openapi.application.impl.FlushQueue$FlushNow.run(FlushQueue.java:189)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:969)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:839)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:449)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:808)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$9(IdeEventQueue.java:448)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:781)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:496)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2023-08-11 09:52:04,462 [  12986]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Started 
+2023-08-11 09:52:04,462 [  12986]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Scanning: use 12 scanning threads 
+2023-08-11 09:52:04,466 [  12990]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Scanning completed. Number of scanned files: 2725; Number of files for indexing: 3 took 4ms; general responsiveness: ok; EDT responsiveness: ok 
+2023-08-11 09:52:04,466 [  12990]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Pushing properties took 0ms; general responsiveness: ok; EDT responsiveness: ok 
+2023-08-11 09:52:04,516 [  13040]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Use 4 indexing threads 
+2023-08-11 09:52:04,663 [  13187]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Finished. Unindexed files update took 148ms; general responsiveness: ok; EDT responsiveness: ok 
+2023-08-11 09:52:04,985 [  13509]  ERROR - de.itemis.mps.gradle.generate.messages - Cannot find the build project dependency io.lionweb.mps in the model io.lionweb.mps.build 
+2023-08-11 09:52:04,986 [  13510]  ERROR - de.itemis.mps.gradle.generate.messages - -- -- was input node: [dependencies] BuildProjectDependency null[6699021429252439676] in Build.build@0 
+2023-08-11 09:52:04,986 [  13510]  ERROR - de.itemis.mps.gradle.generate.messages - -- was template node: r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)/3189788309732145594 
+2023-08-11 09:52:05,105 [  13629]  ERROR - de.itemis.mps.gradle.generate.messages - cannot find used language in dependencies: io.lionweb.mps.converter.lang 
+2023-08-11 09:52:05,105 [  13629]  ERROR - de.itemis.mps.gradle.generate.messages - -- -- was input node: [modules] BuildMps_Language "Pricing"[6699021429252439044] in Build.build@0 
+2023-08-11 09:52:05,105 [  13629]  ERROR - de.itemis.mps.gradle.generate.messages - -- was template node: r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)/3189788309732145594 
+2023-08-11 09:52:05,129 [  13653]  ERROR - de.itemis.mps.gradle.generate.messages - dependency on a module not visible from current build project: 01cf0d82-8d29-4fc4-be96-28abaf4ad33d(io.lionweb.mps.m3) 
+2023-08-11 09:52:05,130 [  13654]  ERROR - de.itemis.mps.gradle.generate.messages - -- -- was input node: [modules] BuildMps_Solution "LionWebExport"[6699021429252439084] in Build.build@0 
+2023-08-11 09:52:05,130 [  13654]  ERROR - de.itemis.mps.gradle.generate.messages - -- was template node: r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)/3189788309732145594 
+2023-08-11 09:52:05,133 [  13657]  ERROR - de.itemis.mps.gradle.generate.messages - cannot find used language in dependencies: io.lionweb.mps.converter.lang 
+2023-08-11 09:52:05,133 [  13657]  ERROR - de.itemis.mps.gradle.generate.messages - -- -- was input node: [modules] BuildMps_Solution "LionWebExport"[6699021429252439084] in Build.build@0 
+2023-08-11 09:52:05,133 [  13657]  ERROR - de.itemis.mps.gradle.generate.messages - -- was template node: r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)/3189788309732145594 
+2023-08-11 09:52:05,139 [  13663]  ERROR - de.itemis.mps.gradle.generate.messages - cannot find used language in dependencies: io.lionweb.mps.converter.lang 
+2023-08-11 09:52:05,139 [  13663]  ERROR - de.itemis.mps.gradle.generate.messages - -- -- was input node: [modules] BuildMps_Solution "Pricing.sandbox"[6699021429252439744] in Build.build@0 
+2023-08-11 09:52:05,139 [  13663]  ERROR - de.itemis.mps.gradle.generate.messages - -- was template node: r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)/3189788309732145594 
+2023-08-11 09:52:05,155 [  13679]  ERROR - de.itemis.mps.gradle.generate.messages - cannot resolve dependency on transient model, no original node is available 
+2023-08-11 09:52:05,155 [  13679]  ERROR - de.itemis.mps.gradle.generate.messages - -- was template node: r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)/3189788309732145594 
+2023-08-11 09:52:05,468 [  13992]   WARN - de.itemis.mps.gradle.generate.messages - model 'Build.build@0' has been generated with errors 
+2023-08-11 09:52:05,486 [  14010]  ERROR - de.itemis.mps.gradle.generate.messages - generation completed with errors in 812 ms 
+2023-08-11 09:52:05,499 [  14023]  ERROR - de.itemis.mps.gradle.generate.messages - Error executing target jetbrains.mps.lang.core.Generate.generate 
+2023-08-11 09:52:05,500 [  14024]   INFO - #com.intellij.openapi.roots.impl.ProjectRootManagerComponent - project roots have changed (stacktrace has been already reported with trace_hash = 623135404) 
+2023-08-11 09:52:05,500 [  14024]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Started 
+2023-08-11 09:52:05,500 [  14024]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Scanning: use 12 scanning threads 
+2023-08-11 09:52:05,501 [  14025]  ERROR - de.itemis.mps.gradle.generate.messages - Build failed. See previous messages for details. 
+2023-08-11 09:52:05,501 [  14025]  ERROR -  de.itemis.mps.gradle.generate - generation result: failed 
+2023-08-11 09:52:05,501 [  14025]  ERROR -  de.itemis.mps.gradle.generate - jetbrains.mps.internal.make.runtime.script.CompositeResult@19a64eae 
+2023-08-11 09:52:05,515 [  14039]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Scanning completed. Number of scanned files: 2725; Number of files for indexing: 0 took 15ms; general responsiveness: ok; EDT responsiveness: ok 
+2023-08-11 09:52:05,515 [  14039]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Pushing properties took 0ms; general responsiveness: ok; EDT responsiveness: ok 
+2023-08-11 09:52:05,562 [  14086]   INFO - #com.intellij.util.indexing.UnindexedFilesUpdater - Finish. No files to index with loading content. 
+2023-08-11 09:52:05,598 [  14122]   INFO - jetbrains.mps.plugins.PluginLoaderRegistry - Running Update Task : loaders [toLoad: 0; toUnload:1]; contributors : [toLoad: 0; toUnload:0]; Thread[AWT-EventQueue-0,6,Idea Thread Group] 
+2023-08-11 09:52:05,601 [  14125]   INFO - jetbrains.mps.plugins.PluginLoaderRegistry - Unloading of 217 plugins took 0.003 s 
+2023-08-11 09:52:05,604 [  14128]   INFO - jetbrains.mps.project.ProjectBase - Project 'PricingDSL' is closing 
+2023-08-11 09:52:05,731 [  14255]   INFO - jetbrains.mps.classloading.ModuleUpdater - Classloading refresh took 0.071 s 
+2023-08-11 09:52:05,773 [  14297]   WARN - jetbrains.mps.classloading.ModulesWatcher - 3 modules are marked as invalid roots for class loading out of 437 modules [totally in the repository]: 
+2023-08-11 09:52:05,773 [  14297]   WARN - jetbrains.mps.classloading.ModulesWatcher - com.mbeddr.mpsutil.grammarcells [language] has got an absent dependency problem and therefore was marked invalid for class loading: The dependency in com.mbeddr.mpsutil.grammarcells [language] cannot be resolved {Default} b1ab8c10-c118-4755-bf2a-cebab35cf533(jetbrains.mps.lang.editor.tooltips) 
+2023-08-11 09:52:05,773 [  14297]   WARN - jetbrains.mps.classloading.ModulesWatcher - jetbrains.mps.vcs.mergehints.plugin [solution] has got an absent dependency problem and therefore was marked invalid for class loading: The dependency in jetbrains.mps.vcs.mergehints.plugin [solution] cannot be resolved {Default} cae9c33a-938f-42e8-8f0f-26f001c0af63(jetbrains.mps.ide.devkit.editor) 
+2023-08-11 09:52:05,773 [  14297]   WARN - jetbrains.mps.classloading.ModulesWatcher - de.itemis.mps.tooltips [language] has got an absent dependency problem and therefore was marked invalid for class loading: The dependency in de.itemis.mps.tooltips [language] cannot be resolved {Default} b1ab8c10-c118-4755-bf2a-cebab35cf533(jetbrains.mps.lang.editor.tooltips) 
+2023-08-11 09:52:05,773 [  14297]   INFO - jetbrains.mps.classloading.ModulesWatcher - Totally 6 modules are marked invalid for class loading: 
+2023-08-11 09:52:05,773 [  14297]   INFO - jetbrains.mps.classloading.ModulesWatcher - 9d69e719-78c8-4286-90db-fb19c107d049(com.mbeddr.mpsutil.grammarcells) 
+2023-08-11 09:52:05,773 [  14297]   INFO - jetbrains.mps.classloading.ModulesWatcher - 3caaaa06-4186-4d6e-8cb4-37c75a1dbcaf(com.mbeddr.mpsutil.grammarcells#1749127723000258530) 
+2023-08-11 09:52:05,773 [  14297]   INFO - jetbrains.mps.classloading.ModulesWatcher - f3e1e6f1-1de5-4ca2-a0b2-25f6530686ef(jetbrains.mps.vcs.mergehints.plugin) 
+2023-08-11 09:52:05,773 [  14297]   INFO - jetbrains.mps.classloading.ModulesWatcher - a0ab8c10-c118-4755-ba27-3853435cf524(de.itemis.mps.tooltips) 
+2023-08-11 09:52:05,773 [  14297]   INFO - jetbrains.mps.classloading.ModulesWatcher - 9a94d19e-1f70-46b2-87a7-a5b1c8e1fc5f(de.itemis.mps.editor.diagram#1110129820007083940) 
+2023-08-11 09:52:05,773 [  14297]   INFO - jetbrains.mps.classloading.ModulesWatcher - 091ef3ba-305a-4257-ac3b-6c5daacb61ee(de.itemis.mps.tooltips#7561794385526429391) 
+2023-08-11 09:52:05,776 [  14300]   WARN - jetbrains.mps.ide.platform.watching.WatchedRoots - Remove watch request submitted to disposed LocalFileSystem. Caller should be updated:
+jetbrains.mps.ide.platform.watching.WatchedRoots.removeWatchRequest(WatchedRoots.java:91) 
+2023-08-11 09:52:05,776 [  14300]   WARN - jetbrains.mps.ide.platform.watching.WatchedRoots - Remove watch request submitted to disposed LocalFileSystem. Caller should be updated:
+jetbrains.mps.ide.platform.watching.WatchedRoots.removeWatchRequest(WatchedRoots.java:91) 
+2023-08-11 09:52:05,776 [  14300]   WARN - jetbrains.mps.ide.platform.watching.WatchedRoots - Remove watch request submitted to disposed LocalFileSystem. Caller should be updated:
+jetbrains.mps.ide.platform.watching.WatchedRoots.removeWatchRequest(WatchedRoots.java:91) 
+2023-08-11 09:52:05,776 [  14300]   WARN - jetbrains.mps.ide.platform.watching.WatchedRoots - Remove watch request submitted to disposed LocalFileSystem. Caller should be updated:
+jetbrains.mps.ide.platform.watching.WatchedRoots.removeWatchRequest(WatchedRoots.java:91) 
+2023-08-11 09:52:05,776 [  14300]   WARN - jetbrains.mps.ide.platform.watching.WatchedRoots - Remove watch request submitted to disposed LocalFileSystem. Caller should be updated:
+jetbrains.mps.ide.platform.watching.WatchedRoots.removeWatchRequest(WatchedRoots.java:91) 
+2023-08-11 09:52:05,776 [  14300]   WARN - jetbrains.mps.ide.platform.watching.WatchedRoots - Remove watch request submitted to disposed LocalFileSystem. Caller should be updated:
+jetbrains.mps.ide.platform.watching.WatchedRoots.removeWatchRequest(WatchedRoots.java:91) 
+2023-08-11 09:52:05,776 [  14300]   WARN - jetbrains.mps.ide.platform.watching.WatchedRoots - Remove watch request submitted to disposed LocalFileSystem. Caller should be updated:
+jetbrains.mps.ide.platform.watching.WatchedRoots.removeWatchRequest(WatchedRoots.java:91) 
+2023-08-11 09:52:05,777 [  14301]   WARN - jetbrains.mps.ide.platform.watching.WatchedRoots - Remove watch request submitted to disposed LocalFileSystem. Caller should be updated:
+jetbrains.mps.ide.platform.watching.WatchedRoots.removeWatchRequest(WatchedRoots.java:91) 
+2023-08-11 09:52:05,777 [  14301]   WARN - jetbrains.mps.ide.platform.watching.WatchedRoots - Remove watch request submitted to disposed LocalFileSystem. Caller should be updated:
+jetbrains.mps.ide.platform.watching.WatchedRoots.removeWatchRequest(WatchedRoots.java:91) 
+2023-08-11 09:52:05,777 [  14301]   INFO - jetbrains.mps.library.LibraryInitializer - Removing libraries from ProjectLibraryManager 
+2023-08-11 09:52:05,779 [  14303]   INFO - jetbrains.mps.library.LibraryInitializer - Unloading 1 libraries 
+2023-08-11 09:52:05,871 [  14395]   WARN - jetbrains.mps.ide.platform.watching.WatchedRoots - Remove watch request submitted to disposed LocalFileSystem. Caller should be updated:
+jetbrains.mps.ide.platform.watching.WatchedRoots.removeWatchRequest(WatchedRoots.java:91) 
+2023-08-11 09:52:05,871 [  14395]   INFO - jetbrains.mps.library.LibraryInitializer - Library update is finished 
+2023-08-11 09:52:05,910 [  14434]   INFO - jetbrains.mps.classloading.ModuleUpdater - Classloading refresh took 0.026 s 
+2023-08-11 09:52:05,924 [  14448]   WARN - jetbrains.mps.classloading.ModulesWatcher - 1 modules are marked as invalid roots for class loading out of 285 modules [totally in the repository]: 
+2023-08-11 09:52:05,924 [  14448]   WARN - jetbrains.mps.classloading.ModulesWatcher - jetbrains.mps.vcs.mergehints.plugin [solution] has got an absent dependency problem and therefore was marked invalid for class loading: The dependency in jetbrains.mps.vcs.mergehints.plugin [solution] cannot be resolved {Default} cae9c33a-938f-42e8-8f0f-26f001c0af63(jetbrains.mps.ide.devkit.editor) 
+2023-08-11 09:52:05,924 [  14448]   INFO - jetbrains.mps.classloading.ModulesWatcher - Totally 1 modules are marked invalid for class loading: 
+2023-08-11 09:52:05,924 [  14448]   INFO - jetbrains.mps.classloading.ModulesWatcher - f3e1e6f1-1de5-4ca2-a0b2-25f6530686ef(jetbrains.mps.vcs.mergehints.plugin) 
+2023-08-11 09:52:05,931 [  14455]   INFO - com.intellij.openapi.fileTypes.impl.FileTypeDetectionService - 1 auto-detected files. Detection took 14 ms 
+2023-08-11 09:52:05,933 [  14457]   INFO - #org.jetbrains.io.BuiltInServer - web server stopped 
+2023-08-11 09:52:05,939 [  14463]   INFO - jetbrains.mps.library.LibraryInitializer - Removing libraries from AdditionalLibrariesManager 
+2023-08-11 09:52:05,940 [  14464]   INFO - jetbrains.mps.library.LibraryInitializer - Removing libraries from PluginLibraryContributor 
+2023-08-11 09:52:05,940 [  14464]   INFO - jetbrains.mps.library.LibraryInitializer - Removing libraries from WorkbenchLibraryContributor 
+2023-08-11 09:52:05,940 [  14464]   INFO - jetbrains.mps.library.LibraryInitializer - Removing libraries from BootstrapLibraryContributor 
+2023-08-11 09:52:05,940 [  14464]   INFO - jetbrains.mps.library.LibraryInitializer - Unloading 11 libraries 
+2023-08-11 09:52:05,960 [  14484]   INFO - jetbrains.mps.library.LibraryInitializer - Library update is finished 
+2023-08-11 09:52:05,984 [  14508]   INFO - jetbrains.mps.classloading.ModuleUpdater - Classloading refresh took 0.022 s 
+2023-08-11 09:52:06,000 [  14524]   INFO - jetbrains.mps.classloading.ModulesWatcher - Totally 0 modules are marked invalid for class loading. 
+2023-08-11 09:52:06,001 [  14525]   INFO - #com.intellij.util.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2023-08-11 09:52:06,388 [  14912]   INFO - #com.intellij.psi.stubs.StubIndexImpl - StubIndexExtension-s were unloaded 
+2023-08-11 09:52:06,390 [  14914]   INFO - #com.intellij.util.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2023-08-11 09:52:06,390 [  14914]   INFO - #com.intellij.openapi.vfs.newvfs.persistent.PersistentFS - VFS dispose started 
+2023-08-11 09:52:06,399 [  14923]   INFO - #com.intellij.openapi.vfs.newvfs.persistent.PersistentFS - VFS dispose completed 
+2023-08-11 09:52:06,515 [  15039]   INFO - jetbrains.mps.classloading.ModuleUpdater - Classloading refresh took 0.001 s 
+2023-08-11 09:52:06,515 [  15039]   INFO - jetbrains.mps.classloading.ModulesWatcher - Totally 0 modules are marked invalid for class loading. 
+2023-08-11 09:52:06,517 [  15041]   INFO - #com.intellij.psi.stubs.SerializationManagerImpl - Start shutting down /Users/federico/.gradle/caches/transforms-3/449919180470779c4a6aec037a975379/transformed/mps/system/index/rep.names 
+2023-08-11 09:52:06,518 [  15042]   INFO - #com.intellij.psi.stubs.SerializationManagerImpl - Finished shutting down /Users/federico/.gradle/caches/transforms-3/449919180470779c4a6aec037a975379/transformed/mps/system/index/rep.names 
+2023-08-11 09:52:06,524 [  15048]   INFO -                         STDERR - execute-generators: generation failed 
+2023-08-11 09:52:06,525 [  15049]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2023-08-11 09:52:06,527 [  15051]   INFO - #org.jetbrains.io.BuiltInServer - web server stopped 
