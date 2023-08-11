@@ -1,4 +1,4 @@
-name: BuildAndTest
+name: Pricing Engine Checks
 
 on: [push]
 
