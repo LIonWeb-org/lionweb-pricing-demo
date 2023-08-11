@@ -9,6 +9,8 @@ pluginManagement {
         mavenLocal()
         gradlePluginPortal()
         mavenCentral()
+        // Necessary to use snapshots of Kolasu
+        maven(url="https://oss.sonatype.org/content/repositories/snapshots/")
     }
 
     plugins {
