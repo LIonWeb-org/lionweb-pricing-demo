@@ -93,6 +93,9 @@ class PricingInterpreter(val pricingStrategy: PricingStrategy) {
             is GreaterThan -> BooleanValue(
                 this.left.evaluate(pricingContext).asBigDecimal() > this.right.evaluate(pricingContext).asBigDecimal()
             )
+            is LessThan -> BooleanValue(
+                this.left.evaluate(pricingContext).asBigDecimal() < this.right.evaluate(pricingContext).asBigDecimal()
+            )
 
             is ItemQuantity -> IntegerValue(pricingContext.itemQuantity)
             is IntLiteral -> IntegerValue(this.value.toInt())

@@ -7,6 +7,7 @@ import com.strumenta.pricing.DiscountPolicy
 import com.strumenta.pricing.GreaterThan
 import com.strumenta.pricing.IntLiteral
 import com.strumenta.pricing.ItemQuantity
+import com.strumenta.pricing.LessThan
 import com.strumenta.pricing.Order
 import com.strumenta.pricing.OrderLine
 import com.strumenta.pricing.Percentage
@@ -102,6 +103,39 @@ class PricingInterpreterTest {
         )
         assertEquals(
             PriceValue(mutableListOf(PriceComponent(BigDecimal("60.00"), Currency.EUR))),
+            interpreter.calculatePrice(order).finalPrice
+        )
+    }
+
+
+    @Test
+    fun calculatePriceForPricingWithDiscountsAppliedUsingLessThan() {
+        val pricingStrategy = PricingStrategy(
+            name = "Standard Prices",
+            sameBasePricesAs = ReferenceByName("", null),
+            basePrices = mutableListOf(
+                BasePrice("xyz", Amount(Currency.EUR, 10, 0))
+            ),
+            discountPolicies = mutableListOf(
+                DiscountPolicy("discount foo", LessThan(ItemQuantity(), IntLiteral("6")), Percentage(IntLiteral("10")))
+            )
+        )
+        val order = Order(
+            lines = listOf(
+                OrderLine("xyz", 5)
+            )
+        )
+        val interpreter = PricingInterpreter(pricingStrategy)
+        assertEquals(
+            PriceValue(mutableListOf(PriceComponent(BigDecimal("50.00"), Currency.EUR))),
+            interpreter.calculatePrice(order).startingPrice
+        )
+        assertEquals(
+            listOf(Discount("discount foo", PriceValue(mutableListOf(PriceComponent(BigDecimal("5.00"), Currency.EUR))))),
+            interpreter.calculatePrice(order).discounts
+        )
+        assertEquals(
+            PriceValue(mutableListOf(PriceComponent(BigDecimal("45.00"), Currency.EUR))),
             interpreter.calculatePrice(order).finalPrice
         )
     }

@@ -6,9 +6,7 @@ pluginManagement {
     val kolasuVersion: String by settings
 
     repositories {
-        mavenLocal()
         gradlePluginPortal()
-        mavenCentral()
     }
 
     plugins {
