@@ -3,6 +3,7 @@ plugins {
     id("com.google.devtools.ksp") version "1.9.0-1.0.13"
     id("org.jlleitschuh.gradle.ktlint") version "11.5.1"
     id("com.strumenta.kolasu.lionwebgen")
+    id("com.adarshr.test-logger") version "3.2.0"
 }
 
 repositories {
