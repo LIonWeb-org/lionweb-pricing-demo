@@ -13,7 +13,6 @@ class PricingLoader {
     private var jsonser: JsonSerialization
 
     init {
-        // TODO load from resources?
         var languageFile = File("src/main/lionweb/pricing.json")
         if (!languageFile.exists()) {
             languageFile = File("pricing-engine/src/main/lionweb/pricing.json")
@@ -29,7 +28,6 @@ class PricingLoader {
         require(lionwebFile.exists())
         jsonser.enableDynamicNodes()
         val model = jsonser.unserializeToNodes(FileInputStream(lionwebFile))
-        println(model)
 
         val lwImpExp = LionWebModelConverter()
         val kolasuLanguage = KolasuLanguage("pricing").apply {

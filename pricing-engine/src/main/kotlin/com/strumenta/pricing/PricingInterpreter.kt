@@ -64,6 +64,21 @@ internal data class PricingContext(val order: Order, val basePrice: PriceValue) 
 
 class PricingInterpreter(val pricingStrategy: PricingStrategy) {
 
+    fun calculatePrice(order: Order): Pricing {
+        val pricing = Pricing()
+        order.lines.forEach { orderLine ->
+            pricing.addComponent(basePriceFor(orderLine.productID).multipliedBy(orderLine.quantity))
+        }
+        val pricingContext = PricingContext(order, pricing.startingPrice)
+        pricingStrategy.discountPolicies.forEach { discountPolicy ->
+            if (discountPolicy.condition.evaluate(pricingContext).asBoolean()) {
+                val discountAmount = discountPolicy.discount.evaluate(pricingContext).asPrice()
+                pricing.discounts.add(Discount(discountPolicy.description, discountAmount))
+            }
+        }
+        return pricing
+    }
+
     private fun basePriceFor(productID: String): PriceComponent {
         val basePrice = pricingStrategy.basePrices.find { it.itemID == productID }
             ?: throw IllegalArgumentException("No price for $productID")
@@ -71,21 +86,6 @@ class PricingInterpreter(val pricingStrategy: PricingStrategy) {
             BigDecimal("${basePrice.amount.integerPart}.${basePrice.amount.decimalPart}"),
             basePrice.amount.currencey
         )
-    }
-
-    fun calculatePrice(order: Order): Pricing {
-        val price = Pricing()
-        order.lines.forEach { orderLine ->
-            price.addComponent(basePriceFor(orderLine.productID).multipliedBy(orderLine.quantity))
-        }
-        val pricingContext = PricingContext(order, price.startingPrice)
-        pricingStrategy.discountPolicies.forEach { discountPolicy ->
-            if (discountPolicy.condition.evaluate(pricingContext).asBoolean()) {
-                val discountAmount = discountPolicy.discount.evaluate(pricingContext).asPrice()
-                price.discounts.add(Discount(discountPolicy.description, discountAmount))
-            }
-        }
-        return price
     }
 
     private fun Expression.evaluate(pricingContext: PricingContext): Value {
