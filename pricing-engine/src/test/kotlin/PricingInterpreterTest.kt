@@ -107,7 +107,6 @@ class PricingInterpreterTest {
         )
     }
 
-
     @Test
     fun calculatePriceForPricingWithDiscountsAppliedUsingLessThan() {
         val pricingStrategy = PricingStrategy(
