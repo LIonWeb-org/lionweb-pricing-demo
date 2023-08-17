@@ -30,3 +30,13 @@ The project is composed by two modules:
 3. The Pricing Engine: this is an interpreter for the Pricing DSL which is written in Kotlin
 
 The two components are discussed in the respective folders.
+
+## Setup
+
+From the root of the project run:
+
+```
+gradle wrapper
+```
+
+This will install the Gradle Wrapper.
