@@ -45,16 +45,6 @@ tasks.named("runKtlintFormatOverMainSourceSet") {
     dependsOn("generateASTClasses")
 }
 
-// ktlint {
-//    filter {
-//        exclude { element ->
-//            val check = (element.file.path.contains("/build/") || element.file.path.endsWith("/build"))
-//            println("ELEMENT ${element.file.path} ${check}")
-//            check
-//        }
-//    }
-// }
-
 ktlint.filter {
     exclude { it.file.path.contains("${project.buildDir.absolutePath}/") }
 }
