@@ -1,6 +1,6 @@
 Overview: https://www.loom.com/share/3123d9ec8c224171bb1ac9520b77ffee
 
-* [x] we need https://github.com/LIonWeb-org/lioncore-mps/issues/33 to be fixed
+* [x] we need https://github.com/LionWeb-io/lionweb-mps/issues/33 to be fixed
 * [ ] we need to be able to import correctly a LW model in Kolasu
 
 Currently we are working on ensuring that we can associated the generated Kolasu classes to the LW Concepts they

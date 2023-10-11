@@ -1,6 +1,6 @@
 # LionWeb Pricing Demo
 
-This demo project is presented in a tutorial about [LionWeb](https://github.com/LIonWeb-org).
+This demo project is presented in a tutorial about [LionWeb](https://github.com/LionWeb-io).
 
 The tutorial is available at ...
 
