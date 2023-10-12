@@ -2,7 +2,9 @@
 
 This demo project is presented in a tutorial about [LionWeb](https://github.com/LIonWeb-org).
 
-The tutorial is available at ...
+The tutorial is available at [https://tomassetti.me/using-lionweb-to-combine-jetbrain-mps-with-kotlin/](https://tomassetti.me/using-lionweb-to-combine-jetbrain-mps-with-kotlin/).
+
+_Note that we may have updated the code with respect to the tutorial, but you can find the exact code corresponding to the tutorial under the tag **first-tutorial**_
 
 This demo shows how a language can be defined and used in MPS, and later exported so that an interpreter for that language
 can be written in Kotlin. This interpreter will also be able to receive models defined in MPS (and exported to LionWeb)
