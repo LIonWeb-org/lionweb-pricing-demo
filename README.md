@@ -1,6 +1,6 @@
 # LionWeb Pricing Demo
 
-This demo project is presented in a tutorial about [LionWeb](https://github.com/LIonWeb-org).
+This demo project is presented in a tutorial about [LionWeb](https://github.com/LionWeb-io).
 
 The tutorial is available at [https://tomassetti.me/using-lionweb-to-combine-jetbrain-mps-with-kotlin/](https://tomassetti.me/using-lionweb-to-combine-jetbrain-mps-with-kotlin/).
 
