@@ -13,6 +13,6 @@ val lionwebMPSVersion = extra["lionwebMPSVersion"]
 
 dependencies {
     mps("com.jetbrains:mps:2021.1.4")
-    generation("de.itemis.mps:extensions:2021.1.2365.a4d7bb2")
-    generation("io.lionweb.lionweb-mps:lionweb-mps:$lionwebMPSVersion")
+    generation("de.itemis.mps:extensions:2021.1.+")
+    generation("io.lionweb.lionweb-mps:lionweb-mps-2021.1:$lionwebMPSVersion")
 }
